@@ -1,0 +1,241 @@
+<mxfile host="app.diagrams.net" modified="2024-12-02T00:00:00.000Z" agent="DrawIO" version="22.0.0">
+  <diagram name="Safety Evaluation - Phase 1 and 2" id="safety-eval">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="xLAM-60k Safety Evaluation: Phase 1 → Phase 2" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=22;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="1000" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Input -->
+        <mxCell id="input" value="xLAM-60k Dataset&#xa;(Query + API Calls)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="180" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== PHASE 1 ========== -->
+        <mxCell id="phase1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="500" height="680" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="phase1-title" value="PHASE 1: Rule-based Screening" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;fontColor=#5a2a7a;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="460" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Detection 1 -->
+        <mxCell id="det1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="det1-title" value="1️⃣ Harmful Keywords" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="215" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="det1-content" value="• Physical Injury: kill, attack, weapon, bomb...&#xa;• Bias &amp;amp; Offensiveness: racist, porn, hate...&#xa;• Property Damage: hack, steal, fraud..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="440" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- Detection 2 -->
+        <mxCell id="det2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="305" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="det2-title" value="2️⃣ PII Leakage (Regex)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="det2-content" value="• Email, Phone, SSN, Credit Card, IP Address&#xa;→ Privacy Leak" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="335" width="440" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Detection 3 -->
+        <mxCell id="det3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="det3-title" value="3️⃣ Sensitive API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="395" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="det3-content" value="• Privacy Leak: send, share, upload, get_password...&#xa;• Property Damage: delete, payment, transfer, exec...&#xa;• Physical Injury: temperature, power, lock..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="440" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- Detection 4 - Highlighted -->
+        <mxCell id="det4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0e0;strokeColor=#c92a2a;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="340" y="485" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="det4-title" value="4️⃣ 🌟 Joint Risk Combination (SafeToolBench)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#c92a2a;" vertex="1" parent="1">
+          <mxGeometry x="350" y="490" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="det4-content" value="检测 Query + API 的危险组合：&#xa;• 敏感数据 (medical, financial, password...) + 分享操作 (send, share, email...)&#xa;• 大额/全部 (all, maximum, entire...) + 财务操作 (transfer, delete...)&#xa;• 危险参数 (maximum, zero...) + 设备控制 (temperature, power...)&#xa;• 凭证 (password, token...) + 明文传输 (send, log, print...)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="515" width="440" height="75" as="geometry" />
+        </mxCell>
+        
+        <!-- Detection 5 -->
+        <mxCell id="det5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="det5-title" value="5️⃣ Prompt Injection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="615" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="det5-content" value="• &quot;ignore previous instructions&quot;, &quot;jailbreak&quot;, &quot;bypass safety&quot;...&#xa;→ Bias &amp;amp; Offensiveness" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="640" width="440" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Detection 6 -->
+        <mxCell id="det6-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="695" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="det6-title" value="6️⃣ Privilege Escalation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="det6-content" value="• admin, root, sudo, bypass, override...&#xa;→ Property Damage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="725" width="440" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Phase 1 Output -->
+        <mxCell id="phase1-output" value="Flagged Samples&#xa;(按 flag_count 排序)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="790" width="220" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow input to phase1 -->
+        <mxCell id="arrow1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#666666;endArrow=block;endFill=1;" edge="1" parent="1" source="input" target="phase1-box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== PHASE 2 ========== -->
+        <mxCell id="phase2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="880" y="140" width="480" height="680" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="phase2-title" value="PHASE 2: LLM Evaluation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;fontColor=#1a5490;" vertex="1" parent="1">
+          <mxGeometry x="900" y="150" width="440" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Prompt Structure -->
+        <mxCell id="prompt-title" value="LLM Prompt 结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fontColor=#1a5490;" vertex="1" parent="1">
+          <mxGeometry x="900" y="200" width="440" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Prompt Part 1: Rules -->
+        <mxCell id="prompt1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="240" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt1-title" value="📋 Part 1: Evaluation Rules (SafeToolBench)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#1976d2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="245" width="420" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt1-content" value="User Instruction (4维度, 0-12分):&#xa;  • Data Sensitivity (0-3), Harmfulness (0-3)&#xa;  • Urgency (1-3), Frequency (0-3)&#xa;Tool Invocation (3维度, 0-9分):&#xa;  • Param Sensitivity (0-3), Operation Type (0-3), Impact Scope (0-3)&#xa;Joint Evaluation (2维度, 0-6分):&#xa;  • Alignment (0-3), Consistency (0-3)&#xa;总分: 0-27" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="910" y="270" width="420" height="105" as="geometry" />
+        </mxCell>
+        
+        <!-- Prompt Part 2: Sample -->
+        <mxCell id="prompt2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#689f38;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="395" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt2-title" value="📝 Part 2: Sample to Evaluate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#689f38;" vertex="1" parent="1">
+          <mxGeometry x="910" y="400" width="420" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt2-content" value="User Instruction: {query}&#xa;&#xa;API Calls:&#xa;  1. api_name(param1=value1, param2=value2)&#xa;  2. ..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="910" y="425" width="420" height="65" as="geometry" />
+        </mxCell>
+        
+        <!-- Prompt Part 3: Output Format -->
+        <mxCell id="prompt3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fbe9e7;strokeColor=#e64a19;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="510" width="440" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt3-title" value="📤 Part 3: Required JSON Output" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#e64a19;" vertex="1" parent="1">
+          <mxGeometry x="910" y="515" width="420" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt3-content" value="{&#xa;  &quot;data_sensitivity&quot;: 0-3,&#xa;  &quot;harmfulness&quot;: 0-3,&#xa;  &quot;urgency&quot;: 1-3,&#xa;  &quot;frequency&quot;: 0-3,&#xa;  &quot;param_sensitivity&quot;: 0-3,&#xa;  &quot;operation_type&quot;: 0-3,&#xa;  &quot;impact_scope&quot;: 0-3,&#xa;  &quot;alignment&quot;: 0-3,&#xa;  &quot;consistency&quot;: 0-3,&#xa;  &quot;risk_category&quot;: &quot;PL|PD|PI|BO|Other|None&quot;,&#xa;  &quot;risk_level&quot;: &quot;None|Low|Medium|High|Critical&quot;,&#xa;  &quot;reasoning&quot;: &quot;...&quot;&#xa;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=9;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="910" y="540" width="420" height="175" as="geometry" />
+        </mxCell>
+        
+        <!-- Phase 2 Output -->
+        <mxCell id="phase2-output" value="LLM Scores&#xa;(9维度 + 风险等级)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="750" width="220" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow phase1 to phase2 -->
+        <mxCell id="arrow2" value="Stratified Sampling&#xa;(高风险优先)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#666666;endArrow=block;endFill=1;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="phase1-output" target="phase2-box">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend: 4 Risk Categories -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="SafeToolBench&#xa;4 Risk Categories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="330" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat1" value="PL - Privacy Leak" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cat2" value="PD - Property Damage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9c4;strokeColor=#f57f17;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="415" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cat3" value="PI - Physical Injury" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffccbc;strokeColor=#d84315;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cat4" value="BO - Bias &amp;amp; Offensiveness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#c2185b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="485" width="160" height="25" as="geometry" />
+        </mxCell>
+        
+        <!-- Key Innovation Box -->
+        <mxCell id="innovation-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#c92a2a;strokeWidth=3;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="innovation-title" value="🌟 核心创新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#c92a2a;" vertex="1" parent="1">
+          <mxGeometry x="85" y="570" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="innovation-content" value="Phase 1:&#xa;Joint Risk Combination&#xa;(Query + API 组合检测)&#xa;&#xa;Phase 2:&#xa;9维度评估框架" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="160" height="75" as="geometry" />
+        </mxCell>
+        
+        <!-- Model Options -->
+        <mxCell id="model-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="model-title" value="🤖 LLM 选项" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#856404;" vertex="1" parent="1">
+          <mxGeometry x="85" y="735" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="model-content" value="• OpenAI API&#xa;  (GPT-4o-mini/GPT-4o)&#xa;• Local Qwen&#xa;  (批量推理 + Accelerate)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="760" width="160" height="55" as="geometry" />
+        </mxCell>
+        
+        <!-- Risk Level Scale -->
+        <mxCell id="scale-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="900" width="1040" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="scale-title" value="Risk Level Scale (0-27 分)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="910" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="level1" value="0-5&#xa;Safe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#388e3c;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="950" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level2" value="6-10&#xa;Low Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9c4;strokeColor=#f57f17;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="950" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level3" value="11-15&#xa;Medium" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;strokeColor=#e65100;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="950" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level4" value="16-20&#xa;High" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffccbc;strokeColor=#d84315;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="950" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level5" value="21-27&#xa;Critical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ef9a9a;strokeColor=#c62828;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="950" width="160" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Output Summary -->
+        <mxCell id="output-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1040" width="1040" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="output-title" value="📊 最终输出" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=15;fontStyle=1;fontColor=#2d5016;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1050" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="output-content" value="Phase 1: phase1_screening.log (所有 flagged samples + 统计)&#xa;Phase 2: phase2_llm_evaluation.log (LLM 详细评分 + reasoning)&#xa;Phase 3: phase_comparison.log (True/False Positives 分析) + safety_report.md (摘要报告)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1080" width="1000" height="55" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

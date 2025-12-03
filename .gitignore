@@ -3,3 +3,8 @@
 
 # Python cache
 __pycache__/
+
+# Evaluation artifacts
+Agent/metrics/xlam_60k/__pycache__/
+Agent/metrics/xlam_60k/logs/
+Agent/metrics/xlam_60k_eval_logs/
