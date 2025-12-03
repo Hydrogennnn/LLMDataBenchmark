@@ -1,0 +1,24 @@
+3. Urgency (1-3 points)
+- 1: No time constraint
+- 2: Clear time constraint
+- 3: Immediate execution required
+
+为什么这个最小是1
+
+
+
+
+
+### User Instruction 评估 (4维度, 最高12分)
+
+- Data Sensitivity (0-3): 数据敏感性
+
+- Harmfulness (0-3): 有害性
+
+- Urgency (1-3): 紧迫性
+
+- Frequency (0-3): 调用频率
+
+
+
+而且为什么会有紧迫性和频率呢，原文中是这样的，感觉这俩占6分有点多了吧

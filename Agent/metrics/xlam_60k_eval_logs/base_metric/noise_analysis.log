@@ -1,0 +1,3528 @@
+# Data Noise Analysis
+# Total samples: 60000
+================================================================================
+
+## Duplicates
+Total unique queries: 58148
+Duplicate queries: 1009
+Duplication rate: 1.74%
+
+Query (appears 27 times): 'is the year 2000 a leap year?'
+  IDs: [29, 1074, 1741, 2643, 9325, 10975, 11437, 18146, 20880, 22629, 23050, 24339, 25250, 29800, 30154, 34805, 35520, 40054, 44176, 49266, 50460, 50673, 52150, 53480, 57714, 58218, 59785]
+
+Query (appears 24 times): 'generate the first 10 fibonacci numbers.'
+  IDs: [2439, 3371, 5222, 10529, 11049, 12237, 12838, 15440, 16522, 17573, 17584, 18636, 19317, 22635, 22947, 26398, 30863, 31412, 33527, 34420, 36187, 52817, 53137, 55770]
+
+Query (appears 18 times): 'what is the 10th fibonacci number?'
+  IDs: [4269, 7112, 8612, 10884, 11820, 12090, 13284, 19167, 20726, 20731, 22909, 28722, 30371, 34471, 37163, 43826, 44716, 52534]
+
+Query (appears 15 times): 'estimate the derivative of the function f(x) = x^2 at x = 3 using numerical methods.'
+  IDs: [380, 4464, 9394, 9911, 10524, 13051, 13190, 17556, 21624, 24693, 25241, 30850, 31001, 31246, 31302]
+
+Query (appears 15 times): 'draw 5 random cards from a shuffled deck.'
+  IDs: [1818, 4710, 15993, 16871, 18575, 18838, 19031, 19922, 20474, 23417, 25987, 27701, 31254, 33503, 40899]
+
+Query (appears 15 times): 'convert 2 cups of flour to grams.'
+  IDs: [7543, 7554, 8020, 9207, 9210, 11298, 14995, 16942, 18056, 24822, 25896, 29953, 48295, 51183, 57010]
+
+Query (appears 15 times): 'what is the factorial of 5?'
+  IDs: [9550, 10022, 11596, 16332, 18847, 24603, 29451, 35871, 42263, 47466, 48458, 49761, 50262, 51825, 52460]
+
+Query (appears 13 times): 'calculate the area of a triangle with a base of 10 units and a height of 5 units.'
+  IDs: [274, 546, 1237, 2040, 3265, 5348, 7841, 9450, 9856, 14901, 20801, 21505, 31073]
+
+Query (appears 13 times): 'what city is associated with the zip code 90210?'
+  IDs: [3492, 4320, 8660, 15962, 16186, 18104, 19882, 23007, 26183, 28168, 30905, 32951, 54349]
+
+Query (appears 12 times): 'is 64 a power of 2?'
+  IDs: [3596, 9190, 10505, 11370, 13208, 19112, 20689, 24517, 30890, 33061, 33387, 51983]
+
+Query (appears 12 times): 'what is the zip code for the ip address 8.8.8.8?'
+  IDs: [3899, 6232, 13427, 18595, 18710, 25045, 30384, 48722, 51266, 53972, 54411, 59273]
+
+Query (appears 11 times): 'what is the zip code of the ip address 8.8.8.8?'
+  IDs: [10442, 14923, 21392, 24605, 26020, 35252, 39216, 41991, 44860, 51481, 59595]
+
+Query (appears 10 times): 'what is the probability of rolling a sum of 8 with 2 dice, each having 6 faces?'
+  IDs: [4681, 7243, 8847, 22070, 22956, 24663, 27901, 27914, 29210, 30308]
+
+Query (appears 10 times): 'calculate the 10th fibonacci number.'
+  IDs: [7108, 22314, 25039, 33663, 43444, 44681, 46932, 48868, 54000, 54851]
+
+Query (appears 10 times): 'what is the area of a circle with a radius of 5 units?'
+  IDs: [36010, 39405, 42546, 43287, 46406, 46487, 47407, 51386, 51691, 59463]
+
+Query (appears 9 times): 'is the year 1900 a leap year?'
+  IDs: [3319, 11136, 22408, 25386, 28139, 29597, 50380, 54393, 56628]
+
+Query (appears 9 times): 'can pikachu learn the move thunderbolt?'
+  IDs: [3458, 19195, 19928, 24015, 26337, 27906, 30532, 36348, 52345]
+
+Query (appears 9 times): 'find the next greater element for each number in the list [4, 5, 2, 25].'
+  IDs: [3887, 11445, 13874, 19851, 19952, 19967, 22149, 26875, 30404]
+
+Query (appears 9 times): 'find the duplicate number in the list [1, 3, 4, 2, 2].'
+  IDs: [3984, 4453, 9376, 10364, 10815, 13368, 14530, 25721, 28266]
+
+Query (appears 9 times): 'find all .txt files in the directory '/home/user/documents'.'
+  IDs: [7004, 11309, 13544, 20972, 30606, 41169, 45061, 45883, 51217]
+
+Query (appears 9 times): 'is 17 a prime number?'
+  IDs: [11555, 14199, 14810, 14938, 18222, 22760, 42000, 46638, 56640]
+
+Query (appears 8 times): 'calculate the factorial of 5.'
+  IDs: [115, 5720, 8416, 11891, 29862, 39416, 47112, 56345]
+
+Query (appears 8 times): 'is 'a man, a plan, a canal: panama' a valid palindrome?'
+  IDs: [315, 9148, 17290, 17879, 21637, 24947, 29043, 29730]
+
+Query (appears 8 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5] that sum up to 5.'
+  IDs: [795, 2376, 4601, 5133, 14585, 19945, 21799, 38273]
+
+Query (appears 8 times): 'compute the euclidean distance between points (3, 4) and (6, 8).'
+  IDs: [3004, 11213, 16232, 17759, 22340, 23990, 26458, 38745]
+
+Query (appears 8 times): 'check if 'listen' and 'silent' are anagrams.'
+  IDs: [3523, 4312, 6925, 36453, 37870, 47654, 49739, 57941]
+
+Query (appears 8 times): 'is '192.168.1.1' a valid ip address?'
+  IDs: [4047, 5596, 8961, 10488, 10955, 26762, 42815, 55157]
+
+Query (appears 8 times): 'split the list [1, 2, 3, 4, 5, 6, 7, 8, 9] into chunks of size 3.'
+  IDs: [6347, 6805, 20571, 29105, 32375, 37055, 40482, 58463]
+
+Query (appears 8 times): 'analyze the social dynamics of a group of 20 people, where 12 are extroverts and 8 are introverts.'
+  IDs: [6894, 7503, 8296, 12733, 13917, 21719, 22650, 33139]
+
+Query (appears 8 times): 'generate a qr code for the url 'https://www.example.com'.'
+  IDs: [7047, 18738, 20494, 29420, 36522, 40806, 46276, 47738]
+
+Query (appears 8 times): 'reverse the string 'hello, world!''
+  IDs: [8502, 9767, 10113, 20520, 31228, 36448, 41881, 44530]
+
+Query (appears 8 times): 'create a histogram for the data [1, 2, 2, 3, 3, 3, 4, 4, 4, 4] with 5 bins.'
+  IDs: [11221, 21609, 22797, 26021, 28797, 30444, 31657, 52607]
+
+Query (appears 8 times): 'what are the latitude and longitude coordinates of the ip address 8.8.8.8?'
+  IDs: [14446, 16465, 17259, 21324, 33025, 34399, 52269, 56432]
+
+Query (appears 8 times): 'is the number 153 the sum of the cubes of its digits?'
+  IDs: [36251, 37724, 43112, 44149, 47545, 54764, 57412, 58370]
+
+Query (appears 7 times): 'draw 5 cards from a shuffled deck.'
+  IDs: [1065, 15193, 22639, 26471, 27776, 41802, 50791]
+
+Query (appears 7 times): 'find the minimum element in a rotated sorted array [4, 5, 6, 7, 0, 1, 2].'
+  IDs: [1125, 2604, 6404, 21591, 30889, 33383, 33502]
+
+Query (appears 7 times): 'draw 3 cards from a shuffled deck.'
+  IDs: [1750, 9544, 18556, 33142, 38448, 53724, 55121]
+
+Query (appears 7 times): 'estimate the derivative of the function f(x) = x^2 at x = 3.'
+  IDs: [2205, 3855, 4747, 15497, 15932, 19843, 26365]
+
+Query (appears 7 times): 'calculate the euclidean distance between points (3, 4) and (6, 8).'
+  IDs: [5231, 19305, 22741, 23535, 31796, 32689, 47144]
+
+Query (appears 7 times): 'calculate the 15th fibonacci number.'
+  IDs: [6037, 7286, 10417, 16990, 23108, 23166, 43715]
+
+Query (appears 7 times): 'what is the factorial of 10?'
+  IDs: [14615, 19054, 28914, 36554, 37935, 39478, 40473]
+
+Query (appears 7 times): 'calculate the electric field produced by a charge of 10 coulombs at a distance of 5 meters.'
+  IDs: [20732, 24428, 37690, 38908, 50825, 55359, 55920]
+
+Query (appears 7 times): 'what is the greatest common divisor of 56 and 98?'
+  IDs: [35125, 36141, 41874, 43964, 52826, 54639, 58457]
+
+Query (appears 6 times): 'find the minimum element in the rotated sorted array [4, 5, 6, 7, 0, 1, 2].'
+  IDs: [45, 943, 26604, 28085, 30614, 54258]
+
+Query (appears 6 times): 'calculate the electric field produced by a charge of 1 coulomb at a distance of 1 meter.'
+  IDs: [218, 1839, 11130, 26914, 28274, 42777]
+
+Query (appears 6 times): 'calculate the factorial of 7.'
+  IDs: [309, 3537, 17435, 18073, 28669, 45542]
+
+Query (appears 6 times): 'what is the least common multiple of 12 and 15?'
+  IDs: [869, 10776, 26236, 34639, 51814, 58145]
+
+Query (appears 6 times): 'what is the area of a circle with a radius of 7.5 units?'
+  IDs: [1385, 20545, 28031, 32499, 41552, 54486]
+
+Query (appears 6 times): 'what is the probability of rolling a sum of 8 with 3 dice?'
+  IDs: [3069, 5076, 9028, 19291, 22965, 29026]
+
+Query (appears 6 times): 'calculate the cosine similarity between two vectors: [1, 2, 3] and [4, 5, 6].'
+  IDs: [3497, 7646, 9002, 13677, 18155, 24394]
+
+Query (appears 6 times): 'perform a chi-square test on a contingency table [[10, 20], [30, 40]] with a significance level of 0.01.'
+  IDs: [3684, 8165, 18105, 19269, 29208, 30171]
+
+Query (appears 6 times): 'analyze the social dynamics in a group of 20 people, where 12 are extroverts and 8 are introverts.'
+  IDs: [5226, 10326, 16544, 16828, 20048, 29786]
+
+Query (appears 6 times): 'project the population of a city currently at 500,000 people after 10 years with an annual growth rate of 1.5%.'
+  IDs: [5322, 7276, 7619, 13144, 16240, 25015]
+
+Query (appears 6 times): 'are the phrases 'astronomer' and 'moon starer' anagrams?'
+  IDs: [6438, 18826, 19668, 21595, 24109, 24984]
+
+Query (appears 6 times): 'determine if the string 'waterbottle' is a rotation of 'erbottlewat'.'
+  IDs: [6528, 14469, 15034, 19225, 23253, 24944]
+
+Query (appears 6 times): 'calculate the age of a person born on 1990-01-01.'
+  IDs: [7598, 7608, 10676, 14924, 20108, 32928]
+
+Query (appears 6 times): 'is the string 'waterbottle' a rotation of 'erbottlewat'?'
+  IDs: [7916, 8156, 11484, 24167, 24764, 42442]
+
+Query (appears 6 times): 'check if the number 144 is a perfect square.'
+  IDs: [11020, 15384, 17013, 19764, 41765, 56615]
+
+Query (appears 6 times): 'what moves can charmander learn?'
+  IDs: [16765, 19683, 20716, 26145, 37178, 52437]
+
+Query (appears 6 times): 'is 153 an armstrong number?'
+  IDs: [20455, 20923, 24601, 29592, 30106, 42357]
+
+Query (appears 6 times): 'generate the first 10 numbers in the fibonacci sequence.'
+  IDs: [38838, 49226, 53428, 54750, 56898, 57668]
+
+Query (appears 6 times): 'calculate the cosine similarity between the vectors [1, 2, 3] and [4, 5, 6].'
+  IDs: [42504, 44114, 45111, 49113, 54017, 56973]
+
+Query (appears 5 times): 'is 27 a power of 3?'
+  IDs: [116, 5392, 9963, 12279, 32206]
+
+Query (appears 5 times): 'is 'racecar' a palindrome?'
+  IDs: [142, 21258, 21771, 42420, 53080]
+
+Query (appears 5 times): 'convert 1 cup of flour to grams.'
+  IDs: [421, 19545, 30234, 32176, 40041]
+
+Query (appears 5 times): 'calculate the cosine similarity between vectors [1, 2, 3] and [4, 5, 6].'
+  IDs: [752, 17167, 26385, 35146, 48231]
+
+Query (appears 5 times): 'find the longest palindromic substring in the string 'babad'.'
+  IDs: [764, 4072, 9841, 22533, 54689]
+
+Query (appears 5 times): 'is the number 153 an armstrong number?'
+  IDs: [948, 10597, 13886, 23366, 45442]
+
+Query (appears 5 times): 'what are the coordinates of new york city?'
+  IDs: [1045, 4143, 15977, 17327, 30833]
+
+Query (appears 5 times): 'draw 3 random cards from a shuffled deck.'
+  IDs: [2056, 17068, 27191, 28411, 49242]
+
+Query (appears 5 times): 'is 153 a sum of the cubes of its digits?'
+  IDs: [2214, 9171, 14170, 18406, 29642]
+
+Query (appears 5 times): 'what is the median of the numbers 10, 20, 30, 40, 50?'
+  IDs: [2219, 17053, 19874, 30953, 32443]
+
+Query (appears 5 times): 'what is the angle between the hour and minute hands at 3:15?'
+  IDs: [2267, 6892, 10885, 33014, 33461]
+
+Query (appears 5 times): 'calculate the cosine similarity between two vectors [1, 2, 3] and [4, 5, 6].'
+  IDs: [2713, 6326, 6942, 17252, 26956]
+
+Query (appears 5 times): 'find the duplicate number in the list [1, 3, 4, 2, 2]'
+  IDs: [2999, 18810, 27873, 27905, 33233]
+
+Query (appears 5 times): 'find the majority element in the list [2, 2, 1, 1, 1, 2, 2].'
+  IDs: [3179, 3354, 4057, 15697, 24714]
+
+Query (appears 5 times): 'is 144 a perfect square?'
+  IDs: [3196, 13155, 19644, 21757, 33199]
+
+Query (appears 5 times): 'check if 'abcde' is a rotation of 'cdeab'.'
+  IDs: [3483, 4190, 7868, 17217, 17487]
+
+Query (appears 5 times): 'compute the cosine similarity between vectors [0.5, 0.5, 0.5] and [1, 1, 1].'
+  IDs: [3520, 18837, 21199, 24732, 38641]
+
+Query (appears 5 times): 'is the year 2024 a leap year?'
+  IDs: [3649, 6211, 8006, 20305, 53421]
+
+Query (appears 5 times): 'calculate the 95% confidence interval for a sample with a mean of 50, standard deviation of 10, and sample size of 100.'
+  IDs: [4789, 25661, 27126, 27769, 30390]
+
+Query (appears 5 times): 'is the number 371 the sum of the cubes of its digits?'
+  IDs: [4794, 12657, 43701, 47897, 57701]
+
+Query (appears 5 times): 'perform a dynamic structural analysis on building 'b123' for floors 5, 10, and 15.'
+  IDs: [5899, 11530, 13984, 14757, 31435]
+
+Query (appears 5 times): 'find a peak element in the list [1, 3, 20, 4, 1, 0].'
+  IDs: [6266, 9794, 22653, 25348, 26279]
+
+Query (appears 5 times): 'is the ip address 192.168.1.1 valid?'
+  IDs: [7187, 16394, 31908, 56776, 59470]
+
+Query (appears 5 times): 'check if the ip address '192.168.1.1' is valid.'
+  IDs: [7766, 15713, 29585, 29715, 32597]
+
+Query (appears 5 times): 'are the phrases 'astronomer' and 'moon starer' anagrams of each other?'
+  IDs: [8435, 17171, 18793, 30666, 43103]
+
+Query (appears 5 times): 'find the roots of the quadratic equation 2x^2 - 3x + 1 = 0.'
+  IDs: [8583, 11414, 19888, 25283, 30312]
+
+Query (appears 5 times): 'what is the longest common prefix among the strings 'flower', 'flow', 'flight'?'
+  IDs: [8910, 17980, 20302, 20638, 33250]
+
+Query (appears 5 times): 'is 16 a power of two?'
+  IDs: [8941, 9865, 14574, 20161, 52578]
+
+Query (appears 5 times): 'can pikachu learn the move 'thunderbolt'?'
+  IDs: [12603, 36627, 39851, 43728, 47332]
+
+Query (appears 5 times): 'count the number of set bits in the binary representation of 15.'
+  IDs: [14057, 17038, 19330, 25295, 26193]
+
+Query (appears 5 times): 'list the first 15 fibonacci numbers.'
+  IDs: [14099, 14293, 21361, 31027, 33010]
+
+Query (appears 5 times): 'calculate the standard deviation of the numbers [1, 2, 3, 4, 5].'
+  IDs: [14113, 22185, 37167, 44107, 49844]
+
+Query (appears 5 times): 'check if the number 153 is the sum of the cubes of its digits.'
+  IDs: [14247, 16019, 21679, 42112, 55561]
+
+Query (appears 5 times): 'calculate the angle between the hour and minute hands at 3:15 pm.'
+  IDs: [15341, 15675, 23954, 26519, 31135]
+
+Query (appears 5 times): 'draw 3 cards from a shuffled deck of 52 cards.'
+  IDs: [19469, 41831, 51119, 51949, 54214]
+
+Query (appears 5 times): 'is 128 a power of two?'
+  IDs: [20967, 25475, 41769, 46052, 48549]
+
+Query (appears 5 times): 'estimate the derivative of the function f(x) = x^2 at the point x = 2.'
+  IDs: [34005, 35489, 40788, 45534, 48317]
+
+Query (appears 5 times): 'how many set bits are there in the binary representation of the number 13?'
+  IDs: [34343, 37005, 38226, 44469, 50351]
+
+Query (appears 5 times): 'find the next greater element for each number in the list [1, 2, 3, 4, 5].'
+  IDs: [36083, 40241, 48037, 49738, 58046]
+
+Query (appears 5 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5] that sum up to 7.'
+  IDs: [41254, 42392, 46797, 49664, 50011]
+
+Query (appears 5 times): 'can a pikachu learn the move 'thunderbolt'?'
+  IDs: [48215, 49882, 50728, 56908, 58374]
+
+Query (appears 4 times): 'how many vowels are there in the sentence 'the quick brown fox jumps over the lazy dog'?'
+  IDs: [104, 26252, 31282, 32234]
+
+Query (appears 4 times): 'check if the string 'a man, a plan, a canal: panama' is a valid palindrome.'
+  IDs: [445, 45460, 45924, 56488]
+
+Query (appears 4 times): 'generate 5 sentences of lorem ipsum text.'
+  IDs: [696, 31018, 34773, 54152]
+
+Query (appears 4 times): 'analyze the social dynamics in a group of 20 people, with 12 extroverts and 8 introverts.'
+  IDs: [759, 11349, 18564, 31710]
+
+Query (appears 4 times): 'calculate the least common multiple of 12 and 15.'
+  IDs: [773, 23086, 26967, 33355]
+
+Query (appears 4 times): 'retrieve detailed information about the song with id '12345' in english.'
+  IDs: [955, 5251, 9872, 27643]
+
+Query (appears 4 times): 'find the majority element in the list [2, 2, 1, 1, 1, 2, 2]'
+  IDs: [966, 8513, 26517, 29153]
+
+Query (appears 4 times): 'perform a chi-square test for independence on a contingency table [[30, 20], [15, 35]] with a significance level of 0.01.'
+  IDs: [1572, 5878, 7124, 9054]
+
+Query (appears 4 times): 'calculate the area of a triangle with a base of 10.5 units and a height of 7.2 units.'
+  IDs: [1618, 7338, 10135, 24335]
+
+Query (appears 4 times): 'perform a chi-square test for independence on a contingency table [[10, 20], [30, 40]] with a significance level of 0.01.'
+  IDs: [1715, 1897, 1924, 18142]
+
+Query (appears 4 times): 'calculate the weighted average grade for a student with scores [85, 90, 78] and weights [0.3, 0.4, 0.3].'
+  IDs: [1863, 7947, 15445, 25580]
+
+Query (appears 4 times): 'is the string '((()))' a valid sequence of parentheses?'
+  IDs: [3059, 7178, 8275, 32876]
+
+Query (appears 4 times): 'find the first non-repeating character in the string 'aabcc''
+  IDs: [3200, 14776, 18668, 29190]
+
+Query (appears 4 times): 'get detailed information about the movie with id 12345, including cast and images.'
+  IDs: [3529, 10163, 17891, 26160]
+
+Query (appears 4 times): 'can a person attend all meetings if the intervals are [[10, 15], [15, 20], [20, 25]]?'
+  IDs: [3928, 11344, 17041, 20110]
+
+Query (appears 4 times): 'check if the string 'a man, a plan, a canal: panama' is a palindrome.'
+  IDs: [3946, 26718, 35317, 55299]
+
+Query (appears 4 times): 'how old is someone born on january 1, 1990?'
+  IDs: [4036, 5025, 10186, 23855]
+
+Query (appears 4 times): 'is 'waterbottle' a rotation of 'erbottlewat'?'
+  IDs: [4283, 4780, 20739, 21253]
+
+Query (appears 4 times): 'perform prime factorization of the number 140.'
+  IDs: [4571, 19090, 23983, 26920]
+
+Query (appears 4 times): 'calculate the age of a person born on 1990-05-15.'
+  IDs: [5090, 23057, 32138, 38538]
+
+Query (appears 4 times): 'check if 16 is a power of two.'
+  IDs: [5847, 47015, 53624, 54423]
+
+Query (appears 4 times): 'calculate the investment return for an initial deposit of $5000 at an annual interest rate of 3% over 5 years.'
+  IDs: [6411, 7412, 8788, 16503]
+
+Query (appears 4 times): 'count the vowels in the phrase 'artificial intelligence is fascinating.''
+  IDs: [6562, 14187, 20057, 20700]
+
+Query (appears 4 times): 'merge the sorted lists [1, 3, 5] and [2, 4, 6] into a single sorted list.'
+  IDs: [6631, 44346, 45400, 47572]
+
+Query (appears 4 times): 'calculate the electric field at a distance of 1 meter from a charge of 1 coulomb.'
+  IDs: [6632, 18912, 21704, 21875]
+
+Query (appears 4 times): 'is 1024 a power of two?'
+  IDs: [7055, 11403, 23071, 23825]
+
+Query (appears 4 times): 'sort the list [3.2, 1.5, 2.7, 4.1] in descending order.'
+  IDs: [7551, 8323, 24473, 27999]
+
+Query (appears 4 times): 'what is the current wind speed in new york city?'
+  IDs: [7696, 33471, 36960, 59439]
+
+Query (appears 4 times): 'generate a password of length 15 that includes special characters.'
+  IDs: [7994, 12430, 20003, 26750]
+
+Query (appears 4 times): 'what are the latitude and longitude coordinates of tokyo?'
+  IDs: [8260, 16172, 19877, 52785]
+
+Query (appears 4 times): 'what is the zip code of the location associated with the ip address 8.8.8.8?'
+  IDs: [8768, 32028, 32805, 44447]
+
+Query (appears 4 times): 'calculate the euclidean distance between points (1, 2) and (4, 6).'
+  IDs: [8773, 12049, 17287, 58630]
+
+Query (appears 4 times): 'flatten the nested list [1, [2, [3, 4], 5]].'
+  IDs: [8862, 10055, 16090, 33245]
+
+Query (appears 4 times): 'what is the zip code for ip address 8.8.8.8?'
+  IDs: [10878, 11287, 11397, 16758]
+
+Query (appears 4 times): 'what is the area of a triangle with a base of 10.5 cm and a height of 7.2 cm?'
+  IDs: [10977, 14607, 22275, 31175]
+
+Query (appears 4 times): 'is the number 144 a perfect square?'
+  IDs: [11324, 26320, 55603, 56748]
+
+Query (appears 4 times): 'calculate the area of a circle with a radius of 7.5 units.'
+  IDs: [11511, 30907, 32666, 45420]
+
+Query (appears 4 times): 'generate a 16-character password including special characters.'
+  IDs: [11725, 16414, 31237, 31319]
+
+Query (appears 4 times): 'are the words 'listen' and 'silent' anagrams of each other?'
+  IDs: [11939, 21030, 46631, 49784]
+
+Query (appears 4 times): 'compute the factorial of 10.'
+  IDs: [12144, 17958, 21169, 22420]
+
+Query (appears 4 times): 'check if 'abcd' is a rotation of 'cdab'.'
+  IDs: [12818, 20275, 23005, 33561]
+
+Query (appears 4 times): 'is the string 'a man a plan a canal panama' a valid palindrome?'
+  IDs: [12835, 35753, 54591, 56957]
+
+Query (appears 4 times): 'list all .txt files in the directory '/home/user/documents'.'
+  IDs: [12875, 20565, 20882, 31152]
+
+Query (appears 4 times): 'check if the number 16 is a power of two.'
+  IDs: [13883, 52406, 53216, 59560]
+
+Query (appears 4 times): 'check if 'waterbottle' is a rotation of 'erbottlewat'.'
+  IDs: [15089, 21772, 50650, 53540]
+
+Query (appears 4 times): 'is 'able was i ere i saw elba' a palindrome?'
+  IDs: [15516, 16974, 24341, 28775]
+
+Query (appears 4 times): 'are 'listen' and 'silent' anagrams of each other?'
+  IDs: [15839, 20200, 52373, 52724]
+
+Query (appears 4 times): 'find all pairs in the list [1, 2, 3, 4, 5] that sum up to 5.'
+  IDs: [15928, 17789, 25710, 34830]
+
+Query (appears 4 times): 'integrate the function 'x^2' from x=1 to x=5 using the simpson's rule.'
+  IDs: [17208, 20120, 22089, 32743]
+
+Query (appears 4 times): 'check if the string 'racecar' is a palindrome.'
+  IDs: [20532, 45346, 54646, 55250]
+
+Query (appears 4 times): 'are 'listen' and 'silent' anagrams?'
+  IDs: [27750, 41225, 43124, 47322]
+
+Query (appears 4 times): 'merge the dictionaries {'a': 1, 'b': 2} and {'b': 3, 'c': 4}.'
+  IDs: [27958, 49327, 53649, 58405]
+
+Query (appears 4 times): 'calculate the area of a circle with a radius of 5 units.'
+  IDs: [28987, 42043, 44567, 56857]
+
+Query (appears 4 times): 'is the string 'racecar' a palindrome?'
+  IDs: [32869, 41412, 42561, 51679]
+
+Query (appears 4 times): 'what is the angle between the hour and minute hands of a clock at 3:30?'
+  IDs: [39125, 40111, 40874, 57920]
+
+Query (appears 4 times): 'plot a histogram for the data [1, 2, 2, 3, 3, 3, 4, 4, 4, 4] with 4 bins. then, perform a chi-square test for independence on the contingency table [[15, 10], [10, 5]] with a significance level of 0.1.'
+  IDs: [44439, 44536, 46100, 50333]
+
+Query (appears 4 times): 'what is the euclidean distance between the points (1, 2) and (4, 6)?'
+  IDs: [45352, 49440, 52427, 56030]
+
+Query (appears 4 times): 'is 49 a perfect square?'
+  IDs: [47205, 48016, 53149, 58256]
+
+Query (appears 3 times): 'what is the binary sum of 1010 and 1101?'
+  IDs: [254, 30196, 45292]
+
+Query (appears 3 times): 'can you list all the airplanes manufactured by boeing?'
+  IDs: [281, 2940, 29001]
+
+Query (appears 3 times): 'is the email address 'john.doe@example.com' valid?'
+  IDs: [623, 17629, 26271]
+
+Query (appears 3 times): 'calculate the recommended daily calorie intake for a 30-year-old male, weighing 75 kg, 180 cm tall, with an activity level of 3, aiming to maintain weight.'
+  IDs: [652, 4894, 20087]
+
+Query (appears 3 times): 'calculate the quarterly dividend per share for a company with a total dividend of $1000000 and 500000 shares.'
+  IDs: [738, 4655, 23804]
+
+Query (appears 3 times): 'calculate the integral of the function x^2 from 0 to 1 using the trapezoidal rule.'
+  IDs: [835, 20665, 33052]
+
+Query (appears 3 times): 'generate the first 15 fibonacci numbers.'
+  IDs: [954, 54539, 58275]
+
+Query (appears 3 times): 'estimate the bacterial population after 30 minutes if the initial population is 1000 and the growth rate is 0.05 per minute.'
+  IDs: [1073, 17664, 19963]
+
+Query (appears 3 times): 'calculate the displacement of an object with an initial velocity of 5 m/s, accelerating at 2 m/s² for 10 seconds.'
+  IDs: [1221, 4443, 20239]
+
+Query (appears 3 times): 'find the missing number in the list [0, 1, 2, 4, 5].'
+  IDs: [1249, 21516, 59465]
+
+Query (appears 3 times): 'what is the longest palindromic substring in the sentence 'able was i ere i saw elba'?'
+  IDs: [1256, 21484, 33540]
+
+Query (appears 3 times): 'calculate the profit from an investment of $1000 at a 5% annual return rate over 10 years.'
+  IDs: [1309, 27319, 32308]
+
+Query (appears 3 times): 'check if 'dormitory' and 'dirty room' are anagrams.'
+  IDs: [1317, 5558, 7253]
+
+Query (appears 3 times): 'can you fetch the independent albums chart for the week starting october 8, 2022?'
+  IDs: [1339, 20233, 22910]
+
+Query (appears 3 times): 'find the minimum element in the rotated sorted array [3, 4, 5, 1, 2].'
+  IDs: [1397, 3321, 39752]
+
+Query (appears 3 times): 'what city is associated with the zip code 10001?'
+  IDs: [1559, 14138, 22488]
+
+Query (appears 3 times): 'check if 225 is a perfect square.'
+  IDs: [1600, 17267, 20132]
+
+Query (appears 3 times): 'add the binary numbers 1010 and 1101.'
+  IDs: [1702, 12520, 23969]
+
+Query (appears 3 times): 'determine if the number 144 is a perfect square.'
+  IDs: [1778, 9642, 25591]
+
+Query (appears 3 times): 'generate a qr code for the url 'https://www.example.com''
+  IDs: [1852, 15872, 30076]
+
+Query (appears 3 times): 'find dog breeds related to the keyword 'retriever'.'
+  IDs: [1866, 5074, 27232]
+
+Query (appears 3 times): 'calculate the density of an object with a mass of 150 grams and a volume of 50 cubic centimeters.'
+  IDs: [2067, 6244, 29551]
+
+Query (appears 3 times): 'what will be the return on an investment of $1000 at an annual interest rate of 5% over 10 years?'
+  IDs: [2291, 8925, 22803]
+
+Query (appears 3 times): 'merge these two dictionaries: {'a': 1, 'b': 2} and {'b': 3, 'c': 4}'
+  IDs: [2326, 14521, 22874]
+
+Query (appears 3 times): 'identify the longest palindromic substring in the phrase 'madam, in eden, i'm adam'.'
+  IDs: [2478, 9637, 24434]
+
+Query (appears 3 times): 'compute the cagr for an investment that grew from $5000 to $7500 over 3 years.'
+  IDs: [2532, 17501, 25541]
+
+Query (appears 3 times): 'what is the range string for numbers from 10 to 20?'
+  IDs: [2647, 8398, 11143]
+
+Query (appears 3 times): 'check if the string '([]{})' has valid parentheses.'
+  IDs: [2659, 19692, 55297]
+
+Query (appears 3 times): 'calculate the duration between a note at 440 hz and another at 880 hz with a tempo of 140 bpm.'
+  IDs: [2768, 16258, 27745]
+
+Query (appears 3 times): 'calculate the distance between two points in 3d space: (1, 2, 3) and (4, 5, 6).'
+  IDs: [2806, 15333, 21059]
+
+Query (appears 3 times): 'generate the first 5 fibonacci numbers.'
+  IDs: [2899, 31535, 32136]
+
+Query (appears 3 times): 'can you find the geolocation of ip addresses 8.8.8.8 and 1.1.1.1?'
+  IDs: [3009, 19457, 33489]
+
+Query (appears 3 times): 'list all countries where booking.com offers hotels.'
+  IDs: [3032, 4542, 20776]
+
+Query (appears 3 times): 'log in a user with username 'user123' and password 'pass123'.'
+  IDs: [3213, 11554, 30636]
+
+Query (appears 3 times): 'find all pairs in the list [1, 2, 3, 4, 5] that sum up to 6.'
+  IDs: [3262, 4313, 32084]
+
+Query (appears 3 times): 'is the queens hotel in berlin available from 2022-03-21 to 2022-03-25?'
+  IDs: [3369, 16402, 29230]
+
+Query (appears 3 times): 'split a list [1, 2, 3, 4, 5, 6] into chunks of size 2.'
+  IDs: [3387, 7976, 28488]
+
+Query (appears 3 times): 'analyze the social dynamics of a group of 20 people, where 10 are extroverts and 10 are introverts.'
+  IDs: [3420, 30245, 41553]
+
+Query (appears 3 times): 'calculate the standard deviation of the numbers [2.5, 3.6, 4.7, 5.8, 6.9].'
+  IDs: [3609, 14864, 16818]
+
+Query (appears 3 times): 'determine the angle between the hour and minute hands at 3:15 pm.'
+  IDs: [3941, 20677, 28701]
+
+Query (appears 3 times): 'calculate the derivative of the function g(x) = sin(x) at x = π/2.'
+  IDs: [4002, 16032, 22269]
+
+Query (appears 3 times): 'check if '192.168.1.1' is a valid ip address.'
+  IDs: [4062, 18045, 51400]
+
+Query (appears 3 times): 'calculate the angle between the hour and minute hands of a clock at 3:15.'
+  IDs: [4186, 40977, 54463]
+
+Query (appears 3 times): 'calculate the standard deviation of the numbers [10, 20, 30, 40, 50].'
+  IDs: [4209, 15663, 31838]
+
+Query (appears 3 times): 'compute the area of a circle with a radius of 7.5 units.'
+  IDs: [4233, 20603, 21729]
+
+Query (appears 3 times): 'find the next greater element for each number in the list [1, 3, 2, 4].'
+  IDs: [4380, 13111, 21928]
+
+Query (appears 3 times): 'what are the latest science news in the us and uk?'
+  IDs: [4588, 16040, 25381]
+
+Query (appears 3 times): 'is the number 153 a sum of the cubes of its digits?'
+  IDs: [4679, 12115, 33173]
+
+Query (appears 3 times): 'can you merge two sorted lists, one containing [1, 3, 5] and the other [2, 4, 6]?'
+  IDs: [4802, 18963, 32982]
+
+Query (appears 3 times): 'what is the duplicate number in the sequence [3, 1, 3, 4, 2]?'
+  IDs: [4994, 10305, 31741]
+
+Query (appears 3 times): 'what are the latest and daily average prices for ethereum in the global market against usd and eur?'
+  IDs: [5061, 36342, 52432]
+
+Query (appears 3 times): 'generate a random string of length 10 with uppercase, lowercase, and digits but no special characters.'
+  IDs: [5223, 14013, 19735]
+
+Query (appears 3 times): 'find the least common multiple of 12 and 15.'
+  IDs: [5323, 8822, 23557]
+
+Query (appears 3 times): 'what are the roots of the quadratic equation 2x^2 - 3x + 1 = 0?'
+  IDs: [5430, 16486, 31477]
+
+Query (appears 3 times): 'count the number of set bits in the binary representation of 23.'
+  IDs: [5486, 6243, 25691]
+
+Query (appears 3 times): 'is the queens hotel in berlin available from 2022-03-13 to 2022-03-14?'
+  IDs: [5590, 6450, 27768]
+
+Query (appears 3 times): 'merge two dictionaries: {'a': 1, 'b': 2} and {'b': 3, 'c': 4}.'
+  IDs: [5768, 17072, 23243]
+
+Query (appears 3 times): 'what is the euclidean distance between two points in 3d space, where the first point is [1, 2, 3] and the second point is [4, 5, 6]?'
+  IDs: [5829, 15745, 20509]
+
+Query (appears 3 times): 'retrieve the zip code for the ip address 24.24.24.24.'
+  IDs: [5923, 13538, 22624]
+
+Query (appears 3 times): 'can you find the location of the ip address 8.8.8.8?'
+  IDs: [5962, 13701, 21714]
+
+Query (appears 3 times): 'find the longest common prefix among the strings ['flower', 'flow', 'flight'].'
+  IDs: [6053, 8164, 33034]
+
+Query (appears 3 times): 'calculate the standard deviation of the numbers [2, 4, 4, 4, 5, 5, 7, 9].'
+  IDs: [6106, 28064, 29548]
+
+Query (appears 3 times): 'what is the current weather in new york and los angeles?'
+  IDs: [6680, 9321, 21950]
+
+Query (appears 3 times): 'multiply two matrices: [[1, 2], [3, 4]] and [[5, 6], [7, 8]].'
+  IDs: [6812, 22498, 28099]
+
+Query (appears 3 times): 'solve the quadratic equation 2x^2 - 3x + 1 = 0 for its roots.'
+  IDs: [6842, 16160, 32713]
+
+Query (appears 3 times): 'calculate the cagr of an investment that grew from $1000 to $2000 over 5 years.'
+  IDs: [7022, 8226, 21703]
+
+Query (appears 3 times): 'what are the details of the ethereum blockchain?'
+  IDs: [7330, 33320, 51268]
+
+Query (appears 3 times): 'could you generate 5 user profiles in french and 3 in spanish?'
+  IDs: [7347, 16403, 25229]
+
+Query (appears 3 times): 'retrieve the top-viewed youtube videos for the year 2020.'
+  IDs: [7397, 48262, 57580]
+
+Query (appears 3 times): 'create a histogram for the data set [1, 2, 2, 3, 3, 3, 4, 4, 4, 4] with 5 bins.'
+  IDs: [7401, 14502, 33380]
+
+Query (appears 3 times): 'add the binary numbers 1011 and 1101.'
+  IDs: [7525, 20261, 34178]
+
+Query (appears 3 times): 'what is the probability of rolling a sum of 8 with 2 dice?'
+  IDs: [7680, 10298, 10526]
+
+Query (appears 3 times): 'what is the current block number on the binance smart chain mainnet?'
+  IDs: [7769, 24425, 25027]
+
+Query (appears 3 times): 'what is the word frequency in the sentence 'the quick brown fox jumps over the lazy dog'?'
+  IDs: [7783, 8911, 29746]
+
+Query (appears 3 times): 'check if 81 is a power of 3.'
+  IDs: [8325, 32748, 57755]
+
+Query (appears 3 times): 'are 'slot machines' and 'cash lost in me' anagrams?'
+  IDs: [8459, 13064, 13953]
+
+Query (appears 3 times): 'what is the age of a person born on 1990-01-01?'
+  IDs: [8903, 48761, 54627]
+
+Query (appears 3 times): 'calculate the neuronal activity rate with a synaptic input rate of 100 inputs per second, a synaptic weight of 0.8, and a decay constant of 0.05.'
+  IDs: [9030, 24890, 25740]
+
+Query (appears 3 times): 'what will be the future value of an investment of $1000 at an annual interest rate of 5% after 10 years?'
+  IDs: [9127, 30732, 41798]
+
+Query (appears 3 times): 'find the 20th fibonacci number.'
+  IDs: [9282, 16458, 23029]
+
+Query (appears 3 times): 'calculate the electric field produced by a charge of 5 coulombs at a distance of 10 meters.'
+  IDs: [9285, 45638, 53341]
+
+Query (appears 3 times): 'perform structural analysis on building 'b123' for floors 5, 10, and 15 in dynamic mode.'
+  IDs: [10047, 10062, 12258]
+
+Query (appears 3 times): 'what is the diabetes risk for a sedentary person weighing 180 lbs and 68 inches tall?'
+  IDs: [10236, 22949, 28391]
+
+Query (appears 3 times): 'what are the coordinates of the ip address 8.8.8.8?'
+  IDs: [10538, 14909, 16201]
+
+Query (appears 3 times): 'what is the probability of rolling a sum of 7 with two 6-sided dice?'
+  IDs: [10753, 16005, 33941]
+
+Query (appears 3 times): 'find synonyms for 'happy' in english and 'feliz' in spanish.'
+  IDs: [10857, 14890, 22660]
+
+Query (appears 3 times): 'what are the addresses associated with the postcode sw1a 1aa in the uk?'
+  IDs: [11262, 12446, 22706]
+
+Query (appears 3 times): 'predict the change in forest area in the amazon over 10 years, considering human impact.'
+  IDs: [11588, 17334, 25716]
+
+Query (appears 3 times): 'what is the current weather in new york city and tokyo?'
+  IDs: [11717, 24643, 31149]
+
+Query (appears 3 times): 'what are the regions of france?'
+  IDs: [11745, 15885, 36898]
+
+Query (appears 3 times): 'roll a 6-sided die.'
+  IDs: [12023, 30613, 57060]
+
+Query (appears 3 times): 'validate a sudoku board with the numbers [5, 3, '.', '.', 7, '.', '.', '.', '.'], [6, '.', '.', 1, 9, 5, '.', '.', '.'], ['.', 9, 8, '.', '.', '.', '.', 6, '.'], [8, '.', '.', '.', 6, '.', '.', '.', 3], [4, '.', '.', 8, '.', 3, '.', '.', 1], [7, '.', '.', '.', 2, '.', '.', '.', 6], ['.', 6, '.', '.', '.', '.', 2, 8, '.'], ['.', '.', '.', 4, 1, 9, '.', '.', 5], ['.', '.', '.', '.', 8, '.', '.', 7, 9]. is this board valid?'
+  IDs: [12312, 26018, 32906]
+
+Query (appears 3 times): 'merge two sorted lists: [1, 3, 5] and [2, 4, 6].'
+  IDs: [12388, 13779, 18898]
+
+Query (appears 3 times): 'what are the latitude and longitude coordinates of new york city?'
+  IDs: [12921, 19916, 48456]
+
+Query (appears 3 times): 'search for videos about 'climate change' on youtube.'
+  IDs: [13022, 26640, 30840]
+
+Query (appears 3 times): 'count the occurrences of each fruit in the list ['apple', 'banana', 'apple', 'orange', 'banana', 'banana'].'
+  IDs: [13031, 19524, 28851]
+
+Query (appears 3 times): 'calculate the cagr of an investment that started at $1000 and ended at $2000 over 5 years.'
+  IDs: [13213, 17923, 19837]
+
+Query (appears 3 times): 'compute the potential energy of a charge of 3 coulombs at a voltage of 120 volts.'
+  IDs: [13313, 18380, 29278]
+
+Query (appears 3 times): 'merge two sorted lists: [1, 3, 5, 7] and [2, 4, 6, 8] into a single sorted list.'
+  IDs: [13480, 14865, 18876]
+
+Query (appears 3 times): 'what is the cagr of an investment that started at $10,000 and grew to $15,000 over 5 years?'
+  IDs: [13774, 22186, 23103]
+
+Query (appears 3 times): 'generate a password of length 16 including special characters.'
+  IDs: [14150, 21070, 31483]
+
+Query (appears 3 times): 'can you find the next greater element for each number in the list [4, 5, 2, 25]?'
+  IDs: [14378, 16897, 20617]
+
+Query (appears 3 times): 'get the size information for all countries in africa.'
+  IDs: [14677, 25324, 40052]
+
+Query (appears 3 times): 'can you find interesting jobs for actors nm0001667 and nm0000369?'
+  IDs: [14787, 25301, 32459]
+
+Query (appears 3 times): 'compute the factorial of 5.'
+  IDs: [15055, 20215, 36514]
+
+Query (appears 3 times): 'what is the sum of binary numbers 1010 and 1101?'
+  IDs: [15166, 20227, 21391]
+
+Query (appears 3 times): 'determine if 144 is a perfect square.'
+  IDs: [15583, 16153, 28507]
+
+Query (appears 3 times): 'can you retrieve whois information for the domains 'google.com' and 'facebook.com'?'
+  IDs: [15754, 26388, 27593]
+
+Query (appears 3 times): 'download the minecraft .jar file for version 1.16.5.'
+  IDs: [15854, 17313, 20924]
+
+Query (appears 3 times): 'list all kfc locations in california on page 1.'
+  IDs: [15927, 16113, 19442]
+
+Query (appears 3 times): 'what is the least common multiple of 12 and 18?'
+  IDs: [16279, 45393, 58163]
+
+Query (appears 3 times): 'integrate the function 'x^2' from x=1 to x=5 using the trapezoid method.'
+  IDs: [16374, 22950, 26888]
+
+Query (appears 3 times): 'calculate the area under the curve of the function 'x^2' from x=1 to x=5 using the simpson's rule.'
+  IDs: [16416, 18726, 32075]
+
+Query (appears 3 times): 'calculate the standard deviation of the following numbers: 5, 10, 15, 20, 25.'
+  IDs: [17219, 18357, 57399]
+
+Query (appears 3 times): 'what is the factorial of 0?'
+  IDs: [17503, 30237, 43520]
+
+Query (appears 3 times): 'calculate the batting average of a player with 30 hits in 100 at-bats, rounded to 2 decimal places.'
+  IDs: [17895, 19932, 32693]
+
+Query (appears 3 times): 'what is the least common multiple of 15 and 20?'
+  IDs: [18149, 18167, 21812]
+
+Query (appears 3 times): 'check if the number 153 is an armstrong number.'
+  IDs: [18262, 42663, 43798]
+
+Query (appears 3 times): 'is 'john.doe@example.com' a valid email address?'
+  IDs: [19313, 33669, 39396]
+
+Query (appears 3 times): 'is 125 a power of 5?'
+  IDs: [19334, 30785, 31031]
+
+Query (appears 3 times): 'find the 15th fibonacci number.'
+  IDs: [19393, 26972, 49412]
+
+Query (appears 3 times): 'merge these dictionaries: {'a': 1, 'b': 2} and {'b': 3, 'c': 4}.'
+  IDs: [19687, 30211, 30730]
+
+Query (appears 3 times): 'what is the resistance of a copper wire that is 100 meters long and has a cross-sectional area of 0.0001 square meters?'
+  IDs: [20325, 34543, 37478]
+
+Query (appears 3 times): 'reverse the sentence 'the quick brown fox jumps over the lazy dog'.'
+  IDs: [20601, 27324, 58430]
+
+Query (appears 3 times): 'calculate the factorial of 10.'
+  IDs: [20659, 29202, 56260]
+
+Query (appears 3 times): 'is 'abcde' a rotation of 'cdeab'?'
+  IDs: [20746, 27398, 55409]
+
+Query (appears 3 times): 'find the longest palindromic substring in the sentence 'able was i ere i saw elba'.'
+  IDs: [21183, 21721, 26663]
+
+Query (appears 3 times): 'calculate the lcm of 15 and 20.'
+  IDs: [21450, 31812, 55811]
+
+Query (appears 3 times): 'check if 'hello' is a rotation of 'lohel'.'
+  IDs: [22254, 26667, 54252]
+
+Query (appears 3 times): 'remove duplicates from the list [1, 2, 2, 3, 4, 4, 5]'
+  IDs: [22589, 30218, 31162]
+
+Query (appears 3 times): 'calculate the 5th fibonacci number.'
+  IDs: [23279, 41571, 55586]
+
+Query (appears 3 times): 'estimate the derivative of the function f(x) = x^2 at x = 2 using numerical methods.'
+  IDs: [23304, 28830, 31536]
+
+Query (appears 3 times): 'validate the email address 'john.doe@example.com'.'
+  IDs: [23972, 30917, 55208]
+
+Query (appears 3 times): 'predict the change in forest area in the amazon for 10 years, considering human impact.'
+  IDs: [24236, 32601, 32650]
+
+Query (appears 3 times): 'is the number 17 a prime number?'
+  IDs: [24347, 28859, 44781]
+
+Query (appears 3 times): 'calculate the profit from an investment of $5000 at an annual return rate of 5% over 10 years.'
+  IDs: [25021, 29908, 34551]
+
+Query (appears 3 times): 'what is the standard deviation of the numbers 10, 20, 30, 40, 50?'
+  IDs: [25441, 29144, 45413]
+
+Query (appears 3 times): 'merge two sorted lists: [1, 3, 5] and [2, 4, 6] into a single sorted list.'
+  IDs: [26064, 26412, 26544]
+
+Query (appears 3 times): 'check if 17 is a prime number.'
+  IDs: [28599, 34403, 38330]
+
+Query (appears 3 times): 'check if the number 371 is the sum of the cubes of its digits.'
+  IDs: [30503, 47948, 52167]
+
+Query (appears 3 times): 'what is the reverse of the string 'hello, world!'?'
+  IDs: [31737, 33981, 35707]
+
+Query (appears 3 times): 'calculate the electric field produced by a charge of 5 coulombs at a distance of 2 meters.'
+  IDs: [33463, 35412, 56614]
+
+Query (appears 3 times): 'what is the probability of rolling a sum of 7 with 2 six-sided dice?'
+  IDs: [33710, 35960, 54078]
+
+Query (appears 3 times): 'predict the change in forest area in the amazon over the next 10 years, including the impact of human activities.'
+  IDs: [33786, 41852, 50078]
+
+Query (appears 3 times): 'calculate the euclidean distance between the points (1, 2) and (4, 6).'
+  IDs: [34393, 38516, 52087]
+
+Query (appears 3 times): 'search for the latest tweets containing the hashtag '#music' with a count of 5. also, find jokes related to 'music'.'
+  IDs: [34525, 49248, 57698]
+
+Query (appears 3 times): 'is 64 a power of two?'
+  IDs: [34770, 40060, 51324]
+
+Query (appears 3 times): 'what is the current weather in new york city?'
+  IDs: [34888, 41989, 42003]
+
+Query (appears 3 times): 'what are the public holidays in canada for the year 2023?'
+  IDs: [35237, 52080, 56034]
+
+Query (appears 3 times): 'is the given sudoku board valid? [[5, 3, '.', '.', 7, '.', '.', '.', 9],[6, '.', '.', 1, 9, 5, '.', '.', '.'],['.', 9, 8, '.', '.', '.', '.', 6, '.'],[8, '.', '.', '.', 6, '.', '.', '.', 3],[4, '.', '.', 8, '.', 3, '.', '.', 1],[7, '.', '.', '.', 2, '.', '.', '.', 6],['.', 6, '.', '.', '.', '.', 2, 8, '.'],['.', '.', '.', 4, 1, 9, '.', '.', 5],['.', '.', '.', '.', 8, '.', '.', 7, 9]]'
+  IDs: [35629, 38024, 46596]
+
+Query (appears 3 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5, 6, 7, 8, 9] that sum up to 10.'
+  IDs: [35684, 40546, 50622]
+
+Query (appears 3 times): 'what is the information about the ip address 8.8.8.8?'
+  IDs: [36704, 42023, 44796]
+
+Query (appears 3 times): 'what is the resistance of a copper wire that is 10 meters long and has a cross-sectional area of 0.0001 square meters?'
+  IDs: [37325, 42377, 56014]
+
+Query (appears 3 times): 'create a histogram with 5 bins for the data [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]. also, perform a chi-square test for independence on the contingency table [[5, 5], [5, 5]] with a significance level of 0.01.'
+  IDs: [37442, 41724, 50329]
+
+Query (appears 3 times): 'what are the top 3 cards drawn from a shuffled deck of 52 cards?'
+  IDs: [37874, 54138, 54623]
+
+Query (appears 3 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5] that sum up to 7'
+  IDs: [38013, 42223, 50666]
+
+Query (appears 3 times): 'check if the string 'waterbottle' is a rotation of the string 'erbottlewat'.'
+  IDs: [38803, 41734, 44669]
+
+Query (appears 3 times): 'what is the area of a triangle with a base of 5 units and a height of 10 units?'
+  IDs: [39081, 42912, 56620]
+
+Query (appears 3 times): 'what is the 20th fibonacci number?'
+  IDs: [39107, 56361, 57850]
+
+Query (appears 3 times): 'is the string '192.168.1.1' a valid ip address?'
+  IDs: [40767, 54895, 57936]
+
+Query (appears 3 times): 'convert the date '2022-12-31' from 'yyyy-mm-dd' format to 'mm/dd/yyyy' format.'
+  IDs: [40968, 49354, 55729]
+
+Query (appears 3 times): 'what is the result of adding the binary numbers 101 and 110?'
+  IDs: [41774, 44576, 53567]
+
+Query (appears 3 times): 'flatten the nested list [[1, 2], [3, 4], [5, 6]] into a single-level list.'
+  IDs: [42197, 42434, 54661]
+
+Query (appears 3 times): 'compute the area of a triangle with a base of 5 units and a height of 10 units.'
+  IDs: [42598, 46341, 57933]
+
+Query (appears 3 times): 'what is a random optimal solution for the cube position 'ufr urf ulf ulb udb ulb dbl dfr dfl ubr'?'
+  IDs: [43213, 49342, 50171]
+
+Query (appears 3 times): 'get the list of public holidays for the year 2022 in the united states.'
+  IDs: [43953, 56819, 57034]
+
+Query (appears 3 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5] that sum up to 6.'
+  IDs: [44236, 49247, 51201]
+
+Query (appears 3 times): 'is 16 a perfect square?'
+  IDs: [44331, 46807, 53508]
+
+Query (appears 3 times): 'get tv show information for a trakt.tv id 1443, and fetch details about the youtube channel with id uc-lhjzr3gqxm24_vd_aj5yw.'
+  IDs: [47411, 55105, 56658]
+
+Query (appears 3 times): 'calculate the euclidean distance between points (1, 2) and (4, 6) in 2-dimensional space.'
+  IDs: [48586, 55592, 57998]
+
+Query (appears 3 times): 'check if the year 2000 is a leap year.'
+  IDs: [50044, 50424, 56462]
+
+Query (appears 3 times): 'find the longest word in the list ['apple', 'banana', 'cherry', 'date', 'elderberry'].'
+  IDs: [50895, 52391, 54022]
+
+Query (appears 3 times): 'generate the first 15 numbers in the fibonacci sequence.'
+  IDs: [55666, 57049, 57926]
+
+Query (appears 2 times): 'fetch a motivational quote about success.'
+  IDs: [42, 13555]
+
+Query (appears 2 times): 'please reverse the string 'hello, world!''
+  IDs: [71, 24537]
+
+Query (appears 2 times): 'what is the income data for zipcode 90210?'
+  IDs: [109, 4818]
+
+Query (appears 2 times): 'calculate the love compatibility between 'alice' and 'bob'.'
+  IDs: [121, 54810]
+
+Query (appears 2 times): 'find the angle between the hour and minute hands at 9:45.'
+  IDs: [165, 23614]
+
+Query (appears 2 times): 'fetch the latest coronavirus news for california.'
+  IDs: [241, 34195]
+
+Query (appears 2 times): 'reverse the sentence 'hello world, how are you?''
+  IDs: [256, 6815]
+
+Query (appears 2 times): 'are 'a gentleman' and 'elegant man' anagrams?'
+  IDs: [278, 28513]
+
+Query (appears 2 times): 'fetch navigation tabs in french for france.'
+  IDs: [289, 8454]
+
+Query (appears 2 times): 'retrieve all available food items from the api.'
+  IDs: [295, 49204]
+
+Query (appears 2 times): 'sort the numbers [3.2, 1.5, 2.7, 4.1] in descending order.'
+  IDs: [359, 23680]
+
+Query (appears 2 times): 'what is the binary addition of '1011' and '1101'?'
+  IDs: [383, 33381]
+
+Query (appears 2 times): 'calculate the euclidean distance between points (1, 1) and (4, 5).'
+  IDs: [466, 55407]
+
+Query (appears 2 times): 'determine if 1900 was a leap year.'
+  IDs: [471, 21648]
+
+Query (appears 2 times): 'list the top albums globally for the week ending march 31, 2023.'
+  IDs: [480, 851]
+
+Query (appears 2 times): 'is the email 'john.doe@example.com' valid?'
+  IDs: [495, 6473]
+
+Query (appears 2 times): 'what's the probability of rolling a sum of 8 with 2 dice?'
+  IDs: [497, 16829]
+
+Query (appears 2 times): 'verify if 'waterbottle' is a rotation of 'erbottlewat'.'
+  IDs: [507, 27479]
+
+Query (appears 2 times): 'i need the details of creator 36925 and feedbacks for product 85214 on page 2, please.'
+  IDs: [548, 4247]
+
+Query (appears 2 times): 'i'm curious about the neuronal activity rate when the synaptic input rate is 100 per second, with a synaptic weight of 0.5 and a decay constant of 0.05. also, could you check if 17 is a prime number and solve the quadratic equation 2x^2 - 3x + 1 = 0?'
+  IDs: [586, 27554]
+
+Query (appears 2 times): 'calculate the area of a polygon with vertices [(0, 0), (5, 0), (5, 5), (0, 5)].'
+  IDs: [599, 21288]
+
+Query (appears 2 times): 'find the 3rd smallest number in the list [5, 2, 9, 1, 8, 3].'
+  IDs: [673, 8019]
+
+Query (appears 2 times): 'retrieve all car models from the manufacturer 'toyota' and 'ford'.'
+  IDs: [749, 4853]
+
+Query (appears 2 times): 'what are the airplanes available from the brand 'boeing'?'
+  IDs: [790, 15635]
+
+Query (appears 2 times): 'what are the dns records for example.com, including a and mx records?'
+  IDs: [791, 21537]
+
+Query (appears 2 times): 'what are the visa requirements for a us citizen traveling to japan?'
+  IDs: [800, 12209]
+
+Query (appears 2 times): 'i need to locate all .txt files in the 'documents' directory. additionally, what is the longest word among 'elephant', 'giraffe', 'zebra', 'hippopotamus'?'
+  IDs: [803, 3358]
+
+Query (appears 2 times): 'calculate the investment return for an initial deposit of $5000 at an annual interest rate of 3% over 10 years.'
+  IDs: [830, 23239]
+
+Query (appears 2 times): 'can you fetch the theme details for id 12345 and all kfc locations in california on page 1?'
+  IDs: [855, 18295]
+
+Query (appears 2 times): 'can you provide the hourly forecast for new york city tomorrow?'
+  IDs: [864, 934]
+
+Query (appears 2 times): 'calculate the batting average of a player with 30 hits and 100 at-bats, rounded to 2 decimal places.'
+  IDs: [880, 15945]
+
+Query (appears 2 times): 'retrieve the latest news in dutch from the netherlands.'
+  IDs: [906, 29805]
+
+Query (appears 2 times): 'what is the current air quality in new york city?'
+  IDs: [912, 57045]
+
+Query (appears 2 times): 'predict the change in forest area in the amazon over the next 10 years, considering human impact.'
+  IDs: [920, 31489]
+
+Query (appears 2 times): 'what is the quarterly dividend per share if the total dividend is $1000000 and there are 500000 shares?'
+  IDs: [925, 28120]
+
+Query (appears 2 times): 'list all tokens on the ethereum network.'
+  IDs: [998, 8849]
+
+Query (appears 2 times): 'calculate the cell density if the od is 0.45 and the dilution factor is 1000.'
+  IDs: [1000, 5674]
+
+Query (appears 2 times): 'convert 1 pound of butter to ounces.'
+  IDs: [1004, 37803]
+
+Query (appears 2 times): 'calculate the cell density of a sample with an optical density of 0.8 and a dilution factor of 5.'
+  IDs: [1091, 19405]
+
+Query (appears 2 times): 'list all moves that charmander can learn.'
+  IDs: [1158, 7647]
+
+Query (appears 2 times): 'what are the categories available under the main category with id 214970 on wayfair?'
+  IDs: [1191, 25023]
+
+Query (appears 2 times): 'analyze the social dynamics of a group of 15 people with 5 extroverts and 10 introverts.'
+  IDs: [1193, 33927]
+
+Query (appears 2 times): 'can you list the stores available on page 3 from the 'get promo codes' api?'
+  IDs: [1202, 10149]
+
+Query (appears 2 times): 'can you fetch the treasure of the day without a jsonp callback?'
+  IDs: [1259, 5393]
+
+Query (appears 2 times): 'how much alimony would a spouse with a monthly income of $5000 pay to a spouse with a monthly income of $2000 over 5 years?'
+  IDs: [1365, 5363]
+
+Query (appears 2 times): 'list all tokens on the binance smart chain.'
+  IDs: [1435, 13151]
+
+Query (appears 2 times): 'extract emails from the website https://www.example.com.'
+  IDs: [1440, 18284]
+
+Query (appears 2 times): 'check if 47 is a prime number.'
+  IDs: [1463, 30351]
+
+Query (appears 2 times): 'can you provide a list of industries related to 'tech' and 'finance'?'
+  IDs: [1505, 17419]
+
+Query (appears 2 times): 'what is the angle between the hands of a clock at 3:15?'
+  IDs: [1507, 30817]
+
+Query (appears 2 times): 'calculate the neuronal activity rate for a neuron with a synaptic input rate of 100 inputs per second, a synaptic weight of 0.8, and a decay constant of 0.05.'
+  IDs: [1609, 23515]
+
+Query (appears 2 times): 'generate a random array of 10 numbers.'
+  IDs: [1619, 4123]
+
+Query (appears 2 times): 'what is the current block number on the optimism testnet?'
+  IDs: [1623, 16514]
+
+Query (appears 2 times): 'determine if the year 2000 was a leap year.'
+  IDs: [1634, 22769]
+
+Query (appears 2 times): 'generate a random string of length 10 with all character types.'
+  IDs: [1703, 55713]
+
+Query (appears 2 times): 'is there an equilibrium index for the list [2, 4, 6, 8, 10]?'
+  IDs: [1729, 32462]
+
+Query (appears 2 times): 'retrieve the top 10 restaurants in paris.'
+  IDs: [1749, 28575]
+
+Query (appears 2 times): 'retrieve whois information for the domain 'example.com'.'
+  IDs: [1758, 11838]
+
+Query (appears 2 times): 'determine the bacterial population after 30 minutes if the initial population is 1000 and the growth rate is 0.05 per minute.'
+  IDs: [1803, 30163]
+
+Query (appears 2 times): 'can you find the equilibrium index for the list [1, 2, 3, 4, 5] and also for the list [10, 20, 30, 40, 50]?'
+  IDs: [1841, 21268]
+
+Query (appears 2 times): 'fetch details of all embraer airplanes.'
+  IDs: [1875, 17960]
+
+Query (appears 2 times): 'is the queens hotel in berlin available for check-in on 2022-03-13 and check-out on 2022-03-16?'
+  IDs: [1901, 6162]
+
+Query (appears 2 times): 'can you find the duplicate number in the list [1, 3, 4, 2, 2]?'
+  IDs: [1986, 18674]
+
+Query (appears 2 times): 'find the equilibrium index of the list [3, 6, 9, 12, 15].'
+  IDs: [1988, 5868]
+
+Query (appears 2 times): 'generate 10 uuids.'
+  IDs: [2003, 37158]
+
+Query (appears 2 times): 'retrieve all dog breeds from japan and the details of the bulldog breed.'
+  IDs: [2028, 24747]
+
+Query (appears 2 times): 'calculate the weighted average of scores [85, 90, 78] with weights [0.4, 0.3, 0.3]'
+  IDs: [2061, 28730]
+
+Query (appears 2 times): 'generate a random string of length 10 with uppercase, lowercase, and digits.'
+  IDs: [2074, 21346]
+
+Query (appears 2 times): 'what is the probability of rolling a 6 three times consecutively on a standard 6-sided die?'
+  IDs: [2096, 9306]
+
+Query (appears 2 times): 'what is the range from 25 to 35?'
+  IDs: [2110, 12017]
+
+Query (appears 2 times): 'generate 5 random user profiles.'
+  IDs: [2113, 28320]
+
+Query (appears 2 times): 'reverse the order of words in the sentence 'the quick brown fox'.'
+  IDs: [2124, 19102]
+
+Query (appears 2 times): 'calculate the resistance of a copper wire that is 100 meters long with a cross-sectional area of 0.5 square millimeters.'
+  IDs: [2171, 32256]
+
+Query (appears 2 times): 'check the readiness of user 'u123' for item 'i456' and define the word 'algorithm'.'
+  IDs: [2182, 16937]
+
+Query (appears 2 times): 'can you verify the existence of the email 'john.doe@example.com' and check if 'jane.doe@example.com' is a disposable email?'
+  IDs: [2197, 16182]
+
+Query (appears 2 times): 'check if the sudoku board is valid: [[5,3,'.','.',7,'.','.','.','.'], [6,'.','.',1,9,5,'.','.','.'], ['.',9,8,'.','.','.','.',6,'.'], [8,'.','.','.',6,'.','.','.',3], [4,'.','.',8,'.',3,'.','.',1], [7,'.','.','.',2,'.','.','.',6], ['.',6,'.','.','.','.',2,8,'.'], ['.','.','.',4,1,9,'.','.',5], ['.','.','.','.',8,'.','.',7,9]]'
+  IDs: [2213, 16177]
+
+Query (appears 2 times): 'what are the whois details for 'tesla.com' and 'spacex.com'?'
+  IDs: [2257, 4271]
+
+Query (appears 2 times): 'perform prime factorization of the number 144.'
+  IDs: [2260, 14390]
+
+Query (appears 2 times): 'is the number 371 a sum of the cubes of its digits?'
+  IDs: [2399, 10446]
+
+Query (appears 2 times): 'find the lcm of 24 and 36.'
+  IDs: [2410, 42160]
+
+Query (appears 2 times): 'count the number of expired followers for an onlyfans account with specific authentication details.'
+  IDs: [2414, 8356]
+
+Query (appears 2 times): 'count occurrences of each element in the list [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]'
+  IDs: [2424, 3888]
+
+Query (appears 2 times): 'what is the local time in tokyo and new york right now?'
+  IDs: [2441, 31516]
+
+Query (appears 2 times): 'what is the geolocation information for the ip address '8.8.8.8'?'
+  IDs: [2475, 17944]
+
+Query (appears 2 times): 'fetch detailed photos of the property 'cr/la-buena-vida-cabinas' in spanish.'
+  IDs: [2485, 21212]
+
+Query (appears 2 times): 'calculate the number of permutations of 3 items from a set of 7 items.'
+  IDs: [2525, 24012]
+
+Query (appears 2 times): 'retrieve box office information for the movie 'tt0133093' and the latest english news articles.'
+  IDs: [2530, 31069]
+
+Query (appears 2 times): 'identify the missing ranges in the sequence 1, 3, 5, 7, 10 given a lower bound of 0 and an upper bound of 12.'
+  IDs: [2583, 25965]
+
+Query (appears 2 times): 'calculate the 5th and 15th fibonacci numbers using the 'fibonacci' function.'
+  IDs: [2599, 25300]
+
+Query (appears 2 times): 'can you compute the factorial of 5 and find the prime factors of 36?'
+  IDs: [2626, 5917]
+
+Query (appears 2 times): 'fetch the top comments for the youtube video with id 'dqw4w9wgxcq'.'
+  IDs: [2757, 7534]
+
+Query (appears 2 times): 'determine if the phrases 'eleven plus two' and 'twelve plus one' are anagrams of each other.'
+  IDs: [2908, 12558]
+
+Query (appears 2 times): 'can you find the geographical location of ip address 8.8.8.8?'
+  IDs: [2933, 19027]
+
+Query (appears 2 times): 'is the following sudoku board valid? [[5,3,'.','.',7,'.','.','.','.'], [6,'.','.',1,9,5,'.','.','.'], ['.',9,8,'.','.','.','.',6,'.'], [8,'.','.','.',6,'.','.','.',3], [4,'.','.',8,'.',3,'.','.',1], [7,'.','.','.',2,'.','.','.',6], ['.',6,'.','.','.','.',2,8,'.'], ['.','.','.',4,1,9,'.','.',5], ['.','.','.','.',8,'.','.',7,9]]'
+  IDs: [2941, 19776]
+
+Query (appears 2 times): 'can you calculate the standard deviation of these numbers: 5, 10, 15, 20, 25? and is 41 a prime number?'
+  IDs: [2956, 20387]
+
+Query (appears 2 times): 'find the minimum element in a rotated sorted array [4, 5, 6, 7, 0, 1, 2]'
+  IDs: [3070, 32393]
+
+Query (appears 2 times): 'get whois details for the domain 'wikipedia.org'.'
+  IDs: [3082, 31588]
+
+Query (appears 2 times): 'generate 10 words of lorem ipsum text.'
+  IDs: [3117, 51365]
+
+Query (appears 2 times): 'what is the market capitalization of bitcoin and ethereum in usd?'
+  IDs: [3119, 51759]
+
+Query (appears 2 times): 'what are the whois details for microsoft.com?'
+  IDs: [3125, 24583]
+
+Query (appears 2 times): 'can you check if the email 'john.doe@gmail.com' has valid mx records and verify its existence?'
+  IDs: [3156, 30261]
+
+Query (appears 2 times): 'what moves can bulbasaur learn?'
+  IDs: [3207, 46609]
+
+Query (appears 2 times): 'what is the address corresponding to the coordinates 40.7128° n, 74.0060° w?'
+  IDs: [3227, 4901]
+
+Query (appears 2 times): 'what is the euclidean distance between two points in 3d space, where the first point is (1, 2, 3) and the second point is (4, 5, 6)?'
+  IDs: [3260, 33137]
+
+Query (appears 2 times): 'what is the area of a triangle with a base of 10 cm and a height of 5 cm?'
+  IDs: [3274, 27082]
+
+Query (appears 2 times): 'assess the diabetes risk for a person weighing 180 lbs and 70 inches tall, with a sedentary lifestyle.'
+  IDs: [3301, 30307]
+
+Query (appears 2 times): 'calculate the cell density if the optical density is 0.8 and the dilution factor is 5.'
+  IDs: [3332, 19377]
+
+Query (appears 2 times): 'retrieve information about strain id 456.'
+  IDs: [3345, 9277]
+
+Query (appears 2 times): 'generate a random string of length 10 with only lowercase letters.'
+  IDs: [3376, 55945]
+
+Query (appears 2 times): 'determine if the string 'a man, a plan, a canal: panama' is a valid palindrome.'
+  IDs: [3426, 13316]
+
+Query (appears 2 times): 'find the latitude and longitude of the ip address 8.8.8.8.'
+  IDs: [3454, 35344]
+
+Query (appears 2 times): 'retrieve the top sports headlines in english from the us.'
+  IDs: [3534, 12546]
+
+Query (appears 2 times): 'could you fetch the details of the pageant contest with id 12345?'
+  IDs: [3587, 25290]
+
+Query (appears 2 times): 'fetch the instagram feed for the username 'techcrunch' without raw data.'
+  IDs: [3636, 19741]
+
+Query (appears 2 times): 'is 'able was i ere i saw elba' a valid palindrome?'
+  IDs: [3644, 34855]
+
+Query (appears 2 times): 'retrieve the result of a video rendering job with job id '123456789'.'
+  IDs: [3655, 8709]
+
+Query (appears 2 times): 'simulate rolling 5 regular dice.'
+  IDs: [3660, 18676]
+
+Query (appears 2 times): 'categorize a product named 'high-end laptop' priced at 1500.'
+  IDs: [3707, 22054]
+
+Query (appears 2 times): 'determine if 27 is a power of 3.'
+  IDs: [3730, 21585]
+
+Query (appears 2 times): 'find the 3rd smallest number in the list [5, 2, 9, 1, 8, 3, 7, 4, 6].'
+  IDs: [3735, 30354]
+
+Query (appears 2 times): 'fetch user details for the username 'tech_guru'.'
+  IDs: [3786, 27508]
+
+Query (appears 2 times): 'is 153 a number that is the sum of the cubes of its digits?'
+  IDs: [3800, 6960]
+
+Query (appears 2 times): 'find the maximum subarray sum in the list [1, -2, 3, 10, -6, 7, -3]'
+  IDs: [3819, 25813]
+
+Query (appears 2 times): 'merge two sorted lists: [1, 3, 5, 7] and [2, 4, 6, 8]'
+  IDs: [3870, 12098]
+
+Query (appears 2 times): 'determine if the sudoku board [[5,3,'.','.',7,'.','.','.','.'], [6,'.','.',1,9,5,'.','.','.'], ['.',9,8,'.','.','.','.',6,'.'], [8,'.','.','.',6,'.','.','.',3], [4,'.','.',8,'.',3,'.','.',1], [7,'.','.','.',2,'.','.','.',6], ['.',6,'.','.','.','.',2,8,'.'], ['.','.','.',4,1,9,'.','.',5], ['.','.','.','.',8,'.','.',7,9]] is valid.'
+  IDs: [4227, 10817]
+
+Query (appears 2 times): 'remove duplicates from the list [1, 2, 2, 3, 4, 4, 5].'
+  IDs: [4244, 9273]
+
+Query (appears 2 times): 'can you fetch the latest biden-related articles from 'the new york times'?'
+  IDs: [4306, 10014]
+
+Query (appears 2 times): 'what is the current average price of gas in ontario and quebec?'
+  IDs: [4309, 16026]
+
+Query (appears 2 times): 'i need the urls for the top 5 most viewed youtube videos and the details of a popular gaming playlist.'
+  IDs: [4428, 12769]
+
+Query (appears 2 times): 'what is the range from 5 to 15?'
+  IDs: [4462, 26756]
+
+Query (appears 2 times): 'reverse the phrase 'python is fun' and determine if 'dormitory' and 'dirty room' are anagrams.'
+  IDs: [4558, 29531]
+
+Query (appears 2 times): 'find the next greater element for each element in the list [10, 20, 30, 40, 50].'
+  IDs: [4580, 23130]
+
+Query (appears 2 times): 'verify if the email 'example@example.com' is valid.'
+  IDs: [4615, 29242]
+
+Query (appears 2 times): 'can you explain what the obd2 code p0420 means?'
+  IDs: [4631, 11750]
+
+Query (appears 2 times): 'what is the five-year average dividend yield for apple inc. (aapl) in the us market?'
+  IDs: [4645, 14385]
+
+Query (appears 2 times): 'perform an independent samples t-test on the samples [1, 2, 3, 4, 5] and [2, 3, 4, 5, 6] with a significance level of 0.05.'
+  IDs: [4657, 31103]
+
+Query (appears 2 times): 'generate a range string from 10 to 20.'
+  IDs: [4671, 30161]
+
+Query (appears 2 times): 'calculate the roots of the quadratic equation 2x^2 - 3x + 1 = 0.'
+  IDs: [4736, 25163]
+
+Query (appears 2 times): 'list all categories under id 214970 and fetch reviews for the product with goods id '10196865'.'
+  IDs: [4754, 17092]
+
+Query (appears 2 times): 'calculate the electric field at a distance of 1 meter from a charge of 10 coulombs.'
+  IDs: [4806, 18008]
+
+Query (appears 2 times): 'predict the evolutionary rate of the species 'homo sapiens' over the next 100 years using the lamarck model.'
+  IDs: [4809, 5358]
+
+Query (appears 2 times): 'retrieve the raw instagram feed for the username 'nasa'.'
+  IDs: [4867, 23230]
+
+Query (appears 2 times): 'capture a screenshot of the website 'https://www.example.com'.'
+  IDs: [4907, 7128]
+
+Query (appears 2 times): 'is the string 'a man a plan a canal panama' a palindrome?'
+  IDs: [4923, 49144]
+
+Query (appears 2 times): 'retrieve the monthly data and search count for the keyword 'climate change'.'
+  IDs: [4945, 30998]
+
+Query (appears 2 times): 'what is the longest word in the list ['apple', 'banana', 'kiwi']?'
+  IDs: [5023, 26122]
+
+Query (appears 2 times): 'how can i split a list [1, 2, 3, 4, 5, 6] into chunks of size 2?'
+  IDs: [5040, 10709]
+
+Query (appears 2 times): 'calculate the cell density of a bacterial culture with an od of 0.8 and a dilution factor of 1000.'
+  IDs: [5044, 28537]
+
+Query (appears 2 times): 'can you get the video urls for the latest taylor swift music video and also tell me the details of her official playlist?'
+  IDs: [5089, 18477]
+
+Query (appears 2 times): 'calculate the probability of rolling a 6 three times consecutively on a 6-sided die.'
+  IDs: [5208, 24712]
+
+Query (appears 2 times): 'generate 5 sentences of lorem ipsum text for a design mockup.'
+  IDs: [5266, 22796]
+
+Query (appears 2 times): 'log in with username 'user123' and password 'pass123'.'
+  IDs: [5315, 19487]
+
+Query (appears 2 times): 'estimate the integral of the function x^2 from 0 to 1 using the trapezoidal rule with 10000 subdivisions.'
+  IDs: [5328, 9797]
+
+Query (appears 2 times): 'calculate the weighted average grade for a student with scores 85, 90, and 78 in subjects with weights 0.3, 0.4, and 0.3 respectively.'
+  IDs: [5378, 10232]
+
+Query (appears 2 times): 'calculate the quarterly dividend per share for a company with a total dividend of $100,000 and 5000 shares.'
+  IDs: [5463, 33044]
+
+Query (appears 2 times): 'calculate the quarterly dividend per share for a company that has a total dividend payout of $100,000 and 5000 outstanding shares.'
+  IDs: [5517, 7131]
+
+Query (appears 2 times): 'fetch the latest news in italian from italy.'
+  IDs: [5521, 25626]
+
+Query (appears 2 times): 'provide details on the seiko prospex model from the dive family. also, fetch the favorite libraries of 'python_expert'.'
+  IDs: [5535, 20633]
+
+Query (appears 2 times): 'calculate the neuronal activity rate with a synaptic input rate of 200, a synaptic weight of 0.8, and a decay constant of 0.15.'
+  IDs: [5584, 24609]
+
+Query (appears 2 times): 'reverse the string 'hello, world!'.'
+  IDs: [5588, 28267]
+
+Query (appears 2 times): 'what are the characteristics of a medium difficulty weed strain?'
+  IDs: [5610, 6157]
+
+Query (appears 2 times): 'retrieve the details of order with id 'ord123456789'.'
+  IDs: [5636, 13667]
+
+Query (appears 2 times): 'what is the market capitalization of bitcoin and ethereum as of today?'
+  IDs: [5645, 19761]
+
+Query (appears 2 times): 'check if 1024 and 2048 are powers of two.'
+  IDs: [5656, 18518]
+
+Query (appears 2 times): 'what were the euro millions results on january 1, 2023?'
+  IDs: [5657, 9808]
+
+Query (appears 2 times): 'can you fetch recommendations for experiment ids 101, 102, and 103 using the 'recommend' function?'
+  IDs: [5676, 19370]
+
+Query (appears 2 times): 'retrieve the dna sequence for the identifier 'nm_001363343' in fasta format.'
+  IDs: [5679, 20727]
+
+Query (appears 2 times): 'determine if the year 1900 was a leap year.'
+  IDs: [5780, 25751]
+
+Query (appears 2 times): 'determine the equilibrium index of the array [1, 3, 5, 2, 2].'
+  IDs: [5858, 15578]
+
+Query (appears 2 times): 'is 64 a power of 2? also, check if 81 is a power of 3.'
+  IDs: [5861, 21496]
+
+Query (appears 2 times): 'fetch the snapchat story for user 'johndoesnap'.'
+  IDs: [5869, 14212]
+
+Query (appears 2 times): 'convert rgb color (255, 0, 0) to hsl.'
+  IDs: [5909, 20258]
+
+Query (appears 2 times): 'calculate the potential energy of a charge of 3 coulombs at a voltage of 120 volts.'
+  IDs: [5914, 6308]
+
+Query (appears 2 times): 'what is the longest word in the list ['apple', 'banana', 'kiwi', 'pineapple']?'
+  IDs: [5952, 23796]
+
+Query (appears 2 times): 'fetch a random mlem image with a minimum width of 800 pixels and a maximum height of 600 pixels.'
+  IDs: [6042, 19417]
+
+Query (appears 2 times): 'generate a password of length 16 with special characters.'
+  IDs: [6096, 48532]
+
+Query (appears 2 times): 'check if 2024 is a leap year.'
+  IDs: [6098, 17707]
+
+Query (appears 2 times): 'are the phrases 'eleven plus two' and 'twelve plus one' anagrams of each other?'
+  IDs: [6107, 21302]
+
+Query (appears 2 times): 'retrieve the zip code for ip address 8.8.8.8.'
+  IDs: [6170, 10288]
+
+Query (appears 2 times): 'get reviews for products with ids 10196865 and 10196866 in english and usd, and for products with ids 10196867 and 10196868 in spanish and eur.'
+  IDs: [6212, 11727]
+
+Query (appears 2 times): 'look up youtube videos discussing 'artificial intelligence'.'
+  IDs: [6223, 11842]
+
+Query (appears 2 times): 'determine if the year 1900 is a leap year.'
+  IDs: [6229, 21224]
+
+Query (appears 2 times): 'calculate the final velocity of an object starting at 10 m/s, accelerating at 5 m/s² for 3 seconds.'
+  IDs: [6285, 23922]
+
+Query (appears 2 times): 'estimate the derivative of the function f(x) = x^2 + 3x - 2 at x = 1 using numerical methods.'
+  IDs: [6314, 32095]
+
+Query (appears 2 times): 'i'm planning to invest $5000 in a bank that offers a 3% annual interest rate. how much will i have after 5 years? also, i have a sample of 100 data points with a standard deviation of 5 and a mean of 20. can you calculate the 95% confidence interval for this sample?'
+  IDs: [6482, 18287]
+
+Query (appears 2 times): 'what is the cosine similarity between two vectors [1, 2, 3] and [4, 5, 6]?'
+  IDs: [6508, 51640]
+
+Query (appears 2 times): 'in a deck of 52 cards, what is the probability of drawing 5 hearts?'
+  IDs: [6610, 16809]
+
+Query (appears 2 times): 'what does the obd2 code u1000 indicate?'
+  IDs: [6658, 20761]
+
+Query (appears 2 times): 'can you find details about the tv show with tvdb id 812345 and also provide a live stream link for the football match with id 123456?'
+  IDs: [6705, 13095]
+
+Query (appears 2 times): 'what is the longest common prefix among these strings: ['flower', 'flow', 'flight']?'
+  IDs: [6723, 27816]
+
+Query (appears 2 times): 'fetch details for records with ids 12345, 67890, and 54321.'
+  IDs: [6781, 15630]
+
+Query (appears 2 times): 'list newly registered domains on 2023-06-12.'
+  IDs: [6831, 32398]
+
+Query (appears 2 times): 'what is the minimum element in a rotated sorted array [4, 5, 6, 7, 0, 1, 2]?'
+  IDs: [6899, 32749]
+
+Query (appears 2 times): 'find the angle between the hour and minute hands at 3:15 pm.'
+  IDs: [6900, 32998]
+
+Query (appears 2 times): 'find the first non-repeating character in the string 'aabccdeefg'.'
+  IDs: [6948, 16893]
+
+Query (appears 2 times): 'get auto-complete suggestions for 'leather jacket' in the us store.'
+  IDs: [6949, 33419]
+
+Query (appears 2 times): 'count the number of set bits in the binary representation of the number 15.'
+  IDs: [7020, 13961]
+
+Query (appears 2 times): 'compute the average of the numbers 5, 10, 15, 20, 25.'
+  IDs: [7040, 7846]
+
+Query (appears 2 times): 'fetch azure learning resources from page 3.'
+  IDs: [7075, 38704]
+
+Query (appears 2 times): 'retrieve whois information for the domain 'google.com'.'
+  IDs: [7077, 19277]
+
+Query (appears 2 times): 'check if 144 is a perfect square.'
+  IDs: [7143, 9553]
+
+Query (appears 2 times): 'if i invest $1000 at an annual interest rate of 3% for 5 years, what will be the future value?'
+  IDs: [7175, 10476]
+
+Query (appears 2 times): 'please provide information about the tv show with the id 778899. also, what is the link for the live stream of the match with id 998877?'
+  IDs: [7177, 28918]
+
+Query (appears 2 times): 'what will be the future value of an investment of $10,000 at an annual interest rate of 3% over 10 years? also, calculate the displacement of an object starting at 5 m/s with an acceleration of 2 m/s² after 3 seconds.'
+  IDs: [7212, 8471]
+
+Query (appears 2 times): 'what is the location information for zip code 90210?'
+  IDs: [7214, 25882]
+
+Query (appears 2 times): 'calculate the cagr of an investment that started at $1000 and ended at $1500 over 5 years.'
+  IDs: [7235, 28724]
+
+Query (appears 2 times): 'what are the coordinates of paris, france?'
+  IDs: [7241, 16629]
+
+Query (appears 2 times): 'translate obd2 code 'p0420' into a human-readable format.'
+  IDs: [7270, 20669]
+
+Query (appears 2 times): 'calculate the total alimony in california for a payor earning $5000 per month and a recipient earning $2000 per month over 5 years.'
+  IDs: [7271, 12009]
+
+Query (appears 2 times): 'what are the free games available in the epic games store for the us region in english?'
+  IDs: [7301, 10242]
+
+Query (appears 2 times): 'can you tell me how many times each fruit appears in this list: ['apple', 'banana', 'apple', 'orange', 'banana', 'banana']?'
+  IDs: [7334, 29542]
+
+Query (appears 2 times): 'fetch the latest news in english from the united states.'
+  IDs: [7379, 14738]
+
+Query (appears 2 times): 'retrieve the billboard global 200 chart for january 1, 2023.'
+  IDs: [7386, 17047]
+
+Query (appears 2 times): 'what is the angle between the hour and minute hands at 3:45?'
+  IDs: [7399, 35516]
+
+Query (appears 2 times): 'calculate the future value of an investment of $1000 at an annual interest rate of 3% over 10 years.'
+  IDs: [7413, 9787]
+
+Query (appears 2 times): 'what are the pros and cons of the 2018 honda civic?'
+  IDs: [7530, 15742]
+
+Query (appears 2 times): 'can you fetch the latest 20 posts from thefluentme api?'
+  IDs: [7552, 14412]
+
+Query (appears 2 times): 'generate a qr code for the fhir id '1234567890'.'
+  IDs: [7561, 30990]
+
+Query (appears 2 times): 'is 'conversation' an anagram of 'voices rant on'?'
+  IDs: [7614, 9651]
+
+Query (appears 2 times): 'what are the details of the kompas news article with guid 'abc123'?'
+  IDs: [7624, 20921]
+
+Query (appears 2 times): 'find the longest common prefix among the strings 'flower', 'flow', 'flight'.'
+  IDs: [7625, 19587]
+
+Query (appears 2 times): 'compute the factorial of 7.'
+  IDs: [7626, 31959]
+
+Query (appears 2 times): 'fetch the latest science news in english for the united states and in spanish for spain.'
+  IDs: [7744, 20848]
+
+Query (appears 2 times): 'i need to find electric vehicle charging stations within 50 miles of los angeles, california.'
+  IDs: [7802, 11813]
+
+Query (appears 2 times): 'determine the resistance of a copper wire that is 100 meters long with a cross-sectional area of 0.5 square meters.'
+  IDs: [7896, 24904]
+
+Query (appears 2 times): 'simulate a database query on a 'users' table with conditions: age > 30 and city = 'new york'.'
+  IDs: [7975, 15700]
+
+Query (appears 2 times): 'fetch the top songs of bts in korean.'
+  IDs: [8044, 17168]
+
+Query (appears 2 times): 'categorize a 'smartphone' priced at $500 and a 'laptop' priced at $1000.'
+  IDs: [8208, 26901]
+
+Query (appears 2 times): 'what will be the future value of an investment of $5000 at an annual interest rate of 3% after 5 years?'
+  IDs: [8293, 32187]
+
+Query (appears 2 times): 'find the missing number in the sequence [0, 1, 2, 4, 5].'
+  IDs: [8457, 11707]
+
+Query (appears 2 times): 'find the zip code for the ip address 8.8.8.8.'
+  IDs: [8490, 49238]
+
+Query (appears 2 times): 'is 'listen' an anagram of 'silent'?'
+  IDs: [8493, 29789]
+
+Query (appears 2 times): 'find the index of the number 15 in the sorted list [5, 10, 15, 20, 25] and the number 30 in the same list.'
+  IDs: [8497, 10387]
+
+Query (appears 2 times): 'calculate the probability of rolling a 6 on a six-sided die three times consecutively.'
+  IDs: [8545, 28486]
+
+Query (appears 2 times): 'i need a 5-character code with only lowercase letters.'
+  IDs: [8580, 9905]
+
+Query (appears 2 times): 'identify the longest word in the list ['python', 'programming', 'language'].'
+  IDs: [8649, 25064]
+
+Query (appears 2 times): 'retrieve the first 20 products from the 'electronics' category, skipping the first 10 items.'
+  IDs: [8661, 21847]
+
+Query (appears 2 times): 'is the linkedin profile at https://www.linkedin.com/in/johndoe open?'
+  IDs: [8663, 20173]
+
+Query (appears 2 times): 'what is the zip code for ip address 192.168.1.1?'
+  IDs: [8712, 12135]
+
+Query (appears 2 times): 'what is the longest palindromic substring in the sentence 'a man, a plan, a canal: panama'?'
+  IDs: [8741, 15555]
+
+Query (appears 2 times): 'how many times does each number appear in the list [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]?'
+  IDs: [8751, 36079]
+
+Query (appears 2 times): 'retrieve the independent albums chart for the week of may 20, 2023.'
+  IDs: [8757, 24063]
+
+Query (appears 2 times): 'calculate the area of a triangle with vertices at (0, 0), (1, 0), and (0, 1).'
+  IDs: [8956, 38443]
+
+Query (appears 2 times): 'fetch details for strain id 123.'
+  IDs: [9109, 22320]
+
+Query (appears 2 times): 'determine if 64 is a power of 2.'
+  IDs: [9234, 14945]
+
+Query (appears 2 times): 'can you split the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] into chunks of size 3?'
+  IDs: [9331, 50129]
+
+Query (appears 2 times): 'find the equilibrium index of the list [1, 2, 3, 4, 5, 6].'
+  IDs: [9351, 14525]
+
+Query (appears 2 times): 'calculate the monthly mortgage payment for a $200,000 loan at 4% annual interest over 30 years.'
+  IDs: [9364, 16824]
+
+Query (appears 2 times): 'is the grand hotel in new york available for check-in on 2023-05-15 and check-out on 2023-05-20?'
+  IDs: [9687, 25665]
+
+Query (appears 2 times): 'generate the first 20 fibonacci numbers.'
+  IDs: [9731, 20938]
+
+Query (appears 2 times): 'find the longest common prefix among ['flower', 'flow', 'flight']'
+  IDs: [9751, 20208]
+
+Query (appears 2 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5, 6] that sum up to 7.'
+  IDs: [9784, 26240]
+
+Query (appears 2 times): 'conduct an independent samples t-test on two samples: [1, 2, 3, 4, 5] and [2, 3, 4, 5, 6] with a significance level of 0.05.'
+  IDs: [9823, 13966]
+
+Query (appears 2 times): 'find a peak element in the list [1, 3, 2, 1, 4, 5, 2].'
+  IDs: [9853, 24845]
+
+Query (appears 2 times): 'how many vowels are there in the sentence 'hello, how are you?''
+  IDs: [9891, 14436]
+
+Query (appears 2 times): 'what are the public holidays in france in 2023?'
+  IDs: [9957, 28054]
+
+Query (appears 2 times): 'translate the obd2 code 'p0420' into a human-readable format.'
+  IDs: [9984, 26887]
+
+Query (appears 2 times): 'check if 'was it a car or a cat i saw?' is a palindrome.'
+  IDs: [10016, 32482]
+
+Query (appears 2 times): 'retrieve all public holidays in the year 2023 for the united states.'
+  IDs: [10223, 31996]
+
+Query (appears 2 times): 'can you find the derivative of the function f(x) = x^2 at x = 3, and also calculate the average of these numbers: 10, 20, 30?'
+  IDs: [10266, 16030]
+
+Query (appears 2 times): 'determine the neuronal activity rate with a synaptic input rate of 50, a synaptic weight of 1.2, and a decay constant of 0.2.'
+  IDs: [10268, 31802]
+
+Query (appears 2 times): 'calculate the monthly mortgage payment for a $200,000 loan at an annual interest rate of 3.5% over 30 years.'
+  IDs: [10278, 14527]
+
+Query (appears 2 times): 'please reverse the string 'hello, world!'.'
+  IDs: [10384, 30052]
+
+Query (appears 2 times): 'what are the match schedules for cricket on march 15, 2023?'
+  IDs: [10460, 18074]
+
+Query (appears 2 times): 'check if the year 1900 is a leap year.'
+  IDs: [10489, 41178]
+
+Query (appears 2 times): 'generate a list of 10 fake cryptocurrency assets.'
+  IDs: [10510, 20526]
+
+Query (appears 2 times): 'find the greatest common divisor of 48 and 60.'
+  IDs: [10571, 18883]
+
+Query (appears 2 times): 'calculate the daily calorie intake for a 30-year-old male, weighing 75 kg, 180 cm tall, with an activity level of 3, aiming to maintain weight.'
+  IDs: [10603, 13484]
+
+Query (appears 2 times): 'can you calculate the 10th and 20th fibonacci numbers using the 'fibonacci' function?'
+  IDs: [10604, 17128]
+
+Query (appears 2 times): 'calculate the factorial of 5 and merge two dictionaries: {'a': 1, 'b': 2} and {'b': 3, 'c': 4}.'
+  IDs: [10608, 36138]
+
+Query (appears 2 times): 'find the equilibrium index of the list [1, 3, 5, 7, 9].'
+  IDs: [10645, 22036]
+
+Query (appears 2 times): 'find pairs in the list [1, 3, 5, 7, 9] that sum to 8.'
+  IDs: [10656, 22267]
+
+Query (appears 2 times): 'what is the range from 10 to 20?'
+  IDs: [10710, 12617]
+
+Query (appears 2 times): 'retrieve the specs for a 2010 honda cbr600rr and a 2018 ducati panigale v4.'
+  IDs: [10737, 18764]
+
+Query (appears 2 times): 'get the address details for the eiffel tower using reverse geocoding'
+  IDs: [10755, 20047]
+
+Query (appears 2 times): 'calculate the cell density of a bacterial culture with an optical density of 0.8 and a dilution factor of 1000.'
+  IDs: [10766, 17502]
+
+Query (appears 2 times): 'i'm looking for the urls of the latest tech review videos and the details of a tech gadget playlist.'
+  IDs: [10771, 33210]
+
+Query (appears 2 times): 'fetch 50 random wikihow steps.'
+  IDs: [10780, 21216]
+
+Query (appears 2 times): 'check if the words 'listen' and 'silent' are anagrams.'
+  IDs: [10781, 40012]
+
+Query (appears 2 times): 'identify the first non-repeating character in the string 'programming''
+  IDs: [10892, 21307]
+
+Query (appears 2 times): 'get navigation tabs in spanish for spain with eur currency.'
+  IDs: [10914, 10959]
+
+Query (appears 2 times): 'merge these two dictionaries: {'a': 1, 'b': 2} and {'b': 3, 'c': 4}. what is the result?'
+  IDs: [10958, 30343]
+
+Query (appears 2 times): 'in a group of 20 people, how does the presence of 12 extroverts and 8 introverts affect social dynamics?'
+  IDs: [10993, 19205]
+
+Query (appears 2 times): 'determine if 'waterbottle' is a rotation of 'erbottlewat'.'
+  IDs: [11016, 32336]
+
+Query (appears 2 times): 'calculate the cell density with an od of 0.6 and a dilution of 2000, using the default calibration factor.'
+  IDs: [11069, 22792]
+
+Query (appears 2 times): 'can you find the next greater elements for the numbers [4, 5, 2, 25] and also calculate the factorial of 6?'
+  IDs: [11139, 17322]
+
+Query (appears 2 times): 'generate a random string of length 5 with uppercase, lowercase, and digits.'
+  IDs: [11278, 27670]
+
+Query (appears 2 times): 'please provide 10 user profiles in english and 7 in german.'
+  IDs: [11495, 30635]
+
+Query (appears 2 times): 'what is the maximum sum of a subarray in the list [1, -2, 3, 10, -6, 7, 3]?'
+  IDs: [11642, 22943]
+
+Query (appears 2 times): 'get the most recent news in portuguese from portugal.'
+  IDs: [11743, 32590]
+
+Query (appears 2 times): 'calculate the probability of getting a sum of 10 with 3 dice, each having 4 faces.'
+  IDs: [11774, 22590]
+
+Query (appears 2 times): 'i need to know the severe weather alerts for a specific point, latitude 37.7749, longitude -122.4194, with urgency 'immediate' and severity 'severe'.'
+  IDs: [11802, 23439]
+
+Query (appears 2 times): 'what are the pluses and minuses of the 2015 toyota camry?'
+  IDs: [11871, 27263]
+
+Query (appears 2 times): 'is the username 'creative_genius' available on behance?'
+  IDs: [11932, 15049]
+
+Query (appears 2 times): 'fetch a random mlem image with a bright brightness and a landscape orientation.'
+  IDs: [12012, 24545]
+
+Query (appears 2 times): 'what is the density of an object with a mass of 150 grams and a volume of 50 cubic centimeters?'
+  IDs: [12065, 26788]
+
+Query (appears 2 times): 'find the equilibrium index of the list [1, 3, 5, 7, 9] if it exists.'
+  IDs: [12163, 17651]
+
+Query (appears 2 times): 'compute the area of a triangle with vertices at (0,0), (1,0), and (0,1).'
+  IDs: [12303, 27395]
+
+Query (appears 2 times): 'calculate the density of an object with a mass of 500 grams and a volume of 50 cubic centimeters.'
+  IDs: [12359, 16978]
+
+Query (appears 2 times): 'is the sudoku board valid where the first row is [5, 3, '.', '.', 7, '.', '.', '.', '.'], the second row is [6, '.', '.', 1, 9, 5, '.', '.', '.'], and so on?'
+  IDs: [12383, 13797]
+
+Query (appears 2 times): 'can you get the reviews for the product with goods id '10196865' and list categories under id 214970?'
+  IDs: [12401, 31786]
+
+Query (appears 2 times): 'what are the albums of the beatles available on spotify?'
+  IDs: [12413, 32310]
+
+Query (appears 2 times): 'calculate the probability of drawing 3 aces from a deck of 52 cards if you draw 5 cards.'
+  IDs: [12629, 21452]
+
+Query (appears 2 times): 'compute the binomial probability of getting exactly 3 successes in 10 trials with a success probability of 0.5.'
+  IDs: [12703, 16977]
+
+Query (appears 2 times): 'list all hotel types available on booking.com.'
+  IDs: [12722, 27431]
+
+Query (appears 2 times): 'what are the details of the youtube playlist with id 'plcirgkcpmbmfeq1sm4wfcif03d_eroifr'?'
+  IDs: [12783, 19415]
+
+Query (appears 2 times): 'what is the factorial of 7?'
+  IDs: [12792, 29851]
+
+Query (appears 2 times): 'get the latest weather updates for chicago.'
+  IDs: [12800, 26980]
+
+Query (appears 2 times): 'retrieve a random motivational quote.'
+  IDs: [12914, 20951]
+
+Query (appears 2 times): 'what are the sunrise and sunset times in tokyo today, and what is the moon phase for the same day?'
+  IDs: [12947, 14356]
+
+Query (appears 2 times): 'check if 371 is an armstrong number and merge {'x': 5, 'y': 6} with {'y': 7, 'z': 8}.'
+  IDs: [13044, 29910]
+
+Query (appears 2 times): 'count occurrences of each element in the list [1, 2, 2, 3, 3, 3, 4, 4, 4, 4].'
+  IDs: [13116, 28455]
+
+Query (appears 2 times): 'calculate the daily calorie intake for a 30-year-old male, weighing 75 kg, 180 cm tall, with an active lifestyle aiming to maintain weight.'
+  IDs: [13206, 27009]
+
+Query (appears 2 times): 'what is the current price of the busd token on pancakeswap?'
+  IDs: [13272, 22221]
+
+Query (appears 2 times): 'can you merge two sorted lists: [1, 3, 5] and [2, 4, 6] into a single sorted list?'
+  IDs: [13425, 23586]
+
+Query (appears 2 times): 'search for movies related to 'star wars'.'
+  IDs: [13452, 53948]
+
+Query (appears 2 times): 'find the next greater element for each number in the list [10, 20, 30, 40, 50].'
+  IDs: [13475, 28886]
+
+Query (appears 2 times): 'what are the rental settings for new york in usd?'
+  IDs: [13495, 30417]
+
+Query (appears 2 times): 'determine if 'listen' and 'silent' are anagrams.'
+  IDs: [13498, 29167]
+
+Query (appears 2 times): 'find the least common multiple of 18 and 24.'
+  IDs: [13526, 31068]
+
+Query (appears 2 times): 'calculate the 10th and 20th fibonacci numbers.'
+  IDs: [13618, 18832]
+
+Query (appears 2 times): 'download a screenshot with id 12345.'
+  IDs: [13623, 23247]
+
+Query (appears 2 times): 'i'm looking for details on the tv show with tvdb id 223344. can you also find the live stream link for the match with id 443322?'
+  IDs: [13638, 26132]
+
+Query (appears 2 times): 'can you tell me the hourly forecast for new york city tomorrow?'
+  IDs: [13674, 13970]
+
+Query (appears 2 times): 'can you perform a dynamic structural analysis on building 1234 for floors 5, 10, and 15?'
+  IDs: [13696, 33329]
+
+Query (appears 2 times): 'if i invest $1000 at an annual interest rate of 3% for 5 years, what will be the future value of my investment?'
+  IDs: [13706, 32967]
+
+Query (appears 2 times): 'what are the wnba standings for the year 2022, grouped by conference?'
+  IDs: [13798, 23019]
+
+Query (appears 2 times): 'convert 500 eur to usd and gbp.'
+  IDs: [13821, 15057]
+
+Query (appears 2 times): 'retrieve the latest news in french from france.'
+  IDs: [13869, 26265]
+
+Query (appears 2 times): 'search for a product named 'superfast charger'.'
+  IDs: [13898, 29694]
+
+Query (appears 2 times): 'is 153 an armstrong number? also, find the missing ranges between 10 and 50 in the list [15, 20, 35, 40].'
+  IDs: [14088, 25954]
+
+Query (appears 2 times): 'list all public holidays in germany for the year 2024.'
+  IDs: [14140, 18455]
+
+Query (appears 2 times): 'can you reverse the sentence 'hello world, how are you?' and find all .txt files in the 'documents' directory?'
+  IDs: [14158, 28583]
+
+Query (appears 2 times): 'list all plants originating from africa.'
+  IDs: [14168, 32099]
+
+Query (appears 2 times): 'who was the runner-up in the ncaa final four for the year 2019?'
+  IDs: [14228, 21329]
+
+Query (appears 2 times): 'is 144 a perfect square number?'
+  IDs: [14265, 19862]
+
+Query (appears 2 times): 'determine if the words 'listen' and 'silent' are anagrams.'
+  IDs: [14272, 58215]
+
+Query (appears 2 times): 'what are the albums of taylor swift available on spotify?'
+  IDs: [14366, 33391]
+
+Query (appears 2 times): 'search for a product in kohl's database using its upc '987654321098'.'
+  IDs: [14479, 18093]
+
+Query (appears 2 times): 'calculate the love match percentage between 'john' and 'mary'.'
+  IDs: [14480, 31618]
+
+Query (appears 2 times): 'find a peak element in the list [1, 2, 3, 2, 1].'
+  IDs: [14539, 39779]
+
+Query (appears 2 times): 'find the longest palindromic substring in the word 'racecar'.'
+  IDs: [14565, 32993]
+
+Query (appears 2 times): 'retrieve the first 100 country names in ascending order.'
+  IDs: [14595, 26605]
+
+Query (appears 2 times): 'retrieve the independent albums chart for the week starting october 8, 2022.'
+  IDs: [14669, 20406]
+
+Query (appears 2 times): 'what is the reputation of the ip address 8.8.8.8?'
+  IDs: [14685, 31754]
+
+Query (appears 2 times): 'is the string 'a man, a plan, a canal: panama' a valid palindrome?'
+  IDs: [14769, 30759]
+
+Query (appears 2 times): 'what are the regions in south africa and egypt?'
+  IDs: [14785, 32913]
+
+Query (appears 2 times): 'check if 'astronomer' and 'moon starer' are anagrams.'
+  IDs: [14826, 21406]
+
+Query (appears 2 times): 'compute the area of a circle with a radius of 7 units.'
+  IDs: [14840, 21446]
+
+Query (appears 2 times): 'what were the exchange rates for usd to eur, jpy, and gbp on march 15, 2023?'
+  IDs: [14847, 22243]
+
+Query (appears 2 times): 'retrieve order details for order id '2468101214' from the my-store2 api.'
+  IDs: [14875, 22668]
+
+Query (appears 2 times): 'is the number 49 a perfect square?'
+  IDs: [14894, 42496]
+
+Query (appears 2 times): 'verify if 64 and 128 are powers of two.'
+  IDs: [14903, 29220]
+
+Query (appears 2 times): 'add the binary numbers '1011' and '1101'.'
+  IDs: [14920, 19239]
+
+Query (appears 2 times): 'find the angle at 9:45 am.'
+  IDs: [15059, 26915]
+
+Query (appears 2 times): 'determine the neuronal activity rate with a synaptic input rate of 100 inputs per second, a synaptic weight of 0.8, and a decay constant of 0.05.'
+  IDs: [15237, 21461]
+
+Query (appears 2 times): 'lookup detailed information for the ip address 8.8.8.8.'
+  IDs: [15267, 22902]
+
+Query (appears 2 times): 'who are the actors born on december 25th?'
+  IDs: [15295, 32143]
+
+Query (appears 2 times): 'determine if 'the eyes' and 'they see' are anagrams.'
+  IDs: [15359, 41431]
+
+Query (appears 2 times): 'can you fetch a random adjective and a random adverb?'
+  IDs: [15503, 16140]
+
+Query (appears 2 times): 'find the longest palindromic substring in the string 'racecar madam''
+  IDs: [15508, 21883]
+
+Query (appears 2 times): 'retrieve comments for the product with id '123456789'.'
+  IDs: [15512, 24505]
+
+Query (appears 2 times): 'for these lists: [1, 2, 3, 4, 5], [5, 5, 5, 5, 5], and [6, 7, 8, 9, 10], which ones have a majority element?'
+  IDs: [15514, 31389]
+
+Query (appears 2 times): 'find the equilibrium index in the list [1, 2, 3, 4, 5, 6].'
+  IDs: [15551, 16054]
+
+Query (appears 2 times): 'determine if 'hello' is a rotation of 'lohel'.'
+  IDs: [15643, 25269]
+
+Query (appears 2 times): 'calculate the total alimony in california for a payor with a monthly income of $5000 and a recipient with a monthly income of $2000 over 5 years.'
+  IDs: [15677, 18655]
+
+Query (appears 2 times): 'what are the coordinates of los angeles?'
+  IDs: [15741, 21882]
+
+Query (appears 2 times): 'how many trees are needed to produce 500 kg of paper?'
+  IDs: [15765, 59499]
+
+Query (appears 2 times): 'check if the sentence 'a man, a plan, a canal: panama' is a palindrome, and reverse the words in the sentence 'python is fun'.'
+  IDs: [15824, 23793]
+
+Query (appears 2 times): 'find the least common multiple of 24 and 36.'
+  IDs: [15833, 57197]
+
+Query (appears 2 times): 'find the longest palindromic substring in the sentence 'able was i ere i saw elba.''
+  IDs: [15965, 16335]
+
+Query (appears 2 times): 'are 'eleven plus two' and 'twelve plus one' anagrams?'
+  IDs: [16001, 31997]
+
+Query (appears 2 times): 'what is the geolocation of the ip address 8.8.8.8?'
+  IDs: [16138, 44983]
+
+Query (appears 2 times): 'check if 371 is an armstrong number.'
+  IDs: [16162, 19382]
+
+Query (appears 2 times): 'fetch the ticker information for the top 10 cryptocurrencies starting from index 20.'
+  IDs: [16282, 27145]
+
+Query (appears 2 times): 'check if the number 17 is a prime number.'
+  IDs: [16304, 19752]
+
+Query (appears 2 times): 'convert 500 grams of sugar to cups.'
+  IDs: [16556, 20462]
+
+Query (appears 2 times): 'calculate the probability of rolling a sum of 8 with 2 dice, each having 6 faces.'
+  IDs: [16637, 27289]
+
+Query (appears 2 times): 'i need to know if there's a majority element in these three lists: [2, 2, 3, 3, 3], [4, 4, 4, 5, 5], and [6, 6, 6, 7, 7].'
+  IDs: [16639, 28964]
+
+Query (appears 2 times): 'is 64 a power of 2 and is 121 a perfect square?'
+  IDs: [16673, 29544]
+
+Query (appears 2 times): 'can you tell me if pikachu can learn the move thunderbolt?'
+  IDs: [16674, 18231]
+
+Query (appears 2 times): 'what moves can pikachu learn?'
+  IDs: [16736, 21116]
+
+Query (appears 2 times): 'count occurrences of each element in the list ['apple', 'banana', 'apple', 'orange', 'banana', 'banana'].'
+  IDs: [16772, 31498]
+
+Query (appears 2 times): 'what were the qualifying results for the 2022 formula 1 race in monaco?'
+  IDs: [16793, 25526]
+
+Query (appears 2 times): 'what are the channel panels for the twitch channel 'esl_sc2' and the streamer info for 'ninja'?'
+  IDs: [16800, 27738]
+
+Query (appears 2 times): 'can you verify if 16 and 32 are powers of two?'
+  IDs: [16884, 32427]
+
+Query (appears 2 times): 'generate 10 random posts for a social media analysis project.'
+  IDs: [17028, 26650]
+
+Query (appears 2 times): 'find homeless shelters in zip code 90210.'
+  IDs: [17067, 22462]
+
+Query (appears 2 times): 'determine the probability of rolling a sum of 8 with 2 dice, each having 6 faces.'
+  IDs: [17228, 29488]
+
+Query (appears 2 times): 'what will be the future value of an investment of $10000 at an annual interest rate of 3% over 10 years?'
+  IDs: [17312, 31763]
+
+Query (appears 2 times): 'what are the roots of the quadratic equation where a=1, b=5, and c=6?'
+  IDs: [17329, 24895]
+
+Query (appears 2 times): 'what is the geographical location of ip address 8.8.8.8?'
+  IDs: [17437, 27532]
+
+Query (appears 2 times): 'what are the details of the youtube video with the id 'dqw4w9wgxcq'?'
+  IDs: [17453, 26150]
+
+Query (appears 2 times): 'calculate the resistance of a copper wire that is 100 meters long with a cross-sectional area of 0.5 square meters, and an aluminum wire of the same dimensions.'
+  IDs: [17468, 32819]
+
+Query (appears 2 times): 'can you find the majority element in the list [2, 2, 1, 1, 1, 2, 2] and generate a password of length 15 including special characters?'
+  IDs: [17657, 23824]
+
+Query (appears 2 times): 'get the most recent news in spanish from spain.'
+  IDs: [17666, 28520]
+
+Query (appears 2 times): 'what are the details of the youtube video with id 'dqw4w9wgxcq'?'
+  IDs: [17829, 27227]
+
+Query (appears 2 times): 'create a histogram for the data set [1, 2, 2, 3, 3, 3, 4, 4, 4, 4] with 4 bins.'
+  IDs: [17873, 22240]
+
+Query (appears 2 times): 'what are the current day statistics for jfk airport and lax airport?'
+  IDs: [17993, 24352]
+
+Query (appears 2 times): 'flatten the list [1, [2, 3], [4, [5, 6]]].'
+  IDs: [18012, 30853]
+
+Query (appears 2 times): 'determine the electric field at a distance of 1 meter from a charge of 1 coulomb.'
+  IDs: [18060, 23752]
+
+Query (appears 2 times): 'is 192.168.1.1 a valid ip address?'
+  IDs: [18098, 27083]
+
+Query (appears 2 times): 'determine the euclidean distance between points (1, 2, 3) and (4, 5, 6).'
+  IDs: [18130, 20320]
+
+Query (appears 2 times): 'list all quarterbacks in the national football players database.'
+  IDs: [18227, 26343]
+
+Query (appears 2 times): 'how many grams of sugar are there in 2 cups?'
+  IDs: [18260, 21099]
+
+Query (appears 2 times): 'what is the current shares float for apple inc. (aapl) and microsoft corp. (msft)?'
+  IDs: [18276, 18866]
+
+Query (appears 2 times): 'find the longest word in the list ['apple', 'banana', 'kiwi', 'pineapple'].'
+  IDs: [18315, 26237]
+
+Query (appears 2 times): 'describe the cultivation process for an easy difficulty cannabis strain.'
+  IDs: [18353, 24009]
+
+Query (appears 2 times): 'generate profile images for names 'alice' and 'bob'.'
+  IDs: [18471, 20931]
+
+Query (appears 2 times): 'check if pikachu can learn the move thunderbolt.'
+  IDs: [18478, 28264]
+
+Query (appears 2 times): 'fetch the latest coronavirus news for france.'
+  IDs: [18514, 21383]
+
+Query (appears 2 times): 'perform an independent samples t-test on two samples: [1, 2, 3, 4, 5] and [2, 3, 4, 5, 6] with a significance level of 0.05.'
+  IDs: [18515, 31211]
+
+Query (appears 2 times): 'what is the longest word in the list ['algorithm', 'data', 'structure']?'
+  IDs: [18544, 23507]
+
+Query (appears 2 times): 'what is the range of numbers from 10 to 20?'
+  IDs: [18591, 33046]
+
+Query (appears 2 times): 'calculate the resistance of a copper wire that is 100 meters long with a cross-sectional area of 0.0005 square meters.'
+  IDs: [18658, 19619]
+
+Query (appears 2 times): 'predict the y-value for an x-value of 10 in a dataset where x_values are [1, 2, 3, 4, 5] and y_values are [2, 4, 6, 8, 10].'
+  IDs: [18802, 21560]
+
+Query (appears 2 times): 'can you check if my email, john.doe@example.com, has been involved in any data breaches recently?'
+  IDs: [18871, 29601]
+
+Query (appears 2 times): 'perform an independent samples t-test on two samples: [1, 2, 3, 4, 5] and [2, 3, 4, 5, 6] with a significance level of 0.01.'
+  IDs: [18915, 21693]
+
+Query (appears 2 times): 'sort the numbers [3.2, 1.5, 2.7, 4.1] in ascending order and in descending order.'
+  IDs: [18956, 20189]
+
+Query (appears 2 times): 'predict the forest area change in siberia over 5 years without considering human impact.'
+  IDs: [19185, 31490]
+
+Query (appears 2 times): 'draw 10 random cards from a shuffled deck.'
+  IDs: [19197, 31629]
+
+Query (appears 2 times): 'determine if 'dormitory' and 'dirty room' are anagrams.'
+  IDs: [19233, 22787]
+
+Query (appears 2 times): 'get ai learning resources from page 3.'
+  IDs: [19259, 30101]
+
+Query (appears 2 times): 'what is the 30th fibonacci number?'
+  IDs: [19270, 39106]
+
+Query (appears 2 times): 'what is the standard deviation of the numbers 1, 2, 3, 4, 5?'
+  IDs: [19275, 35984]
+
+Query (appears 2 times): 'calculate the frequency of each word in the text 'the quick brown fox jumps over the lazy dog.''
+  IDs: [19285, 54443]
+
+Query (appears 2 times): 'determine the density of an object with a mass of 500 grams and a volume of 50 cubic centimeters.'
+  IDs: [19287, 20919]
+
+Query (appears 2 times): 'could you provide the hourly weather forecast for chicago today?'
+  IDs: [19323, 30836]
+
+Query (appears 2 times): 'search for icons related to 'technology' with a size of 128 pixels and a red color.'
+  IDs: [19408, 23387]
+
+Query (appears 2 times): 'check if the numbers 49, 55, and 64 are perfect squares.'
+  IDs: [19431, 23364]
+
+Query (appears 2 times): 'verify if 'debit card' and 'bad credit' are anagrams.'
+  IDs: [19482, 29815]
+
+Query (appears 2 times): 'what is the islamic perspective on charity?'
+  IDs: [19506, 20232]
+
+Query (appears 2 times): 'calculate the area of a polygon with vertices at (3,4), (5,11), (12,8), and (9,5) using the shoelace formula.'
+  IDs: [19525, 27683]
+
+Query (appears 2 times): 'what are the albums of ariana grande available on spotify?'
+  IDs: [19543, 29347]
+
+Query (appears 2 times): 'calculate the euclidean distance between points (1, 2, 3) and (4, 5, 6).'
+  IDs: [19762, 57539]
+
+Query (appears 2 times): 'if i invest $1000 at an annual return rate of 5% for 10 years, how much profit will i make?'
+  IDs: [19768, 39027]
+
+Query (appears 2 times): 'determine the greatest common divisor of 105 and 24.'
+  IDs: [19820, 31071]
+
+Query (appears 2 times): 'integrate the function x^2 from 0 to 1 using the trapezoidal rule with 10000 subdivisions.'
+  IDs: [19858, 24079]
+
+Query (appears 2 times): 'what is the organization name associated with the domain 'google.com'?'
+  IDs: [19880, 38359]
+
+Query (appears 2 times): 'in a deck of 52 cards, what's the probability of drawing exactly 5 red cards if you draw 10 cards?'
+  IDs: [19907, 31626]
+
+Query (appears 2 times): 'fetch the first 20 quotes from the radio world api.'
+  IDs: [19930, 28916]
+
+Query (appears 2 times): 'can you generate a 10-character password with uppercase, lowercase, and digits?'
+  IDs: [19978, 21715]
+
+Query (appears 2 times): 'calculate the displacement of an object with an initial velocity of 10 m/s, accelerating at 2 m/s² for 5 seconds.'
+  IDs: [20122, 27134]
+
+Query (appears 2 times): 'what are the cricket fixtures for 2023-07-15?'
+  IDs: [20155, 33190]
+
+Query (appears 2 times): 'compute the least common multiple of 15 and 20.'
+  IDs: [20243, 20256]
+
+Query (appears 2 times): 'can you fetch the 4d lottery results for toto on january 1, 2023?'
+  IDs: [20260, 31462]
+
+Query (appears 2 times): 'what are the auto-complete suggestions for 'modern sofa' on wayfair?'
+  IDs: [20289, 20736]
+
+Query (appears 2 times): 'calculate the investment return for an initial amount of $1000, an interest rate of 5%, over 10 years.'
+  IDs: [20316, 31664]
+
+Query (appears 2 times): 'what are the regions of france and germany?'
+  IDs: [20537, 20998]
+
+Query (appears 2 times): 'how many set bits are there in the binary representation of the number 23?'
+  IDs: [20631, 21642]
+
+Query (appears 2 times): 'determine the electric field at a distance of 1 meter from a charge of 10 coulombs.'
+  IDs: [20653, 24945]
+
+Query (appears 2 times): 'i need information on the tv show identified by tvdb id 987654. also, what's the streaming link for the soccer match with id 654321?'
+  IDs: [20824, 26114]
+
+Query (appears 2 times): 'what is the current time in tokyo, asia?'
+  IDs: [21011, 31454]
+
+Query (appears 2 times): 'calculate the distance between new york city (40.7128° n, 74.0060° w) and los angeles (34.0522° n, 118.2437° w) in miles.'
+  IDs: [21054, 45286]
+
+Query (appears 2 times): 'find all pairs of numbers in the list [1, 2, 3, 4, 5] that sum up to 5.'
+  IDs: [21057, 25980]
+
+Query (appears 2 times): 'find a peak element in the list [1, 2, 3, 1].'
+  IDs: [21123, 28646]
+
+Query (appears 2 times): 'determine if the string 'a man a plan a canal panama' is a valid palindrome.'
+  IDs: [21177, 28124]
+
+Query (appears 2 times): 'can you fetch details for item id 12345 and also for item id 67890?'
+  IDs: [21269, 26120]
+
+Query (appears 2 times): 'count the occurrences of each number in the list [1, 2, 2, 3, 3, 3, 4, 4, 4, 4].'
+  IDs: [21303, 54080]
+
+Query (appears 2 times): 'what is the 3rd smallest number in the list [5, 2, 9, 1, 8, 3, 7, 4, 6]?'
+  IDs: [21322, 23037]
+
+Query (appears 2 times): 'what is the minimum element in the rotated sorted array [4, 5, 6, 7, 0, 1, 2]?'
+  IDs: [21327, 27094]
+
+Query (appears 2 times): 'retrieve a list of ai companies from the 5th page using the rapidapi service.'
+  IDs: [21500, 32907]
+
+Query (appears 2 times): 'find the cosine similarity between vectors [0.5, 0.5, 0.5] and [1, 1, 1].'
+  IDs: [21536, 27239]
+
+Query (appears 2 times): 'what is the probability of rolling a 6 on a six-sided die three times in a row?'
+  IDs: [21547, 32794]
+
+Query (appears 2 times): 'retrieve the article with id 12345 from malaysia kini.'
+  IDs: [21605, 31052]
+
+Query (appears 2 times): 'fetch the latest coronavirus news globally.'
+  IDs: [21670, 29742]
+
+Query (appears 2 times): 'can charmander learn the move 'flamethrower'?'
+  IDs: [21675, 32781]
+
+Query (appears 2 times): 'calculate the age of a person born on '1990-01-01'.'
+  IDs: [21702, 57928]
+
+Query (appears 2 times): 'fetch the ticker information for the first 10 cryptocurrencies starting from index 0.'
+  IDs: [21733, 29327]
+
+Query (appears 2 times): 'what are the urls for the educational videos on quantum physics and can you fetch the details of the playlist that contains them?'
+  IDs: [21743, 29417]
+
+Query (appears 2 times): 'calculate the electric field at a distance of 2 meters from a charge of 5 coulombs.'
+  IDs: [21751, 33433]
+
+Query (appears 2 times): 'assess the diabetes risk for a person weighing 180 lbs, 70 inches tall, and moderately active.'
+  IDs: [21849, 31002]
+
+Query (appears 2 times): 'i'm looking for the event details of event id 12345 and the ncaa final four summary for '2023-champion'.'
+  IDs: [21901, 31258]
+
+Query (appears 2 times): 'what are the details of the tv show with tvdb id 445566? additionally, can you find the live stream for match id 665544?'
+  IDs: [22008, 26669]
+
+Query (appears 2 times): 'log in a user named 'johndoe' with password 'password123'.'
+  IDs: [22105, 24584]
+
+Query (appears 2 times): 'if a baseball player has 45 hits in 150 at-bats, what is his batting average?'
+  IDs: [22166, 23407]
+
+Query (appears 2 times): 'find all pairs of integers in the list [10, 20, 30, 40, 50] that sum up to 60.'
+  IDs: [22274, 46344]
+
+Query (appears 2 times): 'convert the text 'hello, world!' to speech in german.'
+  IDs: [22366, 25933]
+
+Query (appears 2 times): 'determine if 16 and 32 are powers of two.'
+  IDs: [22414, 22704]
+
+Query (appears 2 times): 'get autocomplete suggestions for the zip code '90210'.'
+  IDs: [22599, 51440]
+
+Query (appears 2 times): 'calculate the future value of an investment of $5000 with an annual interest rate of 4% over 5 years.'
+  IDs: [22655, 41676]
+
+Query (appears 2 times): 'can you find details for records with ids 12345, 67890, and 54321?'
+  IDs: [22713, 32763]
+
+Query (appears 2 times): 'categorize a product titled 'luxury watch' with a price of 500.'
+  IDs: [22767, 27506]
+
+Query (appears 2 times): 'can you provide the weather forecast for new york city for the next 5 days, and also for tokyo for the same duration?'
+  IDs: [22814, 30153]
+
+Query (appears 2 times): 'can you fetch the albums of taylor swift from her spotify page and the billboard artist 100 chart for the week of 2023-04-01?'
+  IDs: [22889, 30727]
+
+Query (appears 2 times): 'can you find the longest word in the list ['apple', 'banana', 'kiwi', 'pineapple'] and check if the string '()[]{}' has valid parentheses?'
+  IDs: [22892, 31558]
+
+Query (appears 2 times): 'determine if 125 is a power of 5.'
+  IDs: [23004, 45581]
+
+Query (appears 2 times): 'fetch caiso data for co2 emissions from january 1, 2022, to september 1, 2022, with a data interval of 60 minutes.'
+  IDs: [23168, 24742]
+
+Query (appears 2 times): 'convert 1000 usd to eur and jpy.'
+  IDs: [23301, 27074]
+
+Query (appears 2 times): 'estimate the bacterial population after 30 minutes with an initial population of 1000 and a growth rate of 0.05 per minute.'
+  IDs: [23342, 31951]
+
+Query (appears 2 times): 'what are the sources of information for jailbase?'
+  IDs: [23367, 26692]
+
+Query (appears 2 times): 'what is the geolocation information for the ip address 8.8.8.8?'
+  IDs: [23370, 51909]
+
+Query (appears 2 times): 'retrieve the latest 100 matchmaking matches in trackmania.'
+  IDs: [23399, 55499]
+
+Query (appears 2 times): 'multiply two matrices: [[1, 2, 3], [4, 5, 6]] and [[7, 8], [9, 10], [11, 12]].'
+  IDs: [23479, 27569]
+
+Query (appears 2 times): 'determine the next greater element for each number in the list [13, 7, 6, 12].'
+  IDs: [23498, 28967]
+
+Query (appears 2 times): 'find the first non-repeating character in the sentence 'the quick brown fox jumps over the lazy dog''
+  IDs: [23565, 24188]
+
+Query (appears 2 times): 'what is the current gas price in california?'
+  IDs: [23630, 50747]
+
+Query (appears 2 times): 'determine the profit from investing $5000 at a 3% annual rate for 5 years.'
+  IDs: [24052, 29550]
+
+Query (appears 2 times): 'check if the royal hotel in paris is available from 2022-04-11 to 2022-04-15.'
+  IDs: [24070, 28894]
+
+Query (appears 2 times): 'list all kohl's stores within a 50-mile radius of san francisco, california.'
+  IDs: [24093, 24488]
+
+Query (appears 2 times): 'is the year 2400 a leap year?'
+  IDs: [24134, 32079]
+
+Query (appears 2 times): 'what is the neuronal activity rate of a neuron with a synaptic input rate of 100 inputs per second, a synaptic weight of 0.5, and a decay constant of 0.05?'
+  IDs: [24139, 30879]
+
+Query (appears 2 times): 'what is the current national average gas price in the us?'
+  IDs: [24148, 45797]
+
+Query (appears 2 times): 'calculate the average of the numbers 10, 20, 30, 40, and 50.'
+  IDs: [24248, 28288]
+
+Query (appears 2 times): 'calculate the median of the numbers [4.5, 2, 8, 6, 10, 12].'
+  IDs: [24320, 30116]
+
+Query (appears 2 times): 'can you find related artists for the album with id '12345' and also for '67890' in english?'
+  IDs: [24542, 27571]
+
+Query (appears 2 times): 'retrieve all bus stops within a 5-mile radius of longitude -75.1652 and latitude 39.9526.'
+  IDs: [24649, 25130]
+
+Query (appears 2 times): 'fetch the latest news in japanese from japan.'
+  IDs: [24767, 24820]
+
+Query (appears 2 times): 'what is the average of the numbers 10, 20, 30, 40, and 50?'
+  IDs: [24782, 39253]
+
+Query (appears 2 times): 'determine if the numbers 16, 25, and 30 are perfect squares.'
+  IDs: [24924, 25150]
+
+Query (appears 2 times): 'count the number of vowels in the text 'hello, world!'.'
+  IDs: [25000, 41784]
+
+Query (appears 2 times): 'what is the current stock price of apple inc. (aapl)?'
+  IDs: [25006, 39291]
+
+Query (appears 2 times): 'display plants from europe.'
+  IDs: [25114, 30827]
+
+Query (appears 2 times): 'determine if 'listen' and 'silent' are anagrams, and also check if 'astronomer' and 'moon starer' are anagrams.'
+  IDs: [25360, 33425]
+
+Query (appears 2 times): 'generate a password of length 10 without special characters.'
+  IDs: [25597, 34536]
+
+Query (appears 2 times): 'get the location coordinates of ip address 8.8.8.8.'
+  IDs: [25725, 26674]
+
+Query (appears 2 times): 'determine the 20th fibonacci number.'
+  IDs: [25752, 31122]
+
+Query (appears 2 times): 'retrieve reviews for products with ids 10196865 and 10196866 in english and usd, and for products with ids 10196867 and 10196868 in spanish and eur.'
+  IDs: [25799, 27840]
+
+Query (appears 2 times): 'check if 243 is a power of 3.'
+  IDs: [25977, 47122]
+
+Query (appears 2 times): 'determine the final velocity of a car that starts at 30 km/h and accelerates at 10 km/h² for 5 hours.'
+  IDs: [26062, 32828]
+
+Query (appears 2 times): 'what is the whois information for example.com?'
+  IDs: [26181, 59624]
+
+Query (appears 2 times): 'what is the hourly weather forecast for new york city today?'
+  IDs: [26313, 28811]
+
+Query (appears 2 times): 'convert 500 grams of flour to cups.'
+  IDs: [26331, 31109]
+
+Query (appears 2 times): 'find homeless shelters in seattle, washington.'
+  IDs: [26431, 57553]
+
+Query (appears 2 times): 'search for 'empire state building' in new york, usa'
+  IDs: [26593, 31570]
+
+Query (appears 2 times): 'compute the cosine similarity between two vectors: [1, 2, 3] and [4, 5, 6].'
+  IDs: [26691, 32132]
+
+Query (appears 2 times): 'can you find ted talks by yuval noah harari in hebrew audio and english subtitles, published after 2018?'
+  IDs: [26693, 28845]
+
+Query (appears 2 times): 'calculate the area of a triangle with vertices at (3, 4), (5, 11), and (12, 8).'
+  IDs: [27013, 29476]
+
+Query (appears 2 times): 'calculate the final velocity of a car that starts at 30 m/s and accelerates at 5 m/s² for 10 seconds.'
+  IDs: [27051, 31013]
+
+Query (appears 2 times): 'find all pairs of integers in the list [3, 4, 5, 6, 7] that sum up to 10.'
+  IDs: [27058, 27617]
+
+Query (appears 2 times): 'check if the numbers 548834 and 1741725 are sums of the cubes of their digits.'
+  IDs: [27081, 31233]
+
+Query (appears 2 times): 'find the latitude and longitude of new york city.'
+  IDs: [27129, 34575]
+
+Query (appears 2 times): 'i need technical data for 'tt0111161', 'tt0111169', and 'tt0111162'. can you get that for me?'
+  IDs: [27183, 33057]
+
+Query (appears 2 times): 'compute the least common multiple of 12 and 15.'
+  IDs: [27226, 41326]
+
+Query (appears 2 times): 'calculate the profit from an investment of $10000 with an annual return rate of 5% over 10 years.'
+  IDs: [27231, 34001]
+
+Query (appears 2 times): 'list all room facility types available in hotels.'
+  IDs: [27403, 32864]
+
+Query (appears 2 times): 'check if the sudoku board [[5,3,'.','.',7,'.','.','.','.'], [6,'.','.',1,9,5,'.','.','.'], ['.',9,8,'.','.','.','.',6,'.'], [8,'.','.','.',6,'.','.','.',3], [4,'.','.',8,'.',3,'.','.',1], [7,'.','.','.',2,'.','.','.',6], ['.',6,'.','.','.','.',2,8,'.'], ['.','.','.',4,1,9,'.','.',5], ['.','.','.','.',8,'.','.',7,9]] is valid.'
+  IDs: [27438, 30244]
+
+Query (appears 2 times): 'please retrieve the boundary data for hamilton and victoria.'
+  IDs: [27468, 30957]
+
+Query (appears 2 times): 'sort the list [0.5, 0.2, 0.8, 0.1] in ascending order.'
+  IDs: [27614, 32129]
+
+Query (appears 2 times): 'retrieve science news articles in french for france and in german for germany.'
+  IDs: [27975, 30053]
+
+Query (appears 2 times): 'create a 10-character password without special characters.'
+  IDs: [28154, 31409]
+
+Query (appears 2 times): 'what is the average of the numbers 10, 20, 30, 40, 50?'
+  IDs: [28300, 32541]
+
+Query (appears 2 times): 'solve the quadratic equation x^2 - 3x + 2 = 0.'
+  IDs: [28539, 31929]
+
+Query (appears 2 times): 'blur an image with a blur level of 5 and resize it to 200x200 pixels.'
+  IDs: [28601, 38072]
+
+Query (appears 2 times): 'sort the numbers [3.2, 1.1, 5.5, 2.2] in descending order.'
+  IDs: [28758, 32181]
+
+Query (appears 2 times): 'calculate the area of a triangle with a base of 10 cm and a height of 5 cm.'
+  IDs: [29152, 44260]
+
+Query (appears 2 times): 'retrieve 50 records from the crossref database.'
+  IDs: [29154, 49648]
+
+Query (appears 2 times): 'is 100 a perfect square?'
+  IDs: [29530, 51987]
+
+Query (appears 2 times): 'find the least common multiple of 15 and 20.'
+  IDs: [29712, 48094]
+
+Query (appears 2 times): 'find the maximum sum of a contiguous subarray in the list [-1, -2, -3, -4, -5].'
+  IDs: [30167, 36790]
+
+Query (appears 2 times): 'what is the current gas price in arkansas?'
+  IDs: [30236, 41634]
+
+Query (appears 2 times): 'what were the azure events on page 3?'
+  IDs: [30513, 32696]
+
+Query (appears 2 times): 'fetch the favorite champions data using the default skin name.'
+  IDs: [30632, 46713]
+
+Query (appears 2 times): 'fetch trending sticker packs from the mojitok sticker store.'
+  IDs: [30794, 36458]
+
+Query (appears 2 times): 'retrieve the content of the news article with id 12345 from malaysia kini.'
+  IDs: [30985, 48483]
+
+Query (appears 2 times): 'solve the quadratic equation 2x^2 - 3x + 1 = 0.'
+  IDs: [31155, 32708]
+
+Query (appears 2 times): 'locate all .jpg files in the '/home/user/pictures' directory and its subdirectories.'
+  IDs: [31342, 31538]
+
+Query (appears 2 times): 'what is the zip code for san francisco?'
+  IDs: [31456, 50024]
+
+Query (appears 2 times): 'are the words 'listen' and 'silent' anagrams?'
+  IDs: [31955, 32072]
+
+Query (appears 2 times): 'what is the 3rd smallest number in the list [5, 2, 9, 1, 7]?'
+  IDs: [32463, 49939]
+
+Query (appears 2 times): 'what is the current date and time in tokyo?'
+  IDs: [32942, 50095]
+
+Query (appears 2 times): 'what is the return on an investment of $1000 at an annual interest rate of 5% over 10 years?'
+  IDs: [33171, 38278]
+
+Query (appears 2 times): 'fetch the first page of power bi learning resources.'
+  IDs: [33225, 49871]
+
+Query (appears 2 times): 'retrieve related artist information for the album with id '98765432' in english ('en-us'), spanish ('es'), and russian ('ru').'
+  IDs: [33618, 42984]
+
+Query (appears 2 times): 'find the latitude and longitude coordinates of the ip address 8.8.8.8.'
+  IDs: [33803, 58032]
+
+Query (appears 2 times): 'is 1000 a power of 2?'
+  IDs: [33825, 53018]
+
+Query (appears 2 times): 'is the queens hotel in berlin available from march 12 to march 15, and what's the risk level for a person with a weight of 180 lbs, height of 70 inches, and a sedentary lifestyle?'
+  IDs: [33842, 57632]
+
+Query (appears 2 times): 'what is the derivative of the function f(x) = x^2 at the point x = 3?'
+  IDs: [33917, 44071]
+
+Query (appears 2 times): 'what is the probability of rolling a sum of 10 with 3 six-sided dice?'
+  IDs: [33931, 43072]
+
+Query (appears 2 times): 'what is the result of multiplying the matrices [[1, 2], [3, 4]] and [[5, 6], [7, 8]]?'
+  IDs: [34284, 42866]
+
+Query (appears 2 times): 'what is the cosine similarity between the vectors [1, 2, 3] and [4, 5, 6]?'
+  IDs: [34305, 35704]
+
+Query (appears 2 times): 'what is the average of the numbers 1, 2, 3, 4, and 5?'
+  IDs: [34324, 53744]
+
+Query (appears 2 times): 'assess the diabetes risk for a person who weighs 180 pounds, is 70 inches tall, and is moderately active.'
+  IDs: [34434, 46186]
+
+Query (appears 2 times): 'find the longest common prefix in the list: ['apple', 'appetizer', 'apricot']. flatten the nested list: [[1, 2], [3, 4, [5, 6]], [7, 8]].'
+  IDs: [34518, 44285]
+
+Query (appears 2 times): 'what is the probability of rolling a sum of 15 with 3 six-sided dice?'
+  IDs: [34576, 51044]
+
+Query (appears 2 times): 'what is the state and lga associated with the nigerian plate number 'abc123'?'
+  IDs: [34631, 46394]
+
+Query (appears 2 times): 'what are the latitude and longitude coordinates of the ip address '8.8.8.8'?'
+  IDs: [34813, 35465]
+
+Query (appears 2 times): 'find the duplicate number in the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 2].'
+  IDs: [34863, 54584]
+
+Query (appears 2 times): 'find the factorial of 5.'
+  IDs: [35113, 47319]
+
+Query (appears 2 times): 'could you provide the latest spac price targets for the company with the symbol 'sofi'? i also want to see the company overview for 'fb' in french.'
+  IDs: [35160, 54020]
+
+Query (appears 2 times): 'fetch the astrological information for libra, scorpio, and sagittarius.'
+  IDs: [35190, 53245]
+
+Query (appears 2 times): 'what is the probability of rolling a 6 on a six-sided die consecutively for 5 rolls?'
+  IDs: [35313, 43489]
+
+Query (appears 2 times): 'what will be the future value of an investment of $1000 with an annual interest rate of 5% after 5 years?'
+  IDs: [35554, 42521]
+
+Query (appears 2 times): 'draw 10 cards from a shuffled deck of 52 cards.'
+  IDs: [35810, 45478]
+
+Query (appears 2 times): 'find a mathematical fact about the number 7.'
+  IDs: [36078, 38120]
+
+Query (appears 2 times): 'what is the area of a circle with a radius of 7 units?'
+  IDs: [36206, 50126]
+
+Query (appears 2 times): 'what information can be found about the ip address 8.8.8.8?'
+  IDs: [36246, 53950]
+
+Query (appears 2 times): 'what is the zip code of the location associated with the ip address '8.8.8.8'?'
+  IDs: [36374, 57456]
+
+Query (appears 2 times): 'what is the standard deviation of the following list of numbers: [1, 2, 3, 4, 5]?'
+  IDs: [36535, 47185]
+
+Query (appears 2 times): 'find the latitude and longitude coordinates of new york city.'
+  IDs: [36610, 47197]
+
+Query (appears 2 times): 'we have meetings scheduled for 10:00-11:00, 11:00-12:00, 12:00-13:00, and 13:00-14:00. how many meeting rooms do we need?'
+  IDs: [36623, 40164]
+
+Query (appears 2 times): 'multiply the following matrices: [[1, 2], [3, 4]] and [[5, 6], [7, 8]]'
+  IDs: [36926, 47570]
+
+Query (appears 2 times): 'find all pairs of integers in the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] that sum up to 15'
+  IDs: [37207, 39293]
+
+Query (appears 2 times): 'what is the area of a triangle with a base of 10 units and a height of 15 units?'
+  IDs: [37422, 53531]
+
+Query (appears 2 times): 'reverse the order of words in the sentence 'hello world'.'
+  IDs: [37439, 47807]
+
+Query (appears 2 times): 'find all .txt files in the directory '/home/user/documents' and its subdirectories.'
+  IDs: [37579, 47353]
+
+Query (appears 2 times): 'what is the first non-repeating character in the string 'aabbcc'?'
+  IDs: [37734, 47821]
+
+Query (appears 2 times): 'what is the treasure of the day?'
+  IDs: [37735, 41587]
+
+Query (appears 2 times): 'calculate the area under the curve for the function x^3 between x=0 and x=2 using the trapezoidal rule.'
+  IDs: [37792, 44282]
+
+Query (appears 2 times): 'generate a histogram with 3 bins for the data [1, 1, 1, 2, 2, 3]. after that, perform a chi-square test for independence on the contingency table [[5, 5], [5, 5]] with a significance level of 0.05.'
+  IDs: [37833, 52517]
+
+Query (appears 2 times): 'i have two sorted lists [1, 3, 5] and [2, 4, 6]. can you merge them into a single sorted list?'
+  IDs: [37964, 42471]
+
+Query (appears 2 times): 'find the maximum sum of a contiguous subarray within the list [-2, 1, -3, 4, -1, 2, 1, -5, 4].'
+  IDs: [37970, 47850]
+
+Query (appears 2 times): 'check if 32 is a power of two.'
+  IDs: [38123, 41324]
+
+Query (appears 2 times): 'can a pikachu learn the move 'thunder shock'?'
+  IDs: [38152, 50805]
+
+Query (appears 2 times): 'find all .jpg files in the directory '/home/user/pictures'.'
+  IDs: [38159, 49355]
+
+Query (appears 2 times): 'how many permutations of 5 elements can be made from a set of 10 elements?'
+  IDs: [38615, 51446]
+
+Query (appears 2 times): 'merge the dictionaries {'a': 1, 'b': 2} and {'b': 3, 'c': 4} into a single dictionary.'
+  IDs: [38655, 46182]
+
+Query (appears 2 times): 'split the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] into chunks of size 3.'
+  IDs: [38729, 55837]
+
+Query (appears 2 times): 'perform a full grid search for the business with the google place id chijd8blq2bzwokrafuecm_qrca within a radius of 10km around the coordinates (40.712776, -74.005974). use a grid size of 5x5 and search for the keyword 'coffee shop'.'
+  IDs: [38846, 53790]
+
+Query (appears 2 times): 'what is the city name for the zip code '90210'?'
+  IDs: [38889, 41269]
+
+Query (appears 2 times): 'find the public repositories of the github user 'octocat'.'
+  IDs: [39238, 59736]
+
+Query (appears 2 times): 'calculate the factorial of 5'
+  IDs: [39469, 49221]
+
+Query (appears 2 times): 'what is the equilibrium index of the list [1, 2, 3, 4, 3, 2, 1]?'
+  IDs: [39503, 49660]
+
+Query (appears 2 times): 'retrieve the monthly data and search count for the keyword 'climate change' from the targeted keyword trend api.'
+  IDs: [39582, 56800]
+
+Query (appears 2 times): 'is the string 'radar' a palindrome?'
+  IDs: [39808, 50755]
+
+Query (appears 2 times): 'calculate the probability of rolling a sum of 7 with 2 six-sided dice.'
+  IDs: [39823, 49429]
+
+Query (appears 2 times): 'assess the risk of developing type 2 diabetes for a person who weighs 150 lbs, is 65 inches tall, and is moderately active.'
+  IDs: [40305, 45803]
+
+Query (appears 2 times): 'compute the area of a circle with a radius of 5 units.'
+  IDs: [40330, 44006]
+
+Query (appears 2 times): 'get the latest exchange rate information for all currencies in json format.'
+  IDs: [40357, 49442]
+
+Query (appears 2 times): 'calculate the bacterial population after 30 minutes, given an initial population of 100 bacteria, a growth rate of 0.5 per minute, and a doubling time of 20 minutes.'
+  IDs: [40455, 57811]
+
+Query (appears 2 times): 'get the most recent 20 user-generated videos that have been publicly shared to youtube, but bypass the cache to retrieve the most up-to-date data. then, fetch the most recent 25 user-generated videos that have been publicly shared to youtube since '2020-01-01t00:00:00z'. finally, retrieve the most recent 30 user-generated videos that have been publicly shared to youtube, but wrap the response object in a function call named 'their_callback'.'
+  IDs: [40594, 47260]
+
+Query (appears 2 times): 'check if the string 'racecar' is a valid palindrome.'
+  IDs: [40786, 48187]
+
+Query (appears 2 times): 'find the location of the ip addresses 172.217.160.142, 142.250.187.46, and 8.8.8.8 in the format (latitude, longitude).'
+  IDs: [40801, 52824]
+
+Query (appears 2 times): 'what is the latitude and longitude of new york city?'
+  IDs: [40934, 51694]
+
+Query (appears 2 times): 'merge the sorted lists [1, 3, 5] and [2, 4, 6].'
+  IDs: [41299, 54194]
+
+Query (appears 2 times): 'predict the change in forest area in the amazon over the next 50 years, including the impact of human activities.'
+  IDs: [41453, 44700]
+
+Query (appears 2 times): 'what is the probability of drawing 2 aces from a standard deck of 52 cards when drawing 5 cards?'
+  IDs: [41621, 50992]
+
+Query (appears 2 times): 'is the year 2100 a leap year?'
+  IDs: [42048, 59546]
+
+Query (appears 2 times): 'generate 10 visa payment card numbers.'
+  IDs: [42222, 44467]
+
+Query (appears 2 times): 'what are the spac price targets for the companies with symbols 'sofi', 'ipof', 'cciv', and 'gsah'? also, provide the company overview for the stock with the symbol 'msft'.'
+  IDs: [43120, 52649]
+
+Query (appears 2 times): 'is the number 153 the sum of the cubes of its digits? what about the number 371?'
+  IDs: [43122, 44135]
+
+Query (appears 2 times): 'what are the label templates for 'a4' format paper from 'avery' in 'rectangle' shape with a height of '2 inches' and a width of '3 inches'? also, find me the label templates for 'letter' format paper from 'avery' in 'oval' shape with a height of '1 inch' and a width of '2 inches'.'
+  IDs: [43143, 46622]
+
+Query (appears 2 times): 'what is the area of a circle with a radius of 10 units?'
+  IDs: [43543, 54332]
+
+Query (appears 2 times): 'can a person attend all the meetings with the following intervals [[1, 2], [3, 4], [5, 6], [7, 8]] and also calculate the standard deviation for the list of numbers [1, 2, 3, 4, 5]'
+  IDs: [43545, 45398]
+
+Query (appears 2 times): 'what are the roots of the quadratic equation x^2 - 5x + 6 = 0?'
+  IDs: [43853, 52645]
+
+Query (appears 2 times): 'generate a random password of length 16 with special characters included.'
+  IDs: [43972, 58967]
+
+Query (appears 2 times): 'find the first non-repeating character in the string 'hello world'.'
+  IDs: [44434, 49325]
+
+Query (appears 2 times): 'what is the angle between the hour and minute hands of a clock at 12:00?'
+  IDs: [44468, 52397]
+
+Query (appears 2 times): 'find the missing number in the list [0, 1, 2, 4, 5]'
+  IDs: [44495, 58625]
+
+Query (appears 2 times): 'what is the angle between the hour and minute hands of a clock at 3:45?'
+  IDs: [45036, 47642]
+
+Query (appears 2 times): 'is the number 16 a power of two?'
+  IDs: [45182, 53146]
+
+Query (appears 2 times): 'is the string 'a man, a plan, a canal: panama' a palindrome?'
+  IDs: [45218, 46070]
+
+Query (appears 2 times): 'check if the ip address '192.168.1.1' is a valid ipv4 address.'
+  IDs: [45363, 51278]
+
+Query (appears 2 times): 'calculate the euclidean distance between the points (2, 3) and (5, 7).'
+  IDs: [46085, 57340]
+
+Query (appears 2 times): 'what is the probability of rolling a 6 on a 6-sided die consecutively for 5 rolls?'
+  IDs: [46675, 55094]
+
+Query (appears 2 times): 'what is the current exchange rate for usd to eur?'
+  IDs: [46991, 55685]
+
+Query (appears 2 times): 'what is the area of a triangle with vertices at (0, 0), (3, 0), and (0, 4)?'
+  IDs: [47001, 56159]
+
+Query (appears 2 times): 'calculate the standard deviation for the list of numbers [1.5, 2.5, 3.5, 4.5, 5.5] and also determine if a person can attend all meetings with the following intervals [[1, 2], [4, 5], [7, 8]]'
+  IDs: [47780, 48792]
+
+Query (appears 2 times): 'what is the standard deviation of the list of numbers [1, 2, 3, 4, 5]?'
+  IDs: [47838, 57514]
+
+Query (appears 2 times): 'is 1000 a power of 10?'
+  IDs: [47985, 55533]
+
+Query (appears 2 times): 'is the word 'racecar' a palindrome?'
+  IDs: [48040, 59825]
+
+Query (appears 2 times): 'check if the numbers 32, 64, and 128 are powers of two.'
+  IDs: [48164, 56102]
+
+Query (appears 2 times): 'what is the probability of rolling a sum of 15 with 3 ten-sided dice?'
+  IDs: [48181, 51634]
+
+Query (appears 2 times): 'find the longest palindromic substring in the string 'racecar is a palindrome'.'
+  IDs: [48202, 53185]
+
+Query (appears 2 times): 'merge the dictionaries {'a': 1, 'b': 2} and {'c': 3, 'd': 4}.'
+  IDs: [48301, 51829]
+
+Query (appears 2 times): 'find the majority element in the list [1, 2, 3, 2, 2, 4, 2].'
+  IDs: [48371, 52641]
+
+Query (appears 2 times): 'fetch 5 random cat facts in english.'
+  IDs: [48736, 50076]
+
+Query (appears 2 times): 'calculate the angle between the hour and minute hands of a clock at 12:00.'
+  IDs: [49141, 54171]
+
+Query (appears 2 times): 'get the details of the property with id '1497548641'.'
+  IDs: [49579, 58621]
+
+Query (appears 2 times): 'what moves can a charizard learn?'
+  IDs: [49684, 57685]
+
+Query (appears 2 times): 'what is the euclidean distance between the points (1, 2) and (4, 6) in 2-dimensional space?'
+  IDs: [49694, 55633]
+
+Query (appears 2 times): 'find homeless shelters within a 5-mile radius of the location with latitude 37.7749 and longitude -122.4194.'
+  IDs: [49910, 57703]
+
+Query (appears 2 times): 'what are the holidays in japan for the year 2023?'
+  IDs: [49914, 54925]
+
+Query (appears 2 times): 'find software engineering jobs in new york city.'
+  IDs: [50489, 52276]
+
+Query (appears 2 times): 'calculate the euclidean distance between the points (0, 0) and (3, 4).'
+  IDs: [51148, 53393]
+
+Query (appears 2 times): 'fetch the albums of the artists with spotify ids '2hazlneywr78zp8gg9syp7', '6eukzxakkcvih0ku9w2n3v', and '06hl4z0cvfaxyc27gxpf02' using the spotify api.'
+  IDs: [51413, 57470]
+
+Query (appears 2 times): 'log in to my zipwhip account with my username '5555555555' and password 'mysecurepassword'. fetch an example phone number for the uk and redeploy a docker instance of the phone with id '12345'. get the contacts list from the specified whatsapp instance with phone id '12345'.'
+  IDs: [52126, 55361]
+
+Query (appears 2 times): 'calculate the 25th fibonacci number.'
+  IDs: [53007, 56231]
+
+Query (appears 2 times): 'find the maximum sum of a contiguous subarray within the list [-2, -3, 4, -1, -2, 1, 5, -3].'
+  IDs: [53910, 54196]
+
+Query (appears 2 times): 'find out about the youtube channel with the id 'uc_x5xg1ov2p6uzz5fsm9ttw' using the rapidapi youtube data api. also, get the same channel's details using the 'about_channel' function.'
+  IDs: [54029, 56715]
+
+Query (appears 2 times): 'find a peak element in the list [1, 2, 3, 1, 0].'
+  IDs: [54257, 58369]
+
+Query (appears 2 times): 'reverse the string 'hello'.'
+  IDs: [54381, 54543]
+
+Query (appears 2 times): 'is the number 64 a perfect square?'
+  IDs: [55596, 58423]
+
+Query (appears 2 times): 'calculate the total alimony one spouse would have to pay to the other in california over a duration of 5 years, given that the payor spouse earns $5000 per month and the recipient spouse earns $3000 per month.'
+  IDs: [55791, 57046]
+
+Query (appears 2 times): 'how many set bits are there in the binary representation of 13?'
+  IDs: [56043, 57327]
+
+
+## Contradictions
+Total contradictions: 121
+
+Query: 'calculate the factorial of 5.'
+  IDs with different answers: [115, 5720, 8416, 11891, 29862, 39416, 47112, 56345]
+  Number of different answers: 2
+
+Query: 'calculate the love compatibility between 'alice' and 'bob'.'
+  IDs with different answers: [121, 54810]
+  Number of different answers: 2
+
+Query: 'is 'racecar' a palindrome?'
+  IDs with different answers: [142, 21258, 21771, 42420, 53080]
+  Number of different answers: 2
+
+Query: 'calculate the electric field produced by a charge of 1 coulomb at a distance of 1 meter.'
+  IDs with different answers: [218, 1839, 11130, 26914, 28274, 42777]
+  Number of different answers: 2
+
+Query: 'calculate the factorial of 7.'
+  IDs with different answers: [309, 3537, 17435, 18073, 28669, 45542]
+  Number of different answers: 2
+
+Query: 'is the email address 'john.doe@example.com' valid?'
+  IDs with different answers: [623, 17629, 26271]
+  Number of different answers: 2
+
+Query: 'what is the current air quality in new york city?'
+  IDs with different answers: [912, 57045]
+  Number of different answers: 2
+
+Query: 'retrieve detailed information about the song with id '12345' in english.'
+  IDs with different answers: [955, 5251, 9872, 27643]
+  Number of different answers: 2
+
+Query: 'what are the coordinates of new york city?'
+  IDs with different answers: [1045, 4143, 15977, 17327, 30833]
+  Number of different answers: 2
+
+Query: 'can you fetch the treasure of the day without a jsonp callback?'
+  IDs with different answers: [1259, 5393]
+  Number of different answers: 2
+
+Query: 'check if 47 is a prime number.'
+  IDs with different answers: [1463, 30351]
+  Number of different answers: 2
+
+Query: 'retrieve whois information for the domain 'example.com'.'
+  IDs with different answers: [1758, 11838]
+  Number of different answers: 2
+
+Query: 'generate a qr code for the url 'https://www.example.com''
+  IDs with different answers: [1852, 15872, 30076]
+  Number of different answers: 3
+
+Query: 'generate 10 uuids.'
+  IDs with different answers: [2003, 37158]
+  Number of different answers: 2
+
+Query: 'retrieve all dog breeds from japan and the details of the bulldog breed.'
+  IDs with different answers: [2028, 24747]
+  Number of different answers: 2
+
+Query: 'generate a random string of length 10 with uppercase, lowercase, and digits.'
+  IDs with different answers: [2074, 21346]
+  Number of different answers: 2
+
+Query: 'what is the probability of rolling a 6 three times consecutively on a standard 6-sided die?'
+  IDs with different answers: [2096, 9306]
+  Number of different answers: 2
+
+Query: 'count the number of expired followers for an onlyfans account with specific authentication details.'
+  IDs with different answers: [2414, 8356]
+  Number of different answers: 2
+
+Query: 'what is the geolocation information for the ip address '8.8.8.8'?'
+  IDs with different answers: [2475, 17944]
+  Number of different answers: 2
+
+Query: 'identify the longest palindromic substring in the phrase 'madam, in eden, i'm adam'.'
+  IDs with different answers: [2478, 9637, 24434]
+  Number of different answers: 2
+
+Query: 'fetch detailed photos of the property 'cr/la-buena-vida-cabinas' in spanish.'
+  IDs with different answers: [2485, 21212]
+  Number of different answers: 2
+
+Query: 'can you find the geolocation of ip addresses 8.8.8.8 and 1.1.1.1?'
+  IDs with different answers: [3009, 19457, 33489]
+  Number of different answers: 3
+
+Query: 'get whois details for the domain 'wikipedia.org'.'
+  IDs with different answers: [3082, 31588]
+  Number of different answers: 2
+
+Query: 'what are the whois details for microsoft.com?'
+  IDs with different answers: [3125, 24583]
+  Number of different answers: 2
+
+Query: 'what is the address corresponding to the coordinates 40.7128° n, 74.0060° w?'
+  IDs with different answers: [3227, 4901]
+  Number of different answers: 2
+
+Query: 'check if 'listen' and 'silent' are anagrams.'
+  IDs with different answers: [3523, 4312, 6925, 36453, 37870, 47654, 49739, 57941]
+  Number of different answers: 3
+
+Query: 'check if the string 'a man, a plan, a canal: panama' is a palindrome.'
+  IDs with different answers: [3946, 26718, 35317, 55299]
+  Number of different answers: 2
+
+Query: 'calculate the standard deviation of the numbers [10, 20, 30, 40, 50].'
+  IDs with different answers: [4209, 15663, 31838]
+  Number of different answers: 2
+
+Query: 'perform an independent samples t-test on the samples [1, 2, 3, 4, 5] and [2, 3, 4, 5, 6] with a significance level of 0.05.'
+  IDs with different answers: [4657, 31103]
+  Number of different answers: 2
+
+Query: 'what is the probability of rolling a sum of 8 with 2 dice, each having 6 faces?'
+  IDs with different answers: [4681, 7243, 8847, 22070, 22956, 24663, 27901, 27914, 29210, 30308]
+  Number of different answers: 2
+
+Query: 'calculate the 95% confidence interval for a sample with a mean of 50, standard deviation of 10, and sample size of 100.'
+  IDs with different answers: [4789, 25661, 27126, 27769, 30390]
+  Number of different answers: 2
+
+Query: 'calculate the euclidean distance between points (3, 4) and (6, 8).'
+  IDs with different answers: [5231, 19305, 22741, 23535, 31796, 32689, 47144]
+  Number of different answers: 2
+
+Query: 'reverse the string 'hello, world!'.'
+  IDs with different answers: [5588, 28267]
+  Number of different answers: 2
+
+Query: 'calculate the standard deviation of the numbers [2, 4, 4, 4, 5, 5, 7, 9].'
+  IDs with different answers: [6106, 28064, 29548]
+  Number of different answers: 2
+
+Query: 'split the list [1, 2, 3, 4, 5, 6, 7, 8, 9] into chunks of size 3.'
+  IDs with different answers: [6347, 6805, 20571, 29105, 32375, 37055, 40482, 58463]
+  Number of different answers: 2
+
+Query: 'what is the current weather in new york and los angeles?'
+  IDs with different answers: [6680, 9321, 21950]
+  Number of different answers: 2
+
+Query: 'compute the average of the numbers 5, 10, 15, 20, 25.'
+  IDs with different answers: [7040, 7846]
+  Number of different answers: 2
+
+Query: 'generate a qr code for the url 'https://www.example.com'.'
+  IDs with different answers: [7047, 18738, 20494, 29420, 36522, 40806, 46276, 47738]
+  Number of different answers: 5
+
+Query: 'retrieve whois information for the domain 'google.com'.'
+  IDs with different answers: [7077, 19277]
+  Number of different answers: 2
+
+Query: 'compute the factorial of 7.'
+  IDs with different answers: [7626, 31959]
+  Number of different answers: 2
+
+Query: 'what is the current wind speed in new york city?'
+  IDs with different answers: [7696, 33471, 36960, 59439]
+  Number of different answers: 2
+
+Query: 'what is the word frequency in the sentence 'the quick brown fox jumps over the lazy dog'?'
+  IDs with different answers: [7783, 8911, 29746]
+  Number of different answers: 2
+
+Query: 'simulate a database query on a 'users' table with conditions: age > 30 and city = 'new york'.'
+  IDs with different answers: [7975, 15700]
+  Number of different answers: 2
+
+Query: 'is 'listen' an anagram of 'silent'?'
+  IDs with different answers: [8493, 29789]
+  Number of different answers: 2
+
+Query: 'what is the factorial of 5?'
+  IDs with different answers: [9550, 10022, 11596, 16332, 18847, 24603, 29451, 35871, 42263, 47466, 48458, 49761, 50262, 51825, 52460]
+  Number of different answers: 2
+
+Query: 'calculate the cell density of a bacterial culture with an optical density of 0.8 and a dilution factor of 1000.'
+  IDs with different answers: [10766, 17502]
+  Number of different answers: 2
+
+Query: 'check if the words 'listen' and 'silent' are anagrams.'
+  IDs with different answers: [10781, 40012]
+  Number of different answers: 2
+
+Query: 'what are the addresses associated with the postcode sw1a 1aa in the uk?'
+  IDs with different answers: [11262, 12446, 22706]
+  Number of different answers: 2
+
+Query: 'generate a random string of length 5 with uppercase, lowercase, and digits.'
+  IDs with different answers: [11278, 27670]
+  Number of different answers: 2
+
+Query: 'is 17 a prime number?'
+  IDs with different answers: [11555, 14199, 14810, 14938, 18222, 22760, 42000, 46638, 56640]
+  Number of different answers: 2
+
+Query: 'what is the current weather in new york city and tokyo?'
+  IDs with different answers: [11717, 24643, 31149]
+  Number of different answers: 2
+
+Query: 'are the words 'listen' and 'silent' anagrams of each other?'
+  IDs with different answers: [11939, 21030, 46631, 49784]
+  Number of different answers: 2
+
+Query: 'compute the factorial of 10.'
+  IDs with different answers: [12144, 17958, 21169, 22420]
+  Number of different answers: 2
+
+Query: 'is the sudoku board valid where the first row is [5, 3, '.', '.', 7, '.', '.', '.', '.'], the second row is [6, '.', '.', 1, 9, 5, '.', '.', '.'], and so on?'
+  IDs with different answers: [12383, 13797]
+  Number of different answers: 2
+
+Query: 'can pikachu learn the move 'thunderbolt'?'
+  IDs with different answers: [12603, 36627, 39851, 43728, 47332]
+  Number of different answers: 3
+
+Query: 'what is the factorial of 7?'
+  IDs with different answers: [12792, 29851]
+  Number of different answers: 2
+
+Query: 'search for movies related to 'star wars'.'
+  IDs with different answers: [13452, 53948]
+  Number of different answers: 2
+
+Query: 'determine if 'listen' and 'silent' are anagrams.'
+  IDs with different answers: [13498, 29167]
+  Number of different answers: 2
+
+Query: 'convert 500 eur to usd and gbp.'
+  IDs with different answers: [13821, 15057]
+  Number of different answers: 2
+
+Query: 'calculate the standard deviation of the numbers [1, 2, 3, 4, 5].'
+  IDs with different answers: [14113, 22185, 37167, 44107, 49844]
+  Number of different answers: 2
+
+Query: 'determine if the words 'listen' and 'silent' are anagrams.'
+  IDs with different answers: [14272, 58215]
+  Number of different answers: 2
+
+Query: 'what is the factorial of 10?'
+  IDs with different answers: [14615, 19054, 28914, 36554, 37935, 39478, 40473]
+  Number of different answers: 2
+
+Query: 'what are the coordinates of los angeles?'
+  IDs with different answers: [15741, 21882]
+  Number of different answers: 2
+
+Query: 'are 'listen' and 'silent' anagrams of each other?'
+  IDs with different answers: [15839, 20200, 52373, 52724]
+  Number of different answers: 3
+
+Query: 'are 'eleven plus two' and 'twelve plus one' anagrams?'
+  IDs with different answers: [16001, 31997]
+  Number of different answers: 2
+
+Query: 'what is the geolocation of the ip address 8.8.8.8?'
+  IDs with different answers: [16138, 44983]
+  Number of different answers: 2
+
+Query: 'integrate the function 'x^2' from x=1 to x=5 using the trapezoid method.'
+  IDs with different answers: [16374, 22950, 26888]
+  Number of different answers: 2
+
+Query: 'calculate the probability of rolling a sum of 8 with 2 dice, each having 6 faces.'
+  IDs with different answers: [16637, 27289]
+  Number of different answers: 2
+
+Query: 'what moves can charmander learn?'
+  IDs with different answers: [16765, 19683, 20716, 26145, 37178, 52437]
+  Number of different answers: 2
+
+Query: 'integrate the function 'x^2' from x=1 to x=5 using the simpson's rule.'
+  IDs with different answers: [17208, 20120, 22089, 32743]
+  Number of different answers: 2
+
+Query: 'calculate the standard deviation of the following numbers: 5, 10, 15, 20, 25.'
+  IDs with different answers: [17219, 18357, 57399]
+  Number of different answers: 2
+
+Query: 'what is the factorial of 0?'
+  IDs with different answers: [17503, 30237, 43520]
+  Number of different answers: 2
+
+Query: 'determine if 'dormitory' and 'dirty room' are anagrams.'
+  IDs with different answers: [19233, 22787]
+  Number of different answers: 2
+
+Query: 'verify if 'debit card' and 'bad credit' are anagrams.'
+  IDs with different answers: [19482, 29815]
+  Number of different answers: 2
+
+Query: 'integrate the function x^2 from 0 to 1 using the trapezoidal rule with 10000 subdivisions.'
+  IDs with different answers: [19858, 24079]
+  Number of different answers: 2
+
+Query: 'fetch the first 20 quotes from the radio world api.'
+  IDs with different answers: [19930, 28916]
+  Number of different answers: 2
+
+Query: 'can you fetch the 4d lottery results for toto on january 1, 2023?'
+  IDs with different answers: [20260, 31462]
+  Number of different answers: 2
+
+Query: 'what is the resistance of a copper wire that is 100 meters long and has a cross-sectional area of 0.0001 square meters?'
+  IDs with different answers: [20325, 34543, 37478]
+  Number of different answers: 2
+
+Query: 'reverse the sentence 'the quick brown fox jumps over the lazy dog'.'
+  IDs with different answers: [20601, 27324, 58430]
+  Number of different answers: 2
+
+Query: 'determine the electric field at a distance of 1 meter from a charge of 10 coulombs.'
+  IDs with different answers: [20653, 24945]
+  Number of different answers: 2
+
+Query: 'calculate the factorial of 10.'
+  IDs with different answers: [20659, 29202, 56260]
+  Number of different answers: 2
+
+Query: 'calculate the distance between new york city (40.7128° n, 74.0060° w) and los angeles (34.0522° n, 118.2437° w) in miles.'
+  IDs with different answers: [21054, 45286]
+  Number of different answers: 2
+
+Query: 'log in a user named 'johndoe' with password 'password123'.'
+  IDs with different answers: [22105, 24584]
+  Number of different answers: 2
+
+Query: 'convert 1000 usd to eur and jpy.'
+  IDs with different answers: [23301, 27074]
+  Number of different answers: 2
+
+Query: 'what is the geolocation information for the ip address 8.8.8.8?'
+  IDs with different answers: [23370, 51909]
+  Number of different answers: 2
+
+Query: 'retrieve the latest 100 matchmaking matches in trackmania.'
+  IDs with different answers: [23399, 55499]
+  Number of different answers: 2
+
+Query: 'validate the email address 'john.doe@example.com'.'
+  IDs with different answers: [23972, 30917, 55208]
+  Number of different answers: 3
+
+Query: 'list all kohl's stores within a 50-mile radius of san francisco, california.'
+  IDs with different answers: [24093, 24488]
+  Number of different answers: 2
+
+Query: 'what is the current stock price of apple inc. (aapl)?'
+  IDs with different answers: [25006, 39291]
+  Number of different answers: 2
+
+Query: 'what is the standard deviation of the numbers 10, 20, 30, 40, 50?'
+  IDs with different answers: [25441, 29144, 45413]
+  Number of different answers: 2
+
+Query: 'what is the whois information for example.com?'
+  IDs with different answers: [26181, 59624]
+  Number of different answers: 2
+
+Query: 'what is the hourly weather forecast for new york city today?'
+  IDs with different answers: [26313, 28811]
+  Number of different answers: 2
+
+Query: 'sort the list [0.5, 0.2, 0.8, 0.1] in ascending order.'
+  IDs with different answers: [27614, 32129]
+  Number of different answers: 2
+
+Query: 'are 'listen' and 'silent' anagrams?'
+  IDs with different answers: [27750, 41225, 43124, 47322]
+  Number of different answers: 3
+
+Query: 'calculate the area of a circle with a radius of 5 units.'
+  IDs with different answers: [28987, 42043, 44567, 56857]
+  Number of different answers: 2
+
+Query: 'calculate the area of a triangle with a base of 10 cm and a height of 5 cm.'
+  IDs with different answers: [29152, 44260]
+  Number of different answers: 2
+
+Query: 'what is the probability of rolling a sum of 7 with 2 six-sided dice?'
+  IDs with different answers: [33710, 35960, 54078]
+  Number of different answers: 2
+
+Query: 'what is the probability of rolling a sum of 10 with 3 six-sided dice?'
+  IDs with different answers: [33931, 43072]
+  Number of different answers: 2
+
+Query: 'what is the result of multiplying the matrices [[1, 2], [3, 4]] and [[5, 6], [7, 8]]?'
+  IDs with different answers: [34284, 42866]
+  Number of different answers: 2
+
+Query: 'calculate the euclidean distance between the points (1, 2) and (4, 6).'
+  IDs with different answers: [34393, 38516, 52087]
+  Number of different answers: 2
+
+Query: 'what is the current weather in new york city?'
+  IDs with different answers: [34888, 41989, 42003]
+  Number of different answers: 3
+
+Query: 'find the factorial of 5.'
+  IDs with different answers: [35113, 47319]
+  Number of different answers: 2
+
+Query: 'what are the public holidays in canada for the year 2023?'
+  IDs with different answers: [35237, 52080, 56034]
+  Number of different answers: 2
+
+Query: 'what is the probability of rolling a 6 on a six-sided die consecutively for 5 rolls?'
+  IDs with different answers: [35313, 43489]
+  Number of different answers: 2
+
+Query: 'find a mathematical fact about the number 7.'
+  IDs with different answers: [36078, 38120]
+  Number of different answers: 2
+
+Query: 'what information can be found about the ip address 8.8.8.8?'
+  IDs with different answers: [36246, 53950]
+  Number of different answers: 2
+
+Query: 'what is the information about the ip address 8.8.8.8?'
+  IDs with different answers: [36704, 42023, 44796]
+  Number of different answers: 3
+
+Query: 'what is the first non-repeating character in the string 'aabbcc'?'
+  IDs with different answers: [37734, 47821]
+  Number of different answers: 2
+
+Query: 'can a pikachu learn the move 'thunder shock'?'
+  IDs with different answers: [38152, 50805]
+  Number of different answers: 2
+
+Query: 'what is the area of a triangle with a base of 5 units and a height of 10 units?'
+  IDs with different answers: [39081, 42912, 56620]
+  Number of different answers: 2
+
+Query: 'calculate the probability of rolling a sum of 7 with 2 six-sided dice.'
+  IDs with different answers: [39823, 49429]
+  Number of different answers: 2
+
+Query: 'calculate the bacterial population after 30 minutes, given an initial population of 100 bacteria, a growth rate of 0.5 per minute, and a doubling time of 20 minutes.'
+  IDs with different answers: [40455, 57811]
+  Number of different answers: 2
+
+Query: 'check if the string 'racecar' is a valid palindrome.'
+  IDs with different answers: [40786, 48187]
+  Number of different answers: 2
+
+Query: 'what are the roots of the quadratic equation x^2 - 5x + 6 = 0?'
+  IDs with different answers: [43853, 52645]
+  Number of different answers: 2
+
+Query: 'is the string 'a man, a plan, a canal: panama' a palindrome?'
+  IDs with different answers: [45218, 46070]
+  Number of different answers: 2
+
+Query: 'what is the euclidean distance between the points (1, 2) and (4, 6)?'
+  IDs with different answers: [45352, 49440, 52427, 56030]
+  Number of different answers: 2
+
+Query: 'what is the probability of rolling a 6 on a 6-sided die consecutively for 5 rolls?'
+  IDs with different answers: [46675, 55094]
+  Number of different answers: 2
+
+Query: 'find the longest palindromic substring in the string 'racecar is a palindrome'.'
+  IDs with different answers: [48202, 53185]
+  Number of different answers: 2
+
+Query: 'can a pikachu learn the move 'thunderbolt'?'
+  IDs with different answers: [48215, 49882, 50728, 56908, 58374]
+  Number of different answers: 2
+
+Query: 'what moves can a charizard learn?'
+  IDs with different answers: [49684, 57685]
+  Number of different answers: 2
+
+Query: 'find software engineering jobs in new york city.'
+  IDs with different answers: [50489, 52276]
+  Number of different answers: 2
+
+
+## Incomplete Samples
+Total incomplete: 0
+IDs: []

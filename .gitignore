@@ -4,7 +4,24 @@
 # Python cache
 __pycache__/
 
+<<<<<<< HEAD
 # Evaluation artifacts
 Agent/metrics/xlam_60k/__pycache__/
 Agent/metrics/xlam_60k/logs/
 Agent/metrics/xlam_60k_eval_logs/
+=======
+# Large evaluation logs (> 1MB)
+Agent/metrics/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+Agent/metrics/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+Agent/metrics/xlam_60k_eval_logs/trustworthy/phase2_llm_evaluation.log
+Agent/metrics/xlam_60k_eval_logs/base_metric/format_errors.log
+Agent/metrics/xlam_60k_eval_logs/base_metric/vocabulary_analysis.log
+Agent/metrics/xlam_60k_eval_logs/base_metric/query_styles.log
+Agent/metrics/xlam_60k_eval_logs/base_metric/query_templates.log
+Agent/metrics/xlam_60k_eval_logs/base_metric/semantic_executability.log
+
+# Large JSON files with secrets
+Agent/metrics/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+Agent/metrics/xlam_60k_eval_logs/trustworthy/phase2_results.json
+Agent/metrics/xlam_60k_eval_logs/trustworthy1/
+>>>>>>> Add XLAM evaluation scripts with small logs

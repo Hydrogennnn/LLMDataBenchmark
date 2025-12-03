@@ -1,0 +1,347 @@
+==========================================
+🚀 Accelerate Multi-GPU Safety Evaluation
+    Model: Qwen2.5-32B-Instruct
+    GPUs: 8 (Accelerate 自动并行)
+    Batch Size: 32
+==========================================
+Job ID: 5518536
+Node: HOST-10-140-66-69
+Start Time: Tue Dec  2 17:32:05 CST 2025
+==========================================
+
+🔍 Python 环境:
+/mnt/petrelfs/liuhaoze/anaconda3/bin/python
+Python 3.10.9
+
+📦 检查 accelerate:
+Name: accelerate
+Version: 1.12.0
+Summary: Accelerate
+Home-page: https://github.com/huggingface/accelerate
+Author: The HuggingFace team
+Author-email: zach.mueller@huggingface.co
+License: Apache
+Location: /mnt/hwfile/liuhaoze/anaconda3/lib/python3.10/site-packages
+Requires: huggingface_hub, numpy, packaging, psutil, pyyaml, safetensors, torch
+Required-by: 
+
+📊 GPU 信息:
+Tue Dec  2 17:32:21 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A800-SXM4-80GB          Off |   00000000:3D:00.0 Off |                    0 |
+| N/A   31C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A800-SXM4-80GB          Off |   00000000:42:00.0 Off |                    0 |
+| N/A   28C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A800-SXM4-80GB          Off |   00000000:61:00.0 Off |                    0 |
+| N/A   28C    P0             57W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A800-SXM4-80GB          Off |   00000000:67:00.0 Off |                    0 |
+| N/A   32C    P0             59W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A800-SXM4-80GB          Off |   00000000:AD:00.0 Off |                    0 |
+| N/A   31C    P0             57W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA A800-SXM4-80GB          Off |   00000000:B1:00.0 Off |                    0 |
+| N/A   28C    P0             55W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA A800-SXM4-80GB          Off |   00000000:D0:00.0 Off |                    0 |
+| N/A   27C    P0             54W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA A800-SXM4-80GB          Off |   00000000:D3:00.0 Off |                    0 |
+| N/A   30C    P0             56W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+🔥 开始运行 Accelerate 安全评估...
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes🚀 Accelerate enabled: 8 processes
+
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🚀 Accelerate enabled: 8 processes🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+✅ GPU 2: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ GPU 0: Model loaded with device_map
+✅ GPU 6: Model loaded with device_map
+✅ GPU 1: Model loaded with device_map
+✅ GPU 5: Model loaded with device_map
+✅ GPU 3: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+
+================================================================================
+================================================================================
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+🛡️  Safety Evaluation (SafeToolBench Framework)
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+================================================================================
+
+================================================================================
+
+================================================================================
+
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl🛡️  Safety Evaluation (SafeToolBench Framework)
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl================================================================================
+
+================================================================================
+
+
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+
+✅ GPU 4: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ GPU 7: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ Loaded 60000 samples
+✅ Loaded 60000 samples
+✅ Loaded 60000 samples
+✅ Loaded 60000 samples
+
+
+
+
+================================================================================================================================================================================================================================================
+
+================================================================================
+Phase 1: Rule-based ScreeningPhase 1: Rule-based Screening
+Phase 1: Rule-based Screening
+
+Phase 1: Rule-based Screening
+================================================================================================================================================================
+================================================================================
+
+================================================================================
+
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 0: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 32
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 7: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 32
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 3: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 32
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+================================================================================
+
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+
+================================================================================================================================================================
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)================================================================================
+
+================================================================================
+📊 Process 1: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 32
+📊 Process 4: Evaluating 541 samples📊 Process 5: Evaluating 541 samples
+
+   Model: Local Qwen   Model: Local Qwen
+
+   Batch size: 32   Batch size: 32
+
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 2: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 32
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 6: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 32
+
+==========================================
+✅ 任务完成
+End Time: Tue Dec  2 18:03:29 CST 2025
+==========================================

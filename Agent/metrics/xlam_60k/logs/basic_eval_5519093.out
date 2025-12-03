@@ -1,0 +1,182 @@
+==========================================
+🚀 XLam Dataset Semantic Executability Evaluation (Batch=8)
+    Dataset: xlam_60k.jsonl (60,000 samples)
+    Metric: Semantic Executability (Full Dataset)
+    Model: Qwen2.5-32B-Instruct
+    GPUs: 8 (Accelerate Multi-GPU)
+    Batch Size: 8
+==========================================
+Job ID: 5519093
+Node: HOST-10-140-66-132
+Start Time: Tue Dec  2 22:29:36 CST 2025
+==========================================
+
+🔍 Python 环境:
+/mnt/petrelfs/liuhaoze/anaconda3/bin/python
+Python 3.10.9
+
+📦 检查依赖:
+Name: transformers
+Version: 4.57.3
+Summary: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+Home-page: https://github.com/huggingface/transformers
+Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)
+Author-email: transformers@huggingface.co
+License: Apache 2.0 License
+Location: /mnt/hwfile/liuhaoze/anaconda3/lib/python3.10/site-packages
+Requires: filelock, huggingface-hub, numpy, packaging, pyyaml, regex, requests, safetensors, tokenizers, tqdm
+Required-by: vllm
+---
+Name: torch
+Version: 2.3.0+cu121
+Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Home-page: https://pytorch.org/
+Author: PyTorch Team
+Author-email: packages@pytorch.org
+License: BSD-3
+Location: /mnt/hwfile/liuhaoze/anaconda3/lib/python3.10/site-packages
+Requires: filelock, fsspec, jinja2, networkx, nvidia-cublas-cu12, nvidia-cuda-cupti-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-runtime-cu12, nvidia-cudnn-cu12, nvidia-cufft-cu12, nvidia-curand-cu12, nvidia-cusolver-cu12, nvidia-cusparse-cu12, nvidia-nccl-cu12, nvidia-nvtx-cu12, sympy, triton, typing-extensions
+Required-by: accelerate, torchaudio, torchvision, vllm
+---
+Name: accelerate
+Version: 1.12.0
+Summary: Accelerate
+Home-page: https://github.com/huggingface/accelerate
+Author: The HuggingFace team
+Author-email: zach.mueller@huggingface.co
+License: Apache
+Location: /mnt/hwfile/liuhaoze/anaconda3/lib/python3.10/site-packages
+Requires: huggingface_hub, numpy, packaging, psutil, pyyaml, safetensors, torch
+Required-by: 
+
+📊 GPU 信息:
+Tue Dec  2 22:29:56 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A800-SXM4-80GB          Off |   00000000:21:00.0 Off |                    0 |
+| N/A   27C    P0             51W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A800-SXM4-80GB          Off |   00000000:27:00.0 Off |                    0 |
+| N/A   28C    P0             62W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A800-SXM4-80GB          Off |   00000000:51:00.0 Off |                    0 |
+| N/A   29C    P0             57W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A800-SXM4-80GB          Off |   00000000:56:00.0 Off |                    0 |
+| N/A   27C    P0             54W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A800-SXM4-80GB          Off |   00000000:8D:00.0 Off |                    0 |
+| N/A   27C    P0             56W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA A800-SXM4-80GB          Off |   00000000:92:00.0 Off |                    0 |
+| N/A   29C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA A800-SXM4-80GB          Off |   00000000:BF:00.0 Off |                    0 |
+| N/A   29C    P0             60W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA A800-SXM4-80GB          Off |   00000000:C5:00.0 Off |                    0 |
+| N/A   27C    P0             54W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+🔥 开始运行完整基础评估（batch=8）...
+🚀 Accelerate initialized: 8 processes
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+📁 Log output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/base_metric
+
+================================================================================
+🚀 xLAM-60k Dataset Basic Quality Evaluation
+================================================================================
+
+📂 Loading dataset from: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ Loaded 60000 samples
+
+✅ Loaded 60000 samples
+
+✅ Loaded 60000 samples
+
+✅ Loaded 60000 samples
+
+✅ Loaded 60000 samples
+
+
+================================================================================
+🧠 Metric: Semantic Executability (Query-Answer Alignment)
+================================================================================
+🔄 Loading semantic model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+✅ Loaded 60000 samples
+
+✅ Loaded 60000 samples
+
+✅ Loaded 60000 samples
+
+✅ Semantic model loaded
+📊 Evaluating semantic executability on ALL 60000 samples (batch=8)

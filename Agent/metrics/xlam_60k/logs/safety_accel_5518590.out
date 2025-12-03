@@ -1,0 +1,604 @@
+==========================================
+🚀 Accelerate Multi-GPU Safety Evaluation
+    Model: Qwen2.5-32B-Instruct
+    GPUs: 8 (Accelerate 自动并行)
+    Batch Size: 16
+==========================================
+Job ID: 5518590
+Node: HOST-10-140-60-15
+Start Time: Tue Dec  2 18:32:25 CST 2025
+==========================================
+
+🔍 Python 环境:
+/mnt/petrelfs/liuhaoze/anaconda3/bin/python
+Python 3.10.9
+
+📦 检查 accelerate:
+Name: accelerate
+Version: 1.12.0
+Summary: Accelerate
+Home-page: https://github.com/huggingface/accelerate
+Author: The HuggingFace team
+Author-email: zach.mueller@huggingface.co
+License: Apache
+Location: /mnt/hwfile/liuhaoze/anaconda3/lib/python3.10/site-packages
+Requires: huggingface_hub, numpy, packaging, psutil, pyyaml, safetensors, torch
+Required-by: 
+
+📊 GPU 信息:
+Tue Dec  2 18:32:39 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A800-SXM4-80GB          Off |   00000000:21:00.0 Off |                    0 |
+| N/A   27C    P0             59W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A800-SXM4-80GB          Off |   00000000:27:00.0 Off |                    0 |
+| N/A   29C    P0             60W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A800-SXM4-80GB          Off |   00000000:51:00.0 Off |                    0 |
+| N/A   29C    P0             61W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A800-SXM4-80GB          Off |   00000000:56:00.0 Off |                    0 |
+| N/A   27C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A800-SXM4-80GB          Off |   00000000:8D:00.0 Off |                    0 |
+| N/A   28C    P0             61W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA A800-SXM4-80GB          Off |   00000000:92:00.0 Off |                    0 |
+| N/A   30C    P0             60W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA A800-SXM4-80GB          Off |   00000000:BF:00.0 Off |                    0 |
+| N/A   29C    P0             61W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA A800-SXM4-80GB          Off |   00000000:C5:00.0 Off |                    0 |
+| N/A   28C    P0             60W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+🔥 开始运行 Accelerate 安全评估...
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+🚀 Accelerate enabled: 8 processes
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+✅ GPU 4: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ GPU 2: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ GPU 3: Model loaded with device_map
+✅ GPU 6: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+✅ GPU 7: Model loaded with device_map
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ GPU 5: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ GPU 1: Model loaded with device_map
+✅ GPU 0: Model loaded with device_map
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy
+
+================================================================================
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy🛡️  Safety Evaluation (SafeToolBench Framework)
+
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+✅ Loaded 60000 samples
+✅ Loaded 60000 samples
+✅ Loaded 60000 samples
+✅ Loaded 60000 samples
+
+
+
+
+================================================================================================================================================================
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================Phase 1: Rule-based Screening
+Phase 1: Rule-based Screening
+
+================================================================================
+Phase 1: Rule-based Screening================================================================================
+================================================================================
+
+
+================================================================================
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 7: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+
+================================================================================
+
+================================================================================Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)================================================================================
+
+================================================================================
+📊 Process 6: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+📊 Process 3: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 2: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 4: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 0: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 1: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_screening.log
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Process 5: Evaluating 541 samples
+   Model: Local Qwen
+   Batch size: 16
+
+================================================================================
+
+================================================================================Phase 3: Analysis & Report
+
+Phase 3: Analysis & Report================================================================================
+
+================================================================================
+
+================================================================================
+================================================================================
+
+Phase 3: Analysis & ReportPhase 3: Analysis & Report
+
+================================================================================================================================================================
+
+
+================================================================================
+================================================================================
+
+Phase 3: Analysis & ReportPhase 3: Analysis & Report
+
+================================================================================================================================================================
+
+
+================================================================================
+Phase 3: Analysis & Report
+================================================================================
+
+✅ Phase 2 Complete: 4328 samples evaluated (from 8 processes)
+
+📊 Final Statistics:
+   Total samples: 60,000
+   Rule-flagged: 4,328 (7.21%)
+   LLM-evaluated: 4,328
+   High/Critical risk: 0 (0.0%)
+   Average score: 23.06/27
+
+📊 Final Statistics:
+   Total samples: 60,000
+   Rule-flagged: 4,328 (7.21%)
+   LLM-evaluated: 4,328
+   High/Critical risk: 0 (0.0%)
+   Average score: 23.06/27
+
+   Risk Level Distribution:
+      Low: 11 (0.3%)
+📊 Final Statistics:
+
+      None: 217 (5.0%)
+   Total samples: 60,000      Unknown: 4100 (94.7%)
+📊 Final Statistics:
+
+
+   Rule-flagged: 4,328 (7.21%)
+📊 Final Statistics:
+   Total samples: 60,000
+   LLM-evaluated: 4,328
+
+   Total samples: 60,000   High/Critical risk: 0 (0.0%)   Rule-flagged: 4,328 (7.21%)
+
+
+   Average score: 23.06/27   Rule-flagged: 4,328 (7.21%)   LLM-evaluated: 4,328
+
+
+   LLM-evaluated: 4,328   High/Critical risk: 0 (0.0%)
+
+   High/Critical risk: 0 (0.0%)   Average score: 23.06/27
+
+   Average score: 23.06/27
+
+📊 Final Statistics:
+   Total samples: 60,000
+   Rule-flagged: 4,328 (7.21%)
+   LLM-evaluated: 4,328
+   High/Critical risk: 0 (0.0%)
+   Average score: 23.06/27
+
+📊 Final Statistics:
+   Total samples: 60,000
+   Rule-flagged: 4,328 (7.21%)
+   LLM-evaluated: 4,328
+   High/Critical risk: 0 (0.0%)
+   Average score: 23.06/27
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 2565 (59.3%)
+      Property Damage: 95 (2.2%)
+      Physical Injury: 1 (0.0%)
+      Bias & Offensiveness: 26 (0.6%)
+
+   Average Total Score: 23.06 / 27
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+
+================================================================================
+
+================================================================================✨ Evaluation completed!
+
+✨ Evaluation completed!================================================================================
+
+
+================================================================================
+
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase2_llm_evaluation.log
+   📝 JSON: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase2_results.json
+
+================================================================================
+Phase 3: Analysis & Report
+================================================================================
+
+📊 Final Statistics:
+   Total samples: 60,000
+   Rule-flagged: 4,328 (7.21%)
+   LLM-evaluated: 4,328
+   High/Critical risk: 0 (0.0%)
+   Average score: 23.06/27
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/safety_report.md
+
+================================================================================
+Phase 1 vs Phase 2 Comparison Analysis
+================================================================================
+
+📊 分类统计:
+   True Positives (两者都认为有风险): 0 (0.0%)
+   False Positives (Phase 1 误报): 218 (5.0%)
+   High Confidence (高置信度风险): 0 (0.0%)
+   LLM Errors (评分异常): 37 (0.9%)
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+   📝 Complete comparison log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_eval_logs/trustworthy/phase_comparison.log
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+
+==========================================
+✅ 任务完成
+End Time: Tue Dec  2 19:14:17 CST 2025
+==========================================

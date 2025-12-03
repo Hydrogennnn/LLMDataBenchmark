@@ -1,0 +1,159 @@
+==========================================
+🚀 Multi-GPU DDP Safety Evaluation
+    Model: Qwen2.5-32B-Instruct
+    GPUs: 8 (真正的数据并行)
+    Batch per GPU: 4
+==========================================
+Job ID: 5518269
+Node: HOST-10-140-60-133
+Start Time: Tue Dec  2 15:35:56 CST 2025
+==========================================
+
+🔍 Python 环境:
+/mnt/petrelfs/liuhaoze/anaconda3/bin/python
+Python 3.10.9
+
+📊 GPU 信息:
+Tue Dec  2 15:36:02 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A800-SXM4-80GB          Off |   00000000:10:00.0 Off |                    0 |
+| N/A   37C    P0             61W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A800-SXM4-80GB          Off |   00000000:16:00.0 Off |                    0 |
+| N/A   34C    P0             59W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A800-SXM4-80GB          Off |   00000000:49:00.0 Off |                    0 |
+| N/A   33C    P0             62W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A800-SXM4-80GB          Off |   00000000:4D:00.0 Off |                    0 |
+| N/A   36C    P0             59W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A800-SXM4-80GB          Off |   00000000:8A:00.0 Off |                    0 |
+| N/A   35C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA A800-SXM4-80GB          Off |   00000000:8F:00.0 Off |                    0 |
+| N/A   37C    P0             61W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA A800-SXM4-80GB          Off |   00000000:C6:00.0 Off |                    0 |
+| N/A   34C    P0             63W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA A800-SXM4-80GB          Off |   00000000:CA:00.0 Off |                    0 |
+| N/A   38C    P0             61W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+🔥 开始运行 DDP 安全评估...
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval
+
+================================================================================
+🛡️  Multi-GPU Safety Evaluation (8 GPUs)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+   📝 Saved: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase1_flagged_samples.json
+
+================================================================================
+Phase 2: Multi-GPU Parallel Evaluation (8 GPUs)
+================================================================================
+📊 Evaluating 4328 samples on 8 GPUs
+   ~541 samples per GPU
+   Batch size: 4
+
+🚀 Launching 8 processes...
+🚀 GPU 0: Loading model...
+🚀 GPU 1: Loading model...
+🚀 GPU 2: Loading model...
+🚀 GPU 3: Loading model...
+🚀 GPU 4: Loading model...
+🚀 GPU 5: Loading model...
+✅ GPU 2: Model loaded, processing 541 samples...
+✅ GPU 0: Model loaded, processing 541 samples...
+✅ GPU 3: Model loaded, processing 541 samples...
+✅ GPU 1: Model loaded, processing 541 samples...
+✅ GPU 4: Model loaded, processing 541 samples...
+🚀 GPU 6: Loading model...
+🚀 GPU 7: Loading model...
+✅ GPU 5: Model loaded, processing 541 samples...
+✅ GPU 6: Model loaded, processing 541 samples...
+✅ GPU 7: Model loaded, processing 541 samples...
+✅ GPU 0: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu0_results.json
+✅ GPU 2: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu2_results.json
+✅ GPU 1: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu1_results.json
+✅ GPU 3: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu3_results.json
+✅ GPU 4: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu4_results.json
+✅ GPU 5: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu5_results.json
+✅ GPU 6: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu6_results.json
+✅ GPU 7: Completed 541 samples, saved to /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_gpu7_results.json
+
+📊 Merging results from 8 GPUs...
+
+✅ Phase 2 Complete: 4328 samples evaluated
+
+   Risk Level Distribution:
+      Critical: 590 (13.6%)
+      High: 1768 (40.9%)
+      Medium: 68 (1.6%)
+      Low: 896 (20.7%)
+      None: 1006 (23.2%)
+
+   Risk Category Distribution:
+      Privacy Leak: 3077 (71.1%)
+      Property Damage: 72 (1.7%)
+      Physical Injury: 25 (0.6%)
+      Bias & Offensiveness: 30 (0.7%)
+
+   Average Total Score: 8.67 / 27
+   📝 Merged results: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase2_all_results.json
+
+================================================================================
+Phase 3: Analysis & Report
+================================================================================
+
+📊 Final Statistics:
+   Total samples: 60,000
+   Rule-flagged: 4,328 (7.21%)
+   LLM-evaluated: 4,328
+   High/Critical risk: 2358 (54.5%)
+   Average score: 8.67/27
+
+📝 Final report: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/safety_report.md
+
+================================================================================
+✨ Evaluation completed!
+================================================================================
+
+
+==========================================
+✅ 任务完成
+End Time: Tue Dec  2 16:46:14 CST 2025
+==========================================

@@ -1,0 +1,235 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.89s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.93s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.93s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.94s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:31,  1.94s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.94s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.93s/it]Loading checkpoint shards:   6%|▌         | 1/17 [00:01<00:30,  1.89s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:26,  1.78s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:28,  1.87s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:28,  1.91s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:29,  1.93s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:28,  1.89s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:29,  1.94s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:29,  1.94s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:03<00:29,  1.94s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:24,  1.73s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:27,  1.93s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:26,  1.91s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:27,  1.95s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:27,  1.94s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:27,  1.93s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:27,  1.94s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:05<00:27,  1.94s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:06<00:22,  1.71s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:24,  1.87s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:24,  1.88s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:24,  1.87s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:24,  1.90s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:25,  1.94s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:25,  1.93s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:07<00:25,  1.94s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:08<00:20,  1.69s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:09<00:22,  1.91s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:09<00:22,  1.91s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:09<00:23,  1.92s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:09<00:23,  1.92s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:10<00:25,  2.13s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:10<00:25,  2.14s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:10<00:26,  2.22s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:10<00:20,  1.87s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:11<00:21,  1.97s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:11<00:21,  2.00s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:11<00:21,  2.00s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:11<00:21,  1.99s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:12<00:22,  2.06s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:12<00:22,  2.05s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:12<00:23,  2.10s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:12<00:17,  1.79s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:13<00:19,  1.91s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:13<00:19,  1.91s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:13<00:19,  1.91s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:13<00:19,  1.92s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:13<00:19,  1.99s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:13<00:19,  1.99s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:14<00:15,  1.75s/it]Loading checkpoint shards:  41%|████      | 7/17 [00:14<00:20,  2.02s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:15<00:17,  1.90s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:15<00:17,  1.92s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:15<00:17,  1.91s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:15<00:17,  1.92s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:15<00:13,  1.70s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:15<00:17,  1.95s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:15<00:17,  1.96s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [00:16<00:17,  1.97s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.88s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:17<00:11,  1.67s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.92s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.91s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.92s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.90s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.93s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:17<00:15,  1.93s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:18<00:09,  1.65s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:18<00:13,  1.86s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:18<00:13,  1.86s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:19<00:13,  1.88s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:19<00:13,  1.88s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:19<00:13,  1.86s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:19<00:13,  1.91s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [00:19<00:13,  1.90s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:20<00:08,  1.63s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:20<00:11,  1.85s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:20<00:11,  1.85s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:20<00:11,  1.85s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:20<00:11,  1.85s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:21<00:11,  1.84s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:21<00:11,  1.91s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:21<00:11,  1.88s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:22<00:06,  1.61s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:22<00:09,  1.85s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:22<00:09,  1.87s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:22<00:09,  1.87s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:22<00:09,  1.87s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:22<00:09,  1.82s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:23<00:09,  1.90s/it]Loading checkpoint shards:  71%|███████   | 12/17 [00:23<00:09,  1.88s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:23<00:04,  1.60s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:24<00:07,  1.85s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:24<00:07,  1.89s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:24<00:07,  1.89s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:24<00:07,  1.89s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:24<00:07,  1.80s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:25<00:03,  1.60s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:25<00:07,  1.94s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:25<00:07,  1.92s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:26<00:05,  1.88s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:26<00:05,  1.80s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:26<00:05,  1.90s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:26<00:05,  1.90s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:26<00:05,  1.90s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:26<00:01,  1.60s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:27<00:05,  1.94s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:27<00:05,  1.93s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:28<00:00,  1.50s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:28<00:00,  1.65s/it]
+Loading checkpoint shards:  88%|████████▊ | 15/17 [00:28<00:03,  1.86s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:28<00:03,  1.79s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:28<00:03,  1.91s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:28<00:03,  1.91s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:28<00:03,  1.91s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:29<00:03,  1.88s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:29<00:03,  1.92s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:30<00:01,  1.84s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:30<00:01,  1.90s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:30<00:01,  1.92s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:30<00:01,  1.92s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:30<00:01,  1.92s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:30<00:01,  1.84s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:31<00:01,  1.91s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.76s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.80s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.87s/it]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.87s/it]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.88s/it]
+
+Loading checkpoint shards: 100%|██████████| 17/17 [00:31<00:00,  1.88s/it]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:32<00:00,  1.70s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:32<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:32<00:00,  1.76s/it]Loading checkpoint shards: 100%|██████████| 17/17 [00:32<00:00,  1.91s/it]
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank3]:     main()
+[rank3]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank3]:     evaluator.evaluate_semantic_executability()
+[rank3]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank3]:     if not self._load_semantic_model():
+[rank3]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank3]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank3]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank3]:     result = tuple(
+[rank3]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank3]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank3]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank3]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank3]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank3]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank3]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank3]:     self._ddp_init_helper(
+[rank3]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank3]:     self.reducer = dist.Reducer(
+[rank3]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 16.92 GiB is free. Including non-PyTorch memory, this process has 62.39 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank5]:     main()
+[rank5]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank5]:     evaluator.evaluate_semantic_executability()
+[rank5]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank5]:     if not self._load_semantic_model():
+[rank5]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank5]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank5]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank5]:     result = tuple(
+[rank5]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank5]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank5]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank5]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank5]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank5]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank5]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank5]:     self._ddp_init_helper(
+[rank5]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank5]:     self.reducer = dist.Reducer(
+[rank5]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 16.92 GiB is free. Including non-PyTorch memory, this process has 62.39 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank6]:     main()
+[rank6]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank6]:     evaluator.evaluate_semantic_executability()
+[rank6]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank6]:     if not self._load_semantic_model():
+[rank6]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank6]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank6]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank6]:     result = tuple(
+[rank6]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank6]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank6]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank6]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank6]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank6]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank6]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank6]:     self._ddp_init_helper(
+[rank6]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank6]:     self.reducer = dist.Reducer(
+[rank6]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 16.92 GiB is free. Including non-PyTorch memory, this process has 62.39 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank0]:     main()
+[rank0]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank0]:     evaluator.evaluate_semantic_executability()
+[rank0]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank0]:     if not self._load_semantic_model():
+[rank0]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank0]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank0]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank0]:     result = tuple(
+[rank0]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank0]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank0]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank0]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank0]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank0]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank0]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank0]:     self._ddp_init_helper(
+[rank0]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank0]:     self.reducer = dist.Reducer(
+[rank0]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU 
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank2]:     main()
+[rank2]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank2]:     evaluator.evaluate_semantic_executability()
+[rank2]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank2]:     if not self._load_semantic_model():
+[rank2]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank2]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank2]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank2]:     result = tuple(
+[rank2]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank2]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank2]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank2]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank2]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank2]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank2]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank2]:     self._ddp_init_helper(
+[rank2]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank2]:     self.reducer = dist.Reducer(
+[rank2]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 16.92 GiB is free. Including non-PyTorch memory, this process has 62.39 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank7]:     main()
+[rank7]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank7]:     evaluator.evaluate_semantic_executability()
+[rank7]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank7]:     if not self._load_semantic_model():
+[rank7]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank7]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank7]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank7]:     result = tuple(
+[rank7]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank7]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank7]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank7]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank7]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank7]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank7]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank7]:     self._ddp_init_helper(
+[rank7]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank7]:     self.reducer = dist.Reducer(
+[rank7]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 17.01 GiB is free. Including non-PyTorch memory, this process has 62.30 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank4]:     main()
+[rank4]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank4]:     evaluator.evaluate_semantic_executability()
+[rank4]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank4]:     if not self._load_semantic_model():
+[rank4]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank4]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank4]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank4]:     result = tuple(
+[rank4]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank4]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank4]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank4]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank4]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank4]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank4]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank4]:     self._ddp_init_helper(
+[rank4]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank4]:     self.reducer = dist.Reducer(
+[rank4]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 16.92 GiB is free. Including non-PyTorch memory, this process has 62.39 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1736, in <module>
+[rank1]:     main()
+[rank1]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 1724, in main
+[rank1]:     evaluator.evaluate_semantic_executability()
+[rank1]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 525, in evaluate_semantic_executability
+[rank1]:     if not self._load_semantic_model():
+[rank1]:   File "/mnt/hwfile/liuhaoze/main/xlam_60k/evaluate_xlam_basic.py", line 132, in _load_semantic_model
+[rank1]:     self.semantic_model = self.accelerator.prepare(self.semantic_model)
+[rank1]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare
+[rank1]:     result = tuple(
+[rank1]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1560, in <genexpr>
+[rank1]:     self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+[rank1]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1402, in _prepare_one
+[rank1]:     return self.prepare_model(obj, device_placement=device_placement)
+[rank1]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/accelerator.py", line 1847, in prepare_model
+[rank1]:     model = torch.nn.parallel.DistributedDataParallel(
+[rank1]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 812, in __init__
+[rank1]:     self._ddp_init_helper(
+[rank1]:   File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1152, in _ddp_init_helper
+[rank1]:     self.reducer = dist.Reducer(
+[rank1]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 61.03 GiB. GPU  has a total capacity of 79.32 GiB of which 16.92 GiB is free. Including non-PyTorch memory, this process has 62.39 GiB memory in use. Of the allocated memory 61.03 GiB is allocated by PyTorch, and 170.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67576 closing signal SIGTERM
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67577 closing signal SIGTERM
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67578 closing signal SIGTERM
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67579 closing signal SIGTERM
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67580 closing signal SIGTERM
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67582 closing signal SIGTERM
+W1202 21:11:01.918000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 67583 closing signal SIGTERM
+E1202 21:11:02.522000 140332965300032 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 5 (pid: 67581) of binary: /mnt/petrelfs/liuhaoze/anaconda3/bin/python
+Traceback (most recent call last):
+  File "/mnt/petrelfs/liuhaoze/anaconda3/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1272, in launch_command
+    multi_gpu_launcher(args)
+  File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/accelerate/commands/launch.py", line 899, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/mnt/petrelfs/liuhaoze/anaconda3/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+evaluate_xlam_basic.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-12-02_21:11:01
+  host      : HOST-10-140-66-52
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 67581)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

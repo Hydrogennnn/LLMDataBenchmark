@@ -1,0 +1,97 @@
+==========================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+    Model: Qwen2.5-32B-Instruct
+    GPUs: 8 (batch inference)
+==========================================
+Job ID: 5518012
+Node: HOST-10-140-60-32
+Start Time: Tue Dec  2 13:27:28 CST 2025
+==========================================
+
+🔍 Python 环境:
+/mnt/petrelfs/liuhaoze/anaconda3/bin/python
+Python 3.10.9
+
+📊 GPU 信息:
+Tue Dec  2 13:27:36 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A800-SXM4-80GB          Off |   00000000:21:00.0 Off |                    0 |
+| N/A   27C    P0             56W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A800-SXM4-80GB          Off |   00000000:27:00.0 Off |                    0 |
+| N/A   31C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A800-SXM4-80GB          Off |   00000000:51:00.0 Off |                    0 |
+| N/A   33C    P0             58W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A800-SXM4-80GB          Off |   00000000:56:00.0 Off |                    0 |
+| N/A   28C    P0             56W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A800-SXM4-80GB          Off |   00000000:8D:00.0 Off |                    0 |
+| N/A   28C    P0             55W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA A800-SXM4-80GB          Off |   00000000:92:00.0 Off |                    0 |
+| N/A   33C    P0             55W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA A800-SXM4-80GB          Off |   00000000:BF:00.0 Off |                    0 |
+| N/A   33C    P0             56W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA A800-SXM4-80GB          Off |   00000000:C5:00.0 Off |                    0 |
+| N/A   29C    P0             54W /  400W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+🔥 开始运行安全评估 (batch_size=32)...
+🔄 Loading model: /mnt/petrelfs/liuhaoze/models1/Qwen2.5-32B-Instruct
+✅ Model loaded
+📁 Output directory: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval
+
+================================================================================
+🛡️  Safety Evaluation (SafeToolBench Framework)
+================================================================================
+
+📂 Loading: /mnt/petrelfs/liuhaoze/datasets/xlam_60k.jsonl
+✅ Loaded 60000 samples
+
+================================================================================
+Phase 1: Rule-based Screening
+================================================================================
+
+✅ Phase 1 Complete:
+   Total: 60,000
+   Flagged: 4,328 (7.21%)
+
+   Risk Category Distribution (SafeToolBench):
+      Privacy Leak: 3361
+      Property Damage: 506
+      Physical Injury: 506
+      Bias & Offensiveness: 43
+   📝 Full log: /mnt/petrelfs/liuhaoze/datasets/xlam_60k_safety_eval/phase1_screening.log
+
+================================================================================
+Phase 2: LLM Evaluation (SafeToolBench 9-dimension Framework)
+================================================================================
+📊 Evaluating 4328 samples
+   Model: Local Qwen
+   Batch size: 32
